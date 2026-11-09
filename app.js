@@ -124,20 +124,23 @@
   function renderCards(list) {
     if (!list.length) {
       els.cardGrid.innerHTML =
-        '<p class="result-count">没有匹配结果，请调整搜索或筛选项。</p>';
+        '<div class="empty-state"><p class="empty-title">没有匹配结果</p><p class="result-count">试试换个关键词，或把筛选重置为「全部」。</p></div>';
       return;
     }
     els.cardGrid.innerHTML = list
       .map((r, index) => {
+        const kind = inferKind(r);
         const desc = escapeHtml(r.description || r.scenario || "（无简述）");
         const cat = escapeHtml(r.category || "未分类");
         const status = escapeHtml(r.status || "");
         const stagger = Math.min(index, 24) * 28;
-        return `<button type="button" class="card" data-index="${index}" style="--stagger:${stagger}ms" aria-label="查看详情：${escapeHtml(
+        return `<button type="button" class="card card-kind-${kind}" data-index="${index}" style="--stagger:${stagger}ms" aria-label="查看详情：${escapeHtml(
           r.name
         )}">
+          <span class="card-sheen" aria-hidden="true"></span>
+          <span class="card-rail" aria-hidden="true"></span>
           <h3 class="card-title">${escapeHtml(r.name)}</h3>
-          <div class="card-meta">${cat}${status ? " · " + status : ""}</div>
+          <div class="card-meta"><span class="card-cat">${cat}</span>${status ? '<span class="dot">·</span><span>' + status + "</span>" : ""}</div>
           <p class="card-desc">${desc}</p>
           <div class="badge-row">${renderBadges(r)}</div>
         </button>`;
@@ -281,7 +284,7 @@
     const filtered = sortResources(filteredResources());
     visibleList = filtered;
     renderCards(filtered);
-    els.resultCount.textContent = `显示 ${filtered.length} / ${state.resources.length} 条`;
+    els.resultCount.innerHTML = `<span class="count-chip">显示 <strong>${filtered.length}</strong> / ${state.resources.length} 条</span>`;
   }
 
   function bindChipRow(container, attr, stateKey) {
@@ -324,11 +327,11 @@
     );
     buildCategoryChips(cats);
 
-    const meta = [];
-    if (state.data.checkedAt) meta.push(`数据核对：${state.data.checkedAt}`);
-    if (state.data.version != null) meta.push(`版本 v${state.data.version}`);
-    meta.push(`共 ${state.resources.length} 条`);
-    els.metaBar.textContent = meta.join(" · ");
+    const parts = [];
+    if (state.data.checkedAt) parts.push(`<span class="meta-pill">数据核对 ${escapeHtml(state.data.checkedAt)}</span>`);
+    if (state.data.version != null) parts.push(`<span class="meta-pill">版本 v${escapeHtml(String(state.data.version))}</span>`);
+    parts.push(`<span class="meta-pill meta-pill-accent">共 ${state.resources.length} 条</span>`);
+    els.metaBar.innerHTML = parts.join("");
 
     refresh();
   }
