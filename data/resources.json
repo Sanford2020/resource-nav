@@ -1,6 +1,6 @@
 {
-  "version": 19,
-  "checkedAt": "2026-11-09T15:30:09+08:00",
+  "version": 20,
+  "checkedAt": "2026-11-09T17:06:02+08:00",
   "timezone": "Asia/Shanghai",
   "resources": [
     {
@@ -7981,7 +7981,7 @@
       "repo": "",
       "verified": false,
       "cost": "未核实；未购买或注册",
-      "checkedAt": "2026-11-09T15:20:00+08:00",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
       "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
       "xSource": "",
       "xSources": [],
@@ -8001,7 +8001,7 @@
       "url": "https://www.macromicro.me/",
       "description": "宏观图表与跨资产数据可视化（中英）",
       "scenario": "宏观与跨市场关系观察",
-      "status": "软失败：本机探测遇HTTP 403 · 公开宏观图站按摘要收录 · 未实测",
+      "status": "URL可达(HTTP 200，v20 复核) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
       "subcategory": "通用"
     },
     {
@@ -8089,17 +8089,988 @@
       "scenario": "机构视角因子与风险研究",
       "status": "软失败：本机探测SSL异常 · 公开研究库按摘要收录 · 未实测",
       "subcategory": "通用"
+    },
+    {
+      "category": "AI视频制作",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "字节 Seed 2026-07-31 发布的 Seedance 2.5：单次最长 30 秒、原生 4K（2026-10-23 火山引擎企业试用）、10-bit 色彩、480p 草稿模式、最多 50 个多模态参考（30 图/10 视频/10 音频）、同步立体声；入口为 Dreamina/即梦/豆包 Pro 与 BytePlus ModelArk API",
+      "limits": [
+        "未实测生成、未注册账号、未接API",
+        "价格/套餐/地区限制以产品页为准"
+      ],
+      "name": "Seedance 2.5（Dreamina）",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "official": "https://dreamina.capcut.com/seedance/seedance-2-5",
+      "readScope": "WebSearch 多路核验（ByteDance Seed 发布、Dreamina 产品页）+ HTTP 可达性检查；未通读全部官方文档",
+      "repo": "",
+      "scenario": "Seedance 2.5 长镜头与多参考生成入口、参数与价格查阅",
+      "status": "页面可达(HTTP 200) · 模型事实经官方发布与多路核验 · 未实测生成",
+      "subcategory": "模型平台",
+      "tags": [
+        "AI视频制作",
+        "模型平台",
+        "Seedance",
+        "字节"
+      ],
+      "type": "官方模型入口",
+      "url": "https://dreamina.capcut.com/seedance/seedance-2-5",
+      "verified": true,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "AI视频制作",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "Lightricks 开源音视频基础模型 LTX-2：Fast/Pro 两档，1080p/1440p/4K、24/25/48/50fps，Fast 档 1080p 最长 20 秒；同步音频、深度/姿态/运镜控制、LoRA、Retake/Extend 编辑；权重与代码开源",
+      "limits": [
+        "未实测生成、未注册账号、未接API",
+        "价格/套餐/地区限制以产品页为准"
+      ],
+      "name": "LTX-2 官方模型页",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "official": "https://ltx.io/model/ltx-2",
+      "readScope": "browser.open 直读官方模型页全文（规格、Fast/Pro 档位、FAQ）",
+      "repo": "",
+      "scenario": "开源音画同步长镜头生成、生产级视频工作流选型",
+      "status": "页面内容已直读核实 · 未实测功能/未注册账号",
+      "subcategory": "模型平台",
+      "tags": [
+        "AI视频制作",
+        "模型平台",
+        "LTX-2",
+        "开源"
+      ],
+      "type": "官方模型页",
+      "url": "https://ltx.io/model/ltx-2",
+      "verified": true,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "AI视频制作",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "生成式媒体 API 聚合平台：一个 key 调用 Kling 4、Seedance 2.5、Wan 3.0、LTX-2.5、Veo 3.1（fal 将于 2026-11-17 移除 Veo 3.1 端点）等，按秒/按次计费；有在线试玩场",
+      "limits": [
+        "未实测生成、未注册账号、未接API",
+        "价格/套餐/地区限制以产品页为准"
+      ],
+      "name": "fal.ai 生成式媒体 API 聚合平台",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "official": "https://fal.ai/",
+      "readScope": "WebSearch 多路核验（2026-11-07 对比稿模型目录）+ HTTP 可达性检查；未通读全部文档",
+      "repo": "",
+      "scenario": "多模型统一 API 调用、按量付费出片、开发集成",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "模型平台",
+      "tags": [
+        "AI视频制作",
+        "模型平台",
+        "API聚合",
+        "fal.ai"
+      ],
+      "type": "模型聚合 API",
+      "url": "https://fal.ai/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "AI视频制作",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "MiniMax 2026-07-31 发布的全模态开源视频系统：33B，文本/图像/视频/音频统一上下文，输出最高 2K、4–15 秒、原生立体声音频；FL2VA 首尾帧与 Ref2VA 多参考两个检查点；H3 Community License；2K 再生需走托管",
+      "limits": [
+        "未本地部署、未实测生成、未跑通示例",
+        "显存与硬件要求以仓库 README 为准",
+        "商用许可须先读仓库 LICENSE"
+      ],
+      "name": "MiniMax H3 开源仓库",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "official": "https://github.com/MiniMax-AI/MiniMax-H3",
+      "readScope": "GitHub 仓库可达（200）+ 官方 README 摘要多路核验；未克隆/未部署",
+      "repo": "https://github.com/MiniMax-AI/MiniMax-H3",
+      "scenario": "本地/自托管音画同步视频生成、首尾帧与多参考工作流",
+      "status": "仓库/模型页可达并核实 · 未本地部署/未实测生成",
+      "subcategory": "开源本地",
+      "tags": [
+        "AI视频制作",
+        "开源本地",
+        "MiniMax",
+        "H3"
+      ],
+      "type": "开源模型仓库",
+      "url": "https://github.com/MiniMax-AI/MiniMax-H3",
+      "verified": true,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "AI视频制作",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "Lightricks 2026-08-11 发布的 22B 开源音视频模型：同步音画一体生成，10 秒片段官方称 7 秒内出片；权重与代码公开，可本地跑或走托管 API",
+      "limits": [
+        "未本地部署、未实测生成、未跑通示例",
+        "显存与硬件要求以仓库 README 为准",
+        "商用许可须先读仓库 LICENSE"
+      ],
+      "name": "LTX-2.5 Hugging Face",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "official": "https://huggingface.co/Lightricks/LTX-2.5",
+      "readScope": "Hugging Face API 核验（模型 id、下载量）+ 多路发布核验；未下载权重",
+      "repo": "https://huggingface.co/Lightricks/LTX-2.5",
+      "scenario": "本地音画同步视频生成、ComfyUI/托管 API 选型",
+      "status": "Hugging Face 模型页可达（API 核验，约 266 万下载） · 未下载权重/未实测",
+      "subcategory": "开源本地",
+      "tags": [
+        "AI视频制作",
+        "开源本地",
+        "LTX-2.5",
+        "Hugging Face"
+      ],
+      "type": "开源模型权重",
+      "url": "https://huggingface.co/Lightricks/LTX-2.5",
+      "verified": true,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "AI视频制作",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "阿里通义 2026-08-07 开源的 14B 动作迁移模型，Apache 2.0；基于 Wan 2.2，将参考视频中的人物动作迁移到目标角色",
+      "limits": [
+        "未本地部署、未实测生成、未跑通示例",
+        "显存与硬件要求以仓库 README 为准",
+        "商用许可须先读仓库 LICENSE"
+      ],
+      "name": "Wan-Animate-2 开源仓库",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "official": "https://github.com/Wan-Video/Wan-Animate-2",
+      "readScope": "GitHub 仓库可达（200）+ 多路发布核验；未克隆/未部署",
+      "repo": "https://github.com/Wan-Video/Wan-Animate-2",
+      "scenario": "本地人物动作迁移、舞蹈/表演类视频生成",
+      "status": "仓库/模型页可达并核实 · 未本地部署/未实测生成",
+      "subcategory": "开源本地",
+      "tags": [
+        "AI视频制作",
+        "开源本地",
+        "Wan",
+        "动作迁移"
+      ],
+      "type": "开源模型仓库",
+      "url": "https://github.com/Wan-Video/Wan-Animate-2",
+      "verified": true,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "AI视频制作",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "阿里通义 2026-07 开源的 14B 舞蹈视频模型，Apache 2.0；基于 Wan 2.2，单图/参考生成舞蹈视频",
+      "limits": [
+        "未本地部署、未实测生成、未跑通示例",
+        "显存与硬件要求以仓库 README 为准",
+        "商用许可须先读仓库 LICENSE"
+      ],
+      "name": "Wan-Dancer 开源仓库",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "official": "https://github.com/Wan-Video/Wan-Dancer",
+      "readScope": "GitHub 仓库可达（200）+ 多路发布核验；未克隆/未部署",
+      "repo": "https://github.com/Wan-Video/Wan-Dancer",
+      "scenario": "本地舞蹈视频生成、单图跳舞类玩法",
+      "status": "仓库/模型页可达并核实 · 未本地部署/未实测生成",
+      "subcategory": "开源本地",
+      "tags": [
+        "AI视频制作",
+        "开源本地",
+        "Wan",
+        "舞蹈"
+      ],
+      "type": "开源模型仓库",
+      "url": "https://github.com/Wan-Video/Wan-Dancer",
+      "verified": true,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "AI视频制作",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "Seedance 全系模型指南：2.5/2.0/2.0 Fast/2.0 Mini 规格、价格与使用说明；KreatorFlow 为 BytePlus 官方合作方",
+      "limits": [
+        "未实测生成、未注册账号、未接API",
+        "价格/套餐/地区限制以产品页为准"
+      ],
+      "name": "Seedance 模型指南（KreatorFlow）",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "official": "https://kreatorflow.ai/seedance",
+      "readScope": "WebSearch 摘要 + HTTP 可达性检查；未通读全文",
+      "repo": "",
+      "scenario": "Seedance 选型、定价与提示词入门",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "教程流程",
+      "tags": [
+        "AI视频制作",
+        "教程流程",
+        "Seedance",
+        "指南"
+      ],
+      "type": "模型指南",
+      "url": "https://kreatorflow.ai/seedance",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "AI视频制作",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "2026 年 10 月按付费方式对比 AI 视频生成器：订阅/按次/开源本地三类，覆盖 Wan 2.2、LTX-2.5、fal.ai、Dreamina Seedance 2.5 等；刻意不列价格表（价格常变、因地区而异）",
+      "limits": [
+        "未实测生成、未注册账号、未接API",
+        "价格/套餐/地区限制以产品页为准"
+      ],
+      "name": "最便宜 AI 视频生成器 2026（Filmaris）",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "official": "https://filmaris.com/cheapest-ai-video-generator",
+      "readScope": "WebSearch 摘要 + HTTP 可达性检查；未通读全文",
+      "repo": "",
+      "scenario": "按预算选 AI 视频工具、订阅与按次成本对照",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "资讯对比",
+      "tags": [
+        "AI视频制作",
+        "资讯对比",
+        "成本对比"
+      ],
+      "type": "成本对比文章",
+      "url": "https://filmaris.com/cheapest-ai-video-generator",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "AI视频制作",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "2026-11-07 核查的生成式媒体 API 对比：FAL/Replicate 聚合商与直连渠道（BytePlus ModelArk、阿里 Model Studio、Runway API）逐模型比价；记录 Veo 3.1 Preview 于 2026-10-22 在 Gemini API 下线、fal 将于 11 月 17 日移除 Veo 3.1 端点；新模型含 Kling 4、Gemini Omni 1.2 Flash、Grok Imagine 1.5 Lite",
+      "limits": [
+        "未实测生成、未注册账号、未接API",
+        "价格/套餐/地区限制以产品页为准"
+      ],
+      "name": "FAL vs Replicate API 对比 2026（TeamDay）",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "official": "https://www.teamday.ai/blog/ai-image-video-api-providers-comparison-2026",
+      "readScope": "WebSearch 摘要 + HTTP 可达性检查；未通读全文",
+      "repo": "",
+      "scenario": "API 渠道选型、逐模型比价、Veo 3.1 下线时间点核对",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "资讯对比",
+      "tags": [
+        "AI视频制作",
+        "资讯对比",
+        "API对比",
+        "FAL",
+        "Replicate"
+      ],
+      "type": "API 对比文章",
+      "url": "https://www.teamday.ai/blog/ai-image-video-api-providers-comparison-2026",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "英国 Farside Investors 的美国比特币现货 ETF 每日资金流表：逐只（IBIT/FBTC/ARKB/GBTC 等）净流入/流出与累计数据",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "Farside 比特币现货 ETF 资金流",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://farside.co.uk/btc/",
+      "readScope": "HTTP 可达性检查（200）；未通读页面全文",
+      "repo": "",
+      "scenario": "BTC ETF 每日资金流跟踪、机构动向判断",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "数字货币",
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "ETF",
+        "资金流"
+      ],
+      "type": "ETF 资金流",
+      "url": "https://farside.co.uk/btc/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "SoSoValue 比特币现货 ETF 看板：每日净流入/流出、累计净流入、成交量与总资产，覆盖 GBTC/FBTC/IBIT 等 10 只 ETF，可下载历史数据表，免费查看",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "SoSoValue 比特币 ETF 看板",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://sosovalue.com/assets/etf/us-btc-spot",
+      "readScope": "browser.open 直读看板页全文（指标说明与覆盖基金清单）",
+      "repo": "",
+      "scenario": "BTC ETF 资金流、规模与成交量跟踪",
+      "status": "页面内容已直读核实 · 未实测功能/未注册账号",
+      "subcategory": "数字货币",
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "ETF",
+        "资金流"
+      ],
+      "type": "ETF 数据看板",
+      "url": "https://sosovalue.com/assets/etf/us-btc-spot",
+      "verified": true,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "加密衍生品数据聚合：资金费率、未平仓合约、爆仓、清算热力图、ETF 与期权数据",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "CoinGlass 衍生品数据",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://www.coinglass.com/",
+      "readScope": "HTTP 可达性检查（200）；未通读页面全文",
+      "repo": "",
+      "scenario": "合约资金费率、持仓与爆仓监测",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "数字货币",
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "衍生品",
+        "资金费率"
+      ],
+      "type": "衍生品数据平台",
+      "url": "https://www.coinglass.com/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "2018 年成立的链上数据与市场分析平台：交易所资金流、矿工/巨鲸动向、MVRV/SOPR 等 245+ 指标，REST API 与 MCP；免费 Basic 档每月 10,000 API 积分、30 天日线历史",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "CryptoQuant 链上数据",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://cryptoquant.com/",
+      "readScope": "browser.open 直读官网全文（产品、指标、免费档说明）",
+      "repo": "",
+      "scenario": "BTC/ETH 链上资金流、巨鲸与持币者行为分析",
+      "status": "页面内容已直读核实 · 未实测功能/未注册账号",
+      "subcategory": "数字货币",
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "链上数据",
+        "MVRV"
+      ],
+      "type": "链上数据平台",
+      "url": "https://cryptoquant.com/",
+      "verified": true,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "链上市场情报平台：1,700+ 指标、1,500+ 资产、15 年以上历史；MVRV、已实现盈亏、成本分布、清算数据；Studio 图表、API/MCP/CLI 接入",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "Glassnode 链上数据",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://glassnode.com/",
+      "readScope": "browser.open 直读官网全文（指标规模与产品说明）",
+      "repo": "",
+      "scenario": "链上估值、供需与盈亏结构分析",
+      "status": "页面内容已直读核实 · 未实测功能/未注册账号",
+      "subcategory": "数字货币",
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "链上数据",
+        "MVRV"
+      ],
+      "type": "链上数据平台",
+      "url": "https://glassnode.com/",
+      "verified": true,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "链上情报平台：39 亿地址标签与实体归因，资金追踪（Tracer）、可视化与告警；免费账户可用浏览器、标签、可视化与有限告警",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "Arkham 链上情报",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://intel.arkm.com/",
+      "readScope": "browser.open 直读官网全文（覆盖规模与免费/企业档说明）",
+      "repo": "",
+      "scenario": "巨鲸/机构地址追踪、资金流向调查",
+      "status": "页面内容已直读核实 · 未实测功能/未注册账号",
+      "subcategory": "数字货币",
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "链上数据",
+        "巨鲸"
+      ],
+      "type": "链上情报平台",
+      "url": "https://intel.arkm.com/",
+      "verified": true,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "链上、社交与开发活动数据平台：情绪指标、巨鲸交易、网络指标与自定义图表",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "Santiment 链上与情绪数据",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://santiment.net/",
+      "readScope": "HTTP 可达性检查（200）；未通读页面全文",
+      "repo": "",
+      "scenario": "链上活跃度、社交情绪与巨鲸动向跟踪",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "数字货币",
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "链上数据",
+        "情绪"
+      ],
+      "type": "链上与情绪数据",
+      "url": "https://santiment.net/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "加密资产行情聚合：价格、市值、成交量、趋势榜、组合追踪与 API",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "CoinGecko 行情",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://www.coingecko.com/",
+      "readScope": "HTTP 可达性检查（200）；未通读页面全文",
+      "repo": "",
+      "scenario": "加密资产行情速查、趋势与组合跟踪",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "数字货币",
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "行情"
+      ],
+      "type": "行情聚合",
+      "url": "https://www.coingecko.com/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "加密资产行情聚合：价格、市值、成交量、恐惧贪婪指数与组合追踪",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "CoinMarketCap 行情",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://coinmarketcap.com/",
+      "readScope": "HTTP 可达性检查（200）；未通读页面全文",
+      "repo": "",
+      "scenario": "加密资产行情速查、市值排名与情绪参考",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "数字货币",
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "行情"
+      ],
+      "type": "行情聚合",
+      "url": "https://coinmarketcap.com/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "全球主要加密期权与永续交易所：BTC/ETH 期权链、波动率、持仓与交割数据；也是 BTC 期权最大痛点与到期数据的常用来源",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "Deribit 期权交易所",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://www.deribit.com/",
+      "readScope": "HTTP 可达性检查（200）；未通读页面全文",
+      "repo": "",
+      "scenario": "BTC/ETH 期权链、到期与波动率跟踪",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "数字货币",
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "期权"
+      ],
+      "type": "期权交易所",
+      "url": "https://www.deribit.com/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "加密期权与衍生品分析：期权链、隐含波动率、偏度、期限结构与大宗交易监测",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "Laevitas 期权分析",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://laevitas.ch/",
+      "readScope": "HTTP 可达性检查（200）；未通读页面全文",
+      "repo": "",
+      "scenario": "期权 IV、偏度与大宗异动分析",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "数字货币",
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "期权",
+        "波动率"
+      ],
+      "type": "期权分析平台",
+      "url": "https://laevitas.ch/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "机构级加密市场数据：现货与衍生品行情、指数、流动性与市场结构数据",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "Kaiko 加密市场数据",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://www.kaiko.com/",
+      "readScope": "HTTP 可达性检查（200）；未通读页面全文",
+      "repo": "",
+      "scenario": "机构级行情、指数与流动性分析",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "数字货币",
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "市场数据"
+      ],
+      "type": "市场数据商",
+      "url": "https://www.kaiko.com/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "加密市场与链上数据 API：价格、衍生品、DeFi 与链上指标，面向机构与开发者",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "Amberdata 加密数据",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://amberdata.io/",
+      "readScope": "HTTP 可达性检查（200）；未通读页面全文",
+      "repo": "",
+      "scenario": "加密数据 API 接入、DeFi 与衍生品指标",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "数字货币",
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "API",
+        "市场数据"
+      ],
+      "type": "数据 API",
+      "url": "https://amberdata.io/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "大额加密转账实时监控：交易所流入/流出与巨鲸异动提醒（X/Telegram 推送）",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "Whale Alert 大额转账监控",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://whale-alert.io/",
+      "readScope": "HTTP 可达性检查（200）；未通读页面全文",
+      "repo": "",
+      "scenario": "巨鲸异动、交易所大额充提监测",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "数字货币",
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "巨鲸",
+        "监控"
+      ],
+      "type": "巨鲸监控",
+      "url": "https://whale-alert.io/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "美股与全球市场终端：图表、财报、估值、筛选与组合分析；免费档可用基础终端",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "Koyfin",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://www.koyfin.com/",
+      "readScope": "HTTP 可达性检查（200）；未通读页面全文",
+      "repo": "",
+      "scenario": "美股看盘、财报与估值分析",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "美股",
+      "tags": [
+        "交易分析",
+        "美股",
+        "终端"
+      ],
+      "type": "市场终端",
+      "url": "https://www.koyfin.com/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "美股财报与统计数据：财务报表、估值比率、分红、分析师预期与历史股价",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "StockAnalysis.com",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://stockanalysis.com/",
+      "readScope": "HTTP 可达性检查（200）；未通读页面全文",
+      "repo": "",
+      "scenario": "美股财报、估值与分红速查",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "美股",
+      "tags": [
+        "交易分析",
+        "美股",
+        "财报"
+      ],
+      "type": "财报数据站",
+      "url": "https://stockanalysis.com/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "全球上市公司市值排名与历史市值数据：按国家/行业/指数查看市值榜",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "CompaniesMarketCap",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://companiesmarketcap.com/",
+      "readScope": "HTTP 可达性检查（200）；未通读页面全文",
+      "repo": "",
+      "scenario": "公司市值排名、历史市值对照",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "美股",
+      "tags": [
+        "交易分析",
+        "美股",
+        "市值"
+      ],
+      "type": "市值排名",
+      "url": "https://companiesmarketcap.com/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "美股投研社区：分析师文章、财报电话会记录、量化评级与分红数据",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "Seeking Alpha",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://seekingalpha.com/",
+      "readScope": "HTTP 可达性检查（200，浏览器 UA）；未通读页面全文",
+      "repo": "",
+      "scenario": "美股研报、电话会记录与评级参考",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "美股",
+      "tags": [
+        "交易分析",
+        "美股",
+        "研报"
+      ],
+      "type": "投研社区",
+      "url": "https://seekingalpha.com/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "美国证监会官方公告检索：2001 年以来全部电子备案（10-K/10-Q/8-K 等）全文检索，可按公司/代码/CIK 与日期筛选",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "SEC EDGAR 全文检索",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://www.sec.gov/edgar/search/",
+      "readScope": "browser.open 直读检索页（全文检索范围说明）",
+      "repo": "",
+      "scenario": "美股财报与公告原文核查、一手信源",
+      "status": "页面内容已直读核实 · 未实测功能/未注册账号",
+      "subcategory": "美股",
+      "tags": [
+        "交易分析",
+        "美股",
+        "公告",
+        "SEC"
+      ],
+      "type": "官方公告检索",
+      "url": "https://www.sec.gov/edgar/search/",
+      "verified": true,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "纳斯达克官网：美股行情、指数、财报日历、IPO 日历与市场新闻",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "Nasdaq 官网",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://www.nasdaq.com/",
+      "readScope": "HTTP 可达性检查（200）；未通读页面全文",
+      "repo": "",
+      "scenario": "美股行情、财报与 IPO 日历速查",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "美股",
+      "tags": [
+        "交易分析",
+        "美股",
+        "行情"
+      ],
+      "type": "交易所官网",
+      "url": "https://www.nasdaq.com/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "深交所官方指定信息披露网站：A股上市公司公告、定期报告全文检索",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "巨潮资讯网",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://www.cninfo.com.cn/",
+      "readScope": "HTTP 可达性检查（200）；未通读页面全文",
+      "repo": "",
+      "scenario": "A股公告与财报原文核查、一手信源",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "A股",
+      "tags": [
+        "交易分析",
+        "A股",
+        "公告"
+      ],
+      "type": "官方公告平台",
+      "url": "https://www.cninfo.com.cn/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "港交所官方披露平台：港股上市公司公告、通函与翌日披露报表检索",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "港交所披露易",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://www1.hkexnews.hk/",
+      "readScope": "HTTP 可达性检查（200）；未通读页面全文",
+      "repo": "",
+      "scenario": "港股公告原文核查、一手信源",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "港股",
+      "tags": [
+        "交易分析",
+        "港股",
+        "公告"
+      ],
+      "type": "官方公告平台",
+      "url": "https://www1.hkexnews.hk/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
+    },
+    {
+      "category": "交易分析",
+      "checkedAt": "2026-11-09T17:06:02+08:00",
+      "cost": "未核实；未购买或注册",
+      "description": "港股行情与资讯：实时报价、港股通、窝轮牛熊证、财经日历与业绩公布",
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线或免费",
+        "行情延迟、付费套餐、地区限制以产品内为准",
+        "不构成投资建议；未实测交易或策略收益"
+      ],
+      "name": "AAStocks 阿斯达克财经网",
+      "notDone": "未实测看盘/回测/筛股、未注册账号、未接券商或API",
+      "official": "https://www.aastocks.com/",
+      "readScope": "HTTP 可达性检查（200）；未通读页面全文",
+      "repo": "",
+      "scenario": "港股行情、港股通与业绩日历速查",
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测功能",
+      "subcategory": "港股",
+      "tags": [
+        "交易分析",
+        "港股",
+        "行情"
+      ],
+      "type": "行情资讯站",
+      "url": "https://www.aastocks.com/",
+      "verified": false,
+      "xSource": "",
+      "xSources": []
     }
   ],
-  "updatedAt": "2026-11-09T15:30:09+08:00",
+  "updatedAt": "2026-11-09T17:06:02+08:00",
   "canvasId": "511a7df2-1b3f-4ad5-8083-bc1c035eeeac",
-  "total": 305,
+  "total": 338,
   "latestBatch": {
-    "theme": "交易分析分类 + 100新条（情报/教程/资讯/工具）；v19 子分类标注（AI视频制作/交易分析）",
-    "added": 100,
-    "migrated": 5,
+    "theme": "AI视频制作新模型与开源（Seedance 2.5/LTX-2/MiniMax H3/Wan-Animate-2 等）+ 交易分析补齐一线数据源（ETF 资金流/链上/期权/财报公告）",
+    "added": 33,
     "skippedDupes": 0,
-    "total": 305,
-    "note": "新建交易分析分类；迁移5条既有分析向条目；追加100条新资源；verified均为false；为 AI视频制作 与 交易分析 条目增加 subcategory 二级筛选"
+    "total": 338,
+    "note": "新增 33 条：AI视频制作 10 条（模型平台 3 / 开源本地 4 / 教程流程 1 / 资讯对比 2）；交易分析 23 条（数字货币 12 / 美股 6 / A股 1 / 港股 2），港股子类首次有条目；另就地修正 1 条既有 MacroMicro 状态（v19 记为 403 软失败，本批复核 HTTP 200）。verified=true 仅限直读页面内容或官方 API/仓库核实过的 11 条，其余 23 条为 HTTP 200 可达性核实、未深读全文。Wan 2.5/2.6/2.7/3.0 均无官方开源权重（2026-11-02 核查），未作开源条目。"
   }
 }
