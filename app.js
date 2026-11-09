@@ -132,7 +132,8 @@
         const desc = escapeHtml(r.description || r.scenario || "（无简述）");
         const cat = escapeHtml(r.category || "未分类");
         const status = escapeHtml(r.status || "");
-        return `<button type="button" class="card" data-index="${index}" aria-label="查看详情：${escapeHtml(
+        const stagger = Math.min(index, 24) * 28;
+        return `<button type="button" class="card" data-index="${index}" style="--stagger:${stagger}ms" aria-label="查看详情：${escapeHtml(
           r.name
         )}">
           <h3 class="card-title">${escapeHtml(r.name)}</h3>
@@ -271,7 +272,7 @@
     document.body.style.overflow = "";
     window.setTimeout(() => {
       els.detailDrawer.hidden = true;
-    }, 220);
+    }, 320);
   }
 
   let visibleList = [];
