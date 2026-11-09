@@ -48,12 +48,17 @@
 
       <label class="search-wrap">
         <span class="visually-hidden">关键词搜索</span>
-        <input type="search" id="searchInput" placeholder="搜索名称、描述、场景、分类、类型…" autocomplete="off" />
+        <input type="search" id="searchInput" placeholder="搜索名称、描述、场景、分类、子分类、类型…" autocomplete="off" />
       </label>
 
       <fieldset class="filter-group category-block">
         <legend>分类</legend>
         <div class="chip-row chip-row-wrap" id="categoryFilters" role="group" aria-label="分类筛选"></div>
+      </fieldset>
+
+      <fieldset class="filter-group subcategory-block" id="subcategoryFieldset" hidden>
+        <legend>子分类</legend>
+        <div class="chip-row chip-row-wrap" id="subcategoryFilters" role="group" aria-label="子分类筛选"></div>
       </fieldset>
 
       <button type="button" class="toggle-advanced" id="toggleAdvanced" aria-expanded="false" aria-controls="advancedFilters">

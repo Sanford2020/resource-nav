@@ -1,6 +1,6 @@
 {
-  "version": 18,
-  "checkedAt": "2026-11-09T15:09:36+08:00",
+  "version": 19,
+  "checkedAt": "2026-11-09T15:30:09+08:00",
   "timezone": "Asia/Shanghai",
   "resources": [
     {
@@ -31,7 +31,8 @@
         "未实测各模式出片",
         "地区/套餐限制未核验",
         "HDR与2分钟延长是否全量开放以产品页为准"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -58,7 +59,8 @@
       "limits": [
         "未实测鉴权与计费",
         "未验证回调与水印字段"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -82,7 +84,8 @@
       ],
       "limits": [
         "未实测关键帧一致性"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -108,7 +111,8 @@
       "limits": [
         "价格与配额随时变",
         "未实测Model Router"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -135,7 +139,8 @@
         "与火山原生Seedance规格可能不同",
         "需Standard计划或以上（官方写明）",
         "本环境HEAD/GET返回403（可能反爬）；URL来自官方搜索结果，未完整抓取正文"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -156,7 +161,8 @@
       "limits": [
         "未打开每篇子文全文",
         "本环境HEAD/GET返回403（可能反爬）；URL来自官方搜索结果，未完整抓取正文"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -182,7 +188,8 @@
       "limits": [
         "旧Dream Machine API已迁移提示",
         "未实测计费"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -206,7 +213,8 @@
       ],
       "limits": [
         "未创建密钥"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -231,7 +239,8 @@
       "limits": [
         "具体模型与时长以产品内为准",
         "未实测导出水印"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -255,7 +264,8 @@
       ],
       "limits": [
         "第三方模型可用性随时变"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -275,7 +285,8 @@
       "status": "官方quick start摘要已读 · 未实测",
       "limits": [
         "未实测密钥与计费"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -299,7 +310,8 @@
       "limits": [
         "可用模型因地区账号而异",
         "未实测商业授权"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -323,7 +335,8 @@
       ],
       "limits": [
         "额度与地区限制未核验"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -344,7 +357,8 @@
       "limits": [
         "需登录；功能以站内为准",
         "未确认当前默认模型版本"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -370,7 +384,8 @@
       "limits": [
         "访问资格与地区限制未核验",
         "未跑generate_videos示例"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -390,7 +405,8 @@
       "status": "URL已收录 · 未深读站内全部页面",
       "limits": [
         "不等于可直接出片控制台"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -418,7 +434,8 @@
       "limits": [
         "星数以GitHub实时为准（本批查询约5.3k）",
         "未观看演示视频"
-      ]
+      ],
+      "subcategory": "开源本地"
     },
     {
       "verified": false,
@@ -446,7 +463,8 @@
       "limits": [
         "星数以GitHub实时为准",
         "拆解准确率未测"
-      ]
+      ],
+      "subcategory": "开源本地"
     },
     {
       "verified": false,
@@ -471,7 +489,8 @@
       "limits": [
         "第三方链接时效性需自查",
         "未审计每个外链"
-      ]
+      ],
+      "subcategory": "开源本地"
     },
     {
       "verified": false,
@@ -496,7 +515,8 @@
       "limits": [
         "合集链接质量参差",
         "API可用性随时变"
-      ]
+      ],
+      "subcategory": "提示词案例"
     },
     {
       "verified": false,
@@ -522,7 +542,8 @@
       "limits": [
         "非火山官方；价格与规格以RunningHub为准",
         "社区成本口述未核验"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -545,7 +566,8 @@
       "limits": [
         "未确认库内条目是否仍可下载",
         "未实测导入RunningHub"
-      ]
+      ],
+      "subcategory": "教程流程"
     },
     {
       "verified": false,
@@ -570,7 +592,8 @@
         "播放/收藏数据为作者侧宣传",
         "Muse产品规则未官方核对"
       ],
-      "readScope": "X主帖与article标题"
+      "readScope": "X主帖与article标题",
+      "subcategory": "教程流程"
     },
     {
       "verified": false,
@@ -593,7 +616,8 @@
       "limits": [
         "未取得全文，不复述具体流水线步骤",
         "商业数据与成本未审计"
-      ]
+      ],
+      "subcategory": "教程流程"
     },
     {
       "verified": false,
@@ -616,7 +640,8 @@
       "limits": [
         "可能复述Eian等内容，需与原帖交叉核对",
         "课程价格与效果宣传未验证"
-      ]
+      ],
+      "subcategory": "教程流程"
     },
     {
       "verified": false,
@@ -639,7 +664,8 @@
       "limits": [
         "成片效果为作者展示",
         "未独立复现"
-      ]
+      ],
+      "subcategory": "提示词案例"
     },
     {
       "verified": false,
@@ -662,7 +688,8 @@
       "limits": [
         "单一样本；不保证其他模型同表现",
         "配图未逐帧核验"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -685,7 +712,8 @@
       "limits": [
         "第三方工具；有效性未测",
         "视频未观看"
-      ]
+      ],
+      "subcategory": "提示词案例"
     },
     {
       "verified": false,
@@ -708,7 +736,8 @@
       "limits": [
         "第三方编排台",
         "素材与成品归属未核"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -732,7 +761,8 @@
         "“无审查”表述不等同合法合规建议",
         "硬件与许可要求未核验",
         "可能含成人向语境需自审"
-      ]
+      ],
+      "subcategory": "模型平台"
     },
     {
       "verified": false,
@@ -801,7 +831,8 @@
       "limits": [
         "非严格可控实验",
         "未附完整提示词全文"
-      ]
+      ],
+      "subcategory": "资讯对比"
     },
     {
       "verified": false,
@@ -823,7 +854,8 @@
       "status": "主帖已读 · 未实测Picsart",
       "limits": [
         "第三方App封装；能力可能裁剪"
-      ]
+      ],
+      "subcategory": "提示词案例"
     },
     {
       "verified": false,
@@ -846,7 +878,8 @@
       "limits": [
         "营销账号发布",
         "链接落地页未深核"
-      ]
+      ],
+      "subcategory": "提示词案例"
     },
     {
       "verified": false,
@@ -869,7 +902,8 @@
       "limits": [
         "未验证平台与模型版本",
         "成片未观看"
-      ]
+      ],
+      "subcategory": "提示词案例"
     },
     {
       "verified": false,
@@ -892,7 +926,8 @@
       "limits": [
         "可能为推广贴",
         "效果与价格未核"
-      ]
+      ],
+      "subcategory": "教程流程"
     },
     {
       "name": "AI短剧制作与审片闭环 · 言川",
@@ -927,7 +962,8 @@
         "未发现公开源码或Skill地址，不猜链接"
       ],
       "notDone": "未执行命令、注册、接API、购买、生成或下载视频素材",
-      "checkedAt": "2026-11-09T00:42:00+08:00"
+      "checkedAt": "2026-11-09T00:42:00+08:00",
+      "subcategory": "教程流程"
     },
     {
       "name": "Harness、Loop与Graph · Agent工程文章",
@@ -1139,7 +1175,8 @@
         "overall": "教程综合约80%是概括，非独立可换算指标",
         "verified": false
       },
-      "notDone": "未克隆、安装、执行任何仓库命令、下载原片、观看原片或生成片、生成复刻或独立复现指标"
+      "notDone": "未克隆、安装、执行任何仓库命令、下载原片、观看原片或生成片、生成复刻或独立复现指标",
+      "subcategory": "开源本地"
     },
     {
       "name": "跨境电商五团队 · 方法模板",
@@ -2022,7 +2059,8 @@
         "https://x.com/Liyana_Coder/status/2119089928722383135"
       ],
       "sourceNotes": "Liyana附图重复提及，仅追加来源；用途核验沿用原记录，未当作新资源。",
-      "originalUrl": "https://www.unscreen.com"
+      "originalUrl": "https://www.unscreen.com",
+      "subcategory": "模型平台"
     },
     {
       "name": "Carbon",
@@ -2268,7 +2306,8 @@
       "volumeZScore": "固定时间成交量相对前N柱的Z-score，衡量参与量异常，不是波动率",
       "dependencies": "Node20+、npm、行情网络；外汇Finnhub key由客户端暴露，应限制权限",
       "license": "Apache-2.0，LICENSE已读",
-      "notDone": "未安装、运行、配置key、连接钱包/券商、交易或观看视频；不验证收益"
+      "notDone": "未安装、运行、配置key、连接钱包/券商、交易或观看视频；不验证收益",
+      "subcategory": "数字货币"
     },
     {
       "name": "五仓库多代理交易 · 待验证案例",
@@ -2319,7 +2358,8 @@
         "无样本外检验",
         "平滑滞后及方向风险",
         "实体强度不等于胜率或相对盘口的优势"
-      ]
+      ],
+      "subcategory": "数字货币"
     },
     {
       "name": "AI 视频全流程 · Eian",
@@ -2343,7 +2383,8 @@
         "成本与降低重拍率为作者经验，未实测",
         "未发现需另增的真实仓库或Skill地址",
         "正文含预算内代理决策提示词，仅作为原文资料，不构成用户授权"
-      ]
+      ],
+      "subcategory": "教程流程"
     },
     {
       "name": "Polymarket 双边价差 · 案例",
@@ -2717,7 +2758,8 @@
       "extraSources": [
         "https://x.com/maestrooth/status/2119128878971306422"
       ],
-      "additionalSourceCheck": "maestro长帖note_tweet全文及展开仓库链接已读；与已有记录去重，仅补来源，未重新测试项目；20秒视频未看"
+      "additionalSourceCheck": "maestro长帖note_tweet全文及展开仓库链接已读；与已有记录去重，仅补来源，未重新测试项目；20秒视频未看",
+      "subcategory": "通用"
     },
     {
       "name": "QuantStats",
@@ -2740,7 +2782,8 @@
       "extraSources": [
         "https://x.com/maestrooth/status/2119128878971306422"
       ],
-      "additionalSourceCheck": "maestro长帖note_tweet全文及展开仓库链接已读；与已有记录去重，仅补来源，未重新测试项目；20秒视频未看"
+      "additionalSourceCheck": "maestro长帖note_tweet全文及展开仓库链接已读；与已有记录去重，仅补来源，未重新测试项目；20秒视频未看",
+      "subcategory": "通用"
     },
     {
       "name": "ljg-card",
@@ -2830,7 +2873,8 @@
       "verified": true,
       "checkedAt": "2026-11-08T21:26:00+08:00",
       "checkMethod": "阅读 README 相关章节；未安装、未实测",
-      "evidenceUrl": "https://github.com/calesthio/OpenMontage/blob/HEAD/README.md"
+      "evidenceUrl": "https://github.com/calesthio/OpenMontage/blob/HEAD/README.md",
+      "subcategory": "开源本地"
     },
     {
       "name": "GMGN Agent Skills",
@@ -2881,7 +2925,8 @@
       "checkMethod": "读取README相关章节；未安装运行或安全审计",
       "license": "Apache-2.0，已读LICENSE",
       "dependencies": "Python3.11+；按配置使用模型和数据服务",
-      "evidenceUrl": "https://github.com/TauricResearch/TradingAgents/blob/HEAD/README.md"
+      "evidenceUrl": "https://github.com/TauricResearch/TradingAgents/blob/HEAD/README.md",
+      "subcategory": "数字货币"
     },
     {
       "name": "Solana Agent Kit",
@@ -2942,7 +2987,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "资讯对比"
     },
     {
       "name": "AI评测·可灵即梦海螺入门",
@@ -2969,7 +3015,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "教程流程"
     },
     {
       "name": "图生视频完全教程",
@@ -2996,7 +3043,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "教程流程"
     },
     {
       "name": "OpenAI Sora 停服说明",
@@ -3023,7 +3071,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "资讯对比"
     },
     {
       "name": "KreatorFlow AI视频对比",
@@ -3050,7 +3099,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "资讯对比"
     },
     {
       "name": "PromptNow AI视频对比",
@@ -3077,7 +3127,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "资讯对比"
     },
     {
       "name": "SitePoint AI视频工具",
@@ -3104,7 +3155,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "资讯对比"
     },
     {
       "name": "Wan2.2 仓库",
@@ -3131,7 +3183,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "Wan2.1 开源仓库",
@@ -3158,7 +3211,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "LTX-Video",
@@ -3185,7 +3239,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "Mochi",
@@ -3212,7 +3267,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "Open-Sora",
@@ -3239,7 +3295,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "Open-Sora-Plan",
@@ -3266,7 +3323,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "HunyuanVideo",
@@ -3293,7 +3351,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "CogVideoX",
@@ -3320,7 +3379,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "Domer AI模型对比",
@@ -3347,7 +3407,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "资讯对比"
     },
     {
       "name": "Higgsfield Academy",
@@ -3374,7 +3435,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "ComfyUI Wan教程",
@@ -3401,7 +3463,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "可灵提示词指南",
@@ -3428,7 +3491,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Runway Academy",
@@ -3455,7 +3519,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Figma Weave AI视频工具榜",
@@ -3482,7 +3547,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "资讯对比"
     },
     {
       "name": "Honeyvid Sora替代清单",
@@ -3509,7 +3575,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "资讯对比"
     },
     {
       "name": "ElserStudio Sora替代",
@@ -3536,7 +3603,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "资讯对比"
     },
     {
       "name": "海螺 AI 国际站",
@@ -3563,7 +3631,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Pictory",
@@ -3590,7 +3659,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Fliki",
@@ -3617,7 +3687,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Runway 官网",
@@ -3644,7 +3715,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Viggle AI",
@@ -3671,7 +3743,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Pika 官网",
@@ -3698,7 +3771,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Vidu AI",
@@ -3725,7 +3799,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Kling AI 官网",
@@ -3752,7 +3827,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "InVideo AI",
@@ -3779,7 +3855,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "通义万相 Wan 官网",
@@ -3806,7 +3883,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "海螺 AI（Hailuo）官网",
@@ -3833,7 +3911,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Genmo",
@@ -3860,7 +3939,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Kaiber",
@@ -3887,7 +3967,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Vidu 国内站",
@@ -3914,7 +3995,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "可灵 AI 国内站",
@@ -3941,7 +4023,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Adobe Firefly",
@@ -3968,7 +4051,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Google Flow（Veo创作环境）",
@@ -3995,7 +4079,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Runway App",
@@ -4022,7 +4107,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "通义万相创作台",
@@ -4049,7 +4135,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Google AI Studio",
@@ -4076,7 +4163,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Google DeepMind Veo",
@@ -4103,7 +4191,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Higgsfield 开放视频模型目录",
@@ -4130,7 +4219,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Civitai Video",
@@ -4157,7 +4247,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Stable Video Diffusion 模型卡",
@@ -4184,7 +4275,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Replicate 文生视频合集",
@@ -4211,7 +4303,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "教程流程"
     },
     {
       "name": "Kuaishou Kling API",
@@ -4238,7 +4331,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Gemini API 视频生成文档（video-generation）",
@@ -4265,7 +4359,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Remotion",
@@ -4292,7 +4387,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "教程流程"
     },
     {
       "name": "Manim",
@@ -4319,7 +4415,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "教程流程"
     },
     {
       "name": "Motion Canvas",
@@ -4346,7 +4443,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "教程流程"
     },
     {
       "name": "ElevenLabs",
@@ -4373,7 +4471,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Suno AI",
@@ -4400,7 +4499,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Udio",
@@ -4427,7 +4527,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Opus Clip",
@@ -4454,7 +4555,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Descript",
@@ -4481,7 +4583,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "剪映专业版",
@@ -4508,7 +4611,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "MoviePy",
@@ -4535,7 +4639,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "Auto-Editor",
@@ -4562,7 +4667,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "花生AI",
@@ -4589,7 +4695,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "教程流程"
     },
     {
       "name": "HeyGen",
@@ -4616,7 +4723,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Synthesia",
@@ -4643,7 +4751,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "D-ID",
@@ -4670,7 +4779,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "闪剪",
@@ -4697,7 +4807,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "ComfyUI Awesome Workflows",
@@ -4724,7 +4835,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "LiblibAI",
@@ -4751,7 +4863,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "教程流程"
     },
     {
       "name": "Awesome ComfyUI Video",
@@ -4778,7 +4891,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "ComfyUI Wan示例",
@@ -4805,7 +4919,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "MoneyPrinterTurbo",
@@ -4832,7 +4947,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "FramePack",
@@ -4859,7 +4975,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "AnimateDiff",
@@ -4886,7 +5003,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "ComfyUI VideoHelperSuite",
@@ -4913,7 +5031,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "Whisper",
@@ -4940,7 +5059,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "faster-whisper",
@@ -4967,7 +5087,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "ComfyUI 主仓库",
@@ -4994,7 +5115,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "开源本地"
     },
     {
       "name": "Adobe Firefly Video",
@@ -5021,7 +5143,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "HeyGen 文档",
@@ -5048,7 +5171,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "name": "Higgsfield AI",
@@ -5075,7 +5199,8 @@
         "AI视频",
         "AI视频制作"
       ],
-      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文",
+      "subcategory": "模型平台"
     },
     {
       "category": "交易分析",
@@ -5103,7 +5228,8 @@
       "url": "https://www.tradingview.com/",
       "description": "全球主流在线图表与技术分析平台，支持多市场K线、指标、Pine脚本与社区想法",
       "scenario": "跨市场看盘、画线、指标与警报；分析为主，下单需接券商",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5131,7 +5257,8 @@
       "url": "https://cn.tradingview.com/",
       "description": "TradingView中文站点入口，图表与社区功能同主站",
       "scenario": "中文界面看盘与学习社区想法",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5159,7 +5286,8 @@
       "url": "https://www.schwab.com/trading/thinkorswim",
       "description": "Charles Schwab旗下thinkorswim交易与分析平台产品页",
       "scenario": "了解桌面/网页分析能力与paperMoney；非独立开户工具介绍",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "美股"
     },
     {
       "category": "交易分析",
@@ -5187,7 +5315,8 @@
       "url": "https://chartschool.stockcharts.com/",
       "description": "StockCharts免费技术分析百科：指标、形态、扫描与TA101课程",
       "scenario": "系统学习技术分析概念与指标公式",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "美股"
     },
     {
       "category": "交易分析",
@@ -5215,7 +5344,8 @@
       "url": "https://www.tradingview.com/ideas/",
       "description": "TradingView公开交易想法与图表标注社区流",
       "scenario": "浏览他人技术分析标注作学习参考，非信号跟单",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5243,7 +5373,8 @@
       "url": "https://www.tradingview.com/pine-script-docs/",
       "description": "Pine Script官方文档：自定义指标与策略脚本入门",
       "scenario": "写指标/策略脚本做分析研究，非实盘信号服务",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5271,7 +5402,8 @@
       "url": "https://ninjatrader.com/",
       "description": "期货/外汇向分析与交易平台，含图表、回放与策略工具",
       "scenario": "了解订单流/回放分析能力；执行需经纪账户",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5299,7 +5431,8 @@
       "url": "https://www.sierrachart.com/",
       "description": "高度可配置的期货图表与Numbers Bars/成交量分布分析软件",
       "scenario": "订单流与Volume Profile研究入口",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5327,7 +5460,8 @@
       "url": "https://bookmap.com/",
       "description": "订单簿热力图与流动性可视化分析工具",
       "scenario": "盘口/流动性结构观察学习",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5354,7 +5488,8 @@
       "url": "https://atas.net/",
       "description": "足迹图、Smart DOM、成交量分布等订单流工作站",
       "scenario": "高级量价与订单流分析了解",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5382,7 +5517,8 @@
       "url": "https://www.metatrader5.com/",
       "description": "MT5多资产平台入口，含图表、指标与策略测试器说明",
       "scenario": "外汇/CFD图表与策略测试器学习；交易需经纪商",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5410,7 +5546,8 @@
       "url": "https://www.interactivebrokers.com/en/trading/tws.php",
       "description": "IBKR Trader Workstation产品页：Mosaic、风险与图表分析工具介绍",
       "scenario": "了解专业端分析界面；非开户教程",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5438,7 +5575,8 @@
       "url": "https://www.tradestation.com/",
       "description": "TradeStation平台与EasyLanguage分析/回测能力介绍页",
       "scenario": "策略研究与图表能力了解",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5466,7 +5604,8 @@
       "url": "https://www.webull.com/",
       "description": "Webull行情与图表工具产品页，含模拟交易介绍",
       "scenario": "移动端看盘与基础技术分析了解",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5494,7 +5633,8 @@
       "url": "https://www.quantower.com/",
       "description": "模块化多资产交易分析终端，含DOM与图表模块介绍",
       "scenario": "了解可定制分析工作区",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5522,7 +5662,8 @@
       "url": "https://www.eastmoney.com/",
       "description": "A股/基金等综合财经门户：行情、资金流向、龙虎榜与研报入口",
       "scenario": "A股看盘、资金与资讯聚合",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "A股"
     },
     {
       "category": "交易分析",
@@ -5550,7 +5691,8 @@
       "url": "https://www.10jqka.com.cn/",
       "description": "同花顺财经门户：行情、资讯、数据与模拟炒股入口",
       "scenario": "A股日常看盘与资讯",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "A股"
     },
     {
       "category": "交易分析",
@@ -5578,7 +5720,8 @@
       "url": "https://xueqiu.com/",
       "description": "投资社交与行情社区：讨论、组合与个股页面",
       "scenario": "阅读研究观点与组合讨论，非跟单信号",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "A股"
     },
     {
       "category": "交易分析",
@@ -5606,7 +5749,8 @@
       "url": "https://www.futunn.com/",
       "description": "港美股/A股行情与图表工具入口（产品介绍页）",
       "scenario": "跨市场行情与基础分析了解",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5634,7 +5778,8 @@
       "url": "https://www.tdx.com.cn/",
       "description": "通达信行情分析软件官方站点",
       "scenario": "了解A股经典看盘软件入口",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "A股"
     },
     {
       "category": "交易分析",
@@ -5662,7 +5807,8 @@
       "url": "https://finance.sina.com.cn/realstock/company/sh000001/nc.shtml",
       "description": "新浪财经行情与资讯聚合入口（以上证指数页为样例入口）",
       "scenario": "快速查看A股指数与相关资讯",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "A股"
     },
     {
       "category": "交易分析",
@@ -5690,7 +5836,8 @@
       "url": "https://wallstreetcn.com/",
       "description": "全球市场快讯与宏观/资产价格资讯门户",
       "scenario": "宏观与跨市场情报阅读",
-      "status": "URL可达(HTTP 200 via GET) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via GET) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "美股"
     },
     {
       "category": "交易分析",
@@ -5718,7 +5865,8 @@
       "url": "https://www.cls.cn/",
       "description": "财经通讯社风格快讯、电报与投资日历入口",
       "scenario": "A股盘中快讯与事件日历",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "A股"
     },
     {
       "category": "交易分析",
@@ -5745,7 +5893,8 @@
       "url": "https://www.caixin.com/",
       "description": "财新财经新闻门户（部分内容付费）",
       "scenario": "深度财经与政策资讯阅读",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5773,7 +5922,8 @@
       "url": "https://finviz.com/",
       "description": "美股可视化筛选、热力图、新闻与财经日历聚合",
       "scenario": "美股扫描、板块热力与日历一览",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "美股"
     },
     {
       "category": "交易分析",
@@ -5800,7 +5950,8 @@
       "url": "https://finviz.com/screener.ashx",
       "description": "Finviz股票筛选器：按基本面/技术面过滤器筛股",
       "scenario": "构建美股技术/基本面筛选条件",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "美股"
     },
     {
       "category": "交易分析",
@@ -5828,7 +5979,8 @@
       "url": "https://www.marketwatch.com/",
       "description": "MarketWatch市场新闻、报价与图表",
       "scenario": "美股新闻与市场概览",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "美股"
     },
     {
       "category": "交易分析",
@@ -5855,7 +6007,8 @@
       "url": "https://www.cnbc.com/markets/",
       "description": "CNBC市场频道：指数、期货与市场新闻",
       "scenario": "盘中市场头条与报价",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5883,7 +6036,8 @@
       "url": "https://www.atlantafed.org/cqer/research/gdpnow",
       "description": "亚特兰大联储GDPNow实时增长跟踪模型",
       "scenario": "美GDP即时估计跟踪",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5911,7 +6065,8 @@
       "url": "https://www.cnn.com/markets/fear-and-greed",
       "description": "CNN恐慌贪婪指数：综合波动、期权等情绪指标",
       "scenario": "市场情绪辅助观察",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5939,7 +6094,8 @@
       "url": "https://www.cboe.com/",
       "description": "CBOE官网：VIX等波动率与期权产品信息",
       "scenario": "波动率与期权市场结构了解",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5966,7 +6122,8 @@
       "url": "https://www.cboe.com/tradable_products/vix/",
       "description": "CBOE VIX产品与相关说明页",
       "scenario": "理解波动率指数用途",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -5994,7 +6151,8 @@
       "url": "https://www.barchart.com/",
       "description": "期货/股票行情、期权链与技术图表数据站",
       "scenario": "美股期货技术与期权数据浏览",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "美股"
     },
     {
       "category": "交易分析",
@@ -6022,7 +6180,8 @@
       "url": "https://unusualwhales.com/",
       "description": "期权异常成交与市场流情报产品入口",
       "scenario": "了解期权流分析概念；功能多需订阅",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6050,7 +6209,8 @@
       "url": "https://data.eastmoney.com/",
       "description": "东方财富数据中心：资金流向、龙虎榜、研报等数据集散",
       "scenario": "A股特色数据查询",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "A股"
     },
     {
       "category": "交易分析",
@@ -6078,7 +6238,8 @@
       "url": "https://data.10jqka.com.cn/",
       "description": "同花顺数据中心入口",
       "scenario": "A股财务/资金等数据浏览",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "A股"
     },
     {
       "category": "交易分析",
@@ -6106,7 +6267,8 @@
       "url": "https://www.jin10.com/",
       "description": "金十数据：宏观快讯、日历与行情情报",
       "scenario": "宏观事件与快讯追踪",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6134,7 +6296,8 @@
       "url": "https://www.tradingview.com/support/",
       "description": "TradingView官方支持与功能说明文档",
       "scenario": "学习图表、警报、回放等功能",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6162,7 +6325,8 @@
       "url": "https://tradernewbie.com/zh/courses/technical-analysis",
       "description": "中文技术分析课程：K线、趋势、支撑阻力、均线与看盘流程",
       "scenario": "零基础建立看盘框架",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6190,7 +6354,8 @@
       "url": "https://woshixiaobi.com/how-to-use-tradingview/",
       "description": "TradingView中文新手长文：注册、周期、指标、画线与K线回放",
       "scenario": "上手TradingView看盘",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6218,7 +6383,8 @@
       "url": "https://homedadpro.com/macd-indicator/",
       "description": "MACD参数、零轴、交叉与TradingView添加方法说明",
       "scenario": "理解MACD用法与局限",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6245,7 +6411,8 @@
       "url": "https://chartschool.stockcharts.com/table-of-contents/overview/technical-analysis-101",
       "description": "StockCharts技术分析101短课程目录",
       "scenario": "系统复习TA基础假设与形态",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "美股"
     },
     {
       "category": "交易分析",
@@ -6273,7 +6440,8 @@
       "url": "https://www.tradingsetupsreview.com/7-high-quality-websites-learning-technical-analysis/",
       "description": "高质量技术分析学习网站导读文章",
       "scenario": "扩展免费TA学习站点清单",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6301,7 +6469,8 @@
       "url": "https://www.backtrader.com/",
       "description": "Python事件驱动回测框架官网与文档入口",
       "scenario": "策略想法回测与研究；非实盘机器人推销",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6329,7 +6498,8 @@
       "url": "https://github.com/mementum/backtrader",
       "description": "Backtrader开源代码仓库",
       "scenario": "阅读源码与示例做回测研究",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6357,7 +6527,8 @@
       "url": "https://github.com/jrothschild33/learn_backtrader",
       "description": "Backtrader中文学习笔记与示例仓库",
       "scenario": "中文环境学习回测框架",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6385,7 +6556,8 @@
       "url": "https://github.com/stefan-jansen/zipline-reloaded",
       "description": "社区维护的Zipline回测引擎分支",
       "scenario": "Pipeline式因子分析与回测研究",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6413,7 +6585,8 @@
       "url": "https://github.com/quantopian/alphalens",
       "description": "因子IC、分组收益与换手分析库（Quantopian遗产）",
       "scenario": "因子有效性可视化研究",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6441,7 +6614,8 @@
       "url": "https://github.com/quantopian/pyfolio",
       "description": "投资组合绩效与风险撕页分析库",
       "scenario": "回测结果复盘与风险指标",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6469,7 +6643,8 @@
       "url": "https://github.com/QuantConnect/Lean",
       "description": "QuantConnect开源算法交易引擎Lean",
       "scenario": "算法研究与回测学习；云服务另计",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6497,7 +6672,8 @@
       "url": "https://www.quantconnect.com/docs/v2/",
       "description": "QuantConnect官方文档：数据、算法与回测说明",
       "scenario": "学习云回测与研究工作流",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6525,7 +6701,8 @@
       "url": "https://www.joinquant.com/",
       "description": "A股量化研究与回测社区平台入口",
       "scenario": "策略研究与因子实验（需注册）",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "A股"
     },
     {
       "category": "交易分析",
@@ -6553,7 +6730,8 @@
       "url": "https://www.ricequant.com/",
       "description": "米筐量化投研平台入口",
       "scenario": "A股研究与回测了解",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "A股"
     },
     {
       "category": "交易分析",
@@ -6581,7 +6759,8 @@
       "url": "https://bigquant.com/",
       "description": "可视化/AI量化研究平台入口",
       "scenario": "因子与策略研究了解",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6609,7 +6788,8 @@
       "url": "https://uqer.datayes.com/",
       "description": "通联数据优矿投研平台入口",
       "scenario": "A股数据与研究Notebook了解",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "A股"
     },
     {
       "category": "交易分析",
@@ -6637,7 +6817,8 @@
       "url": "https://tushare.pro/",
       "description": "Tushare财经数据接口平台（研究向）",
       "scenario": "获取A股等研究数据；积分/权限以站内为准",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "A股"
     },
     {
       "category": "交易分析",
@@ -6665,7 +6846,8 @@
       "url": "https://github.com/akfamily/akshare",
       "description": "开源财经数据接口库，覆盖股票/期货/宏观等",
       "scenario": "研究用公开数据抓取",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "A股"
     },
     {
       "category": "交易分析",
@@ -6693,7 +6875,8 @@
       "url": "https://github.com/ranaroussi/yfinance",
       "description": "Yahoo Finance非官方Python数据接口",
       "scenario": "快速拉取行情做分析实验",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6721,7 +6904,8 @@
       "url": "https://github.com/TA-Lib/ta-lib-python",
       "description": "TA-Lib的Python绑定，经典技术指标实现",
       "scenario": "指标计算与研究",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6749,7 +6933,8 @@
       "url": "https://github.com/matplotlib/mplfinance",
       "description": "Matplotlib金融K线绘图库",
       "scenario": "本地画出K线与叠加指标",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6777,7 +6962,8 @@
       "url": "https://www.quantide.cn/posts/factor-strategy/low-turnover-factor-2/",
       "description": "Alphalens因子分析示例文：IC与换手等解读",
       "scenario": "学习因子研究方法论",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6805,7 +6991,8 @@
       "url": "https://arxiv.org/list/q-fin/recent",
       "description": "arXiv量化金融近期论文列表",
       "scenario": "跟踪量化/市场微观结构预印本",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6833,7 +7020,8 @@
       "url": "https://www.morningstar.com/",
       "description": "基金/股票研究与评级数据门户",
       "scenario": "基本面研究与基金分析了解",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6861,7 +7049,8 @@
       "url": "https://tradingeconomics.com/",
       "description": "各国经济指标、日历与图表",
       "scenario": "宏观序列与国家数据对比",
-      "status": "URL可达(HTTP 200 via GET) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via GET) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6889,7 +7078,8 @@
       "url": "https://www.worldgovernmentbonds.com/",
       "description": "全球国债收益率与利差数据",
       "scenario": "利率曲线与利差观察",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6917,7 +7107,8 @@
       "url": "https://www.optionseducation.org/",
       "description": "OCC旗下期权投资者教育站点",
       "scenario": "期权希腊值与策略概念学习",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6945,7 +7136,8 @@
       "url": "https://edgewonk.com/",
       "description": "交易日记与绩效统计软件产品页",
       "scenario": "了解交易复盘日志工具",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -6973,7 +7165,8 @@
       "url": "https://www.tradervue.com/",
       "description": "导入成交记录做绩效分析的日记工具",
       "scenario": "交易复盘与报告了解",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7001,7 +7194,8 @@
       "url": "https://xueqiu.com/6331487345/176215306",
       "description": "雪球长帖整理常用免费投资工具与反向指标线索",
       "scenario": "扩展免费工具清单阅读",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7029,7 +7223,8 @@
       "url": "https://finance.sina.com.cn/stock/report/",
       "description": "新浪财经券商研报聚合入口",
       "scenario": "浏览公开研报标题与摘要",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7056,7 +7251,8 @@
       "url": "https://www.hibor.com.cn/",
       "description": "券商研报检索平台入口",
       "scenario": "研报检索了解；访问权限以站内为准",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7084,7 +7280,8 @@
       "url": "https://www.lixinger.com/",
       "description": "A股基本面数据与估值工具产品页",
       "scenario": "估值与财务分析了解",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "A股"
     },
     {
       "category": "交易分析",
@@ -7112,7 +7309,8 @@
       "url": "https://robo.datayes.com/",
       "description": "通联萝卜投研：研报与数据检索入口",
       "scenario": "投研资料检索了解",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7140,7 +7338,8 @@
       "url": "https://choice.eastmoney.com/",
       "description": "东方财富Choice金融数据终端产品介绍",
       "scenario": "了解专业终端能力；非免费保证",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "A股"
     },
     {
       "category": "交易分析",
@@ -7168,7 +7367,8 @@
       "url": "https://www.wind.com.cn/",
       "description": "万得Wind金融终端官网介绍",
       "scenario": "机构级数据终端了解",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7196,7 +7396,8 @@
       "url": "https://swiftedge.uk/order-flow-platform-comparison",
       "description": "订单流平台对比文章：Bookmap/ATAS/Sierra等",
       "scenario": "选型了解订单流工具差异",
-      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能"
+      "status": "URL可达(HTTP 200 via HEAD) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测分析功能",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7224,7 +7425,8 @@
       "url": "https://www.schwab.com/learn",
       "description": "Charles Schwab公开学习中心：投资与交易教育入口（含平台相关课程线索）",
       "scenario": "美股投资/交易概念学习",
-      "status": "URL可达(HTTP 200 via curl) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测"
+      "status": "URL可达(HTTP 200 via curl) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测",
+      "subcategory": "美股"
     },
     {
       "category": "交易分析",
@@ -7251,7 +7453,8 @@
       "url": "https://www.investopedia.com/technical-analysis-4689657",
       "description": "Investopedia技术分析主题合集：指标、形态与方法入门",
       "scenario": "英文TA概念速查",
-      "status": "URL可达(HTTP 200 via curl) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测"
+      "status": "URL可达(HTTP 200 via curl) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7278,7 +7481,8 @@
       "url": "https://www.investopedia.com/trading-4427765",
       "description": "Investopedia交易与市场结构教育栏目",
       "scenario": "订单类型、市场微观结构等阅读",
-      "status": "URL可达(HTTP 200 via curl) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测"
+      "status": "URL可达(HTTP 200 via curl) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7306,7 +7510,8 @@
       "url": "https://www.investopedia.com/simulator/",
       "description": "Investopedia免费模拟股市工具入口",
       "scenario": "无风险练习下单与组合记录",
-      "status": "URL可达(HTTP 200 via curl) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测"
+      "status": "URL可达(HTTP 200 via curl) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7334,7 +7539,8 @@
       "url": "https://pypi.org/project/pandas-ta/",
       "description": "pandas-ta技术指标库的PyPI发布页（GitHub原仓路径已变更）",
       "scenario": "在Notebook中计算常见TA指标",
-      "status": "URL可达(HTTP 200 via curl) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测"
+      "status": "URL可达(HTTP 200 via curl) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7362,7 +7568,8 @@
       "url": "https://finance.yahoo.com/",
       "description": "雅虎财经：报价、图表、新闻与投资组合工具",
       "scenario": "跨市场报价与基础研究",
-      "status": "软失败：本机探测遇HTTP 403（站点反爬）· 公开知名行情门户按摘要收录 · 未实测"
+      "status": "软失败：本机探测遇HTTP 403（站点反爬）· 公开知名行情门户按摘要收录 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7389,7 +7596,8 @@
       "url": "https://finance.yahoo.com/research-hub/screener/",
       "description": "Yahoo预设与自定义股票筛选器集合",
       "scenario": "按活跃度/估值等预设筛股",
-      "status": "软失败：本机探测遇HTTP 403 · 公开筛选器页按摘要收录 · 未实测"
+      "status": "软失败：本机探测遇HTTP 403 · 公开筛选器页按摘要收录 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7417,7 +7625,8 @@
       "url": "https://www.investing.com/",
       "description": "全球行情、图表、筛选器与经济日历门户",
       "scenario": "多市场报价与宏观日历",
-      "status": "软失败：本机探测遇HTTP 403 · 公开知名站点按摘要收录 · 未实测"
+      "status": "软失败：本机探测遇HTTP 403 · 公开知名站点按摘要收录 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7445,7 +7654,8 @@
       "url": "https://www.investing.com/economic-calendar/",
       "description": "全球经济数据发布日历（影响级别标注）",
       "scenario": "交易日前宏观事件规划",
-      "status": "软失败：本机探测遇HTTP 403 · 公开日历页按摘要收录 · 未实测"
+      "status": "软失败：本机探测遇HTTP 403 · 公开日历页按摘要收录 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7473,7 +7683,8 @@
       "url": "https://cn.investing.com/",
       "description": "Investing.com中文版：行情、日历与资讯",
       "scenario": "中文界面看全球行情与日历",
-      "status": "软失败：本机探测遇HTTP 403 · 公开中文站按摘要收录 · 未实测"
+      "status": "软失败：本机探测遇HTTP 403 · 公开中文站按摘要收录 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7500,7 +7711,8 @@
       "url": "https://cn.investing.com/economic-calendar/",
       "description": "英为财情中文经济日历",
       "scenario": "交易日宏观事件中文视图",
-      "status": "软失败：本机探测遇HTTP 403 · 公开日历页按摘要收录 · 未实测"
+      "status": "软失败：本机探测遇HTTP 403 · 公开日历页按摘要收录 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7528,7 +7740,8 @@
       "url": "https://www.bloomberg.com/markets",
       "description": "Bloomberg公开市场页面：全球资产与新闻入口",
       "scenario": "宏观与跨资产情报浏览（部分付费）",
-      "status": "软失败：本机探测遇HTTP 403 · 公开市场页按摘要收录 · 未实测"
+      "status": "软失败：本机探测遇HTTP 403 · 公开市场页按摘要收录 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7555,7 +7768,8 @@
       "url": "https://www.reuters.com/markets/",
       "description": "路透市场新闻与资产页面",
       "scenario": "全球市场快讯阅读",
-      "status": "软失败：本机探测遇HTTP 401/403 · 公开市场页按摘要收录 · 未实测"
+      "status": "软失败：本机探测遇HTTP 401/403 · 公开市场页按摘要收录 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7583,7 +7797,8 @@
       "url": "https://fred.stlouisfed.org/",
       "description": "圣路易斯联储经济数据仓库：利率、就业、通胀等序列",
       "scenario": "宏观序列下载与图表分析",
-      "status": "软失败：本机探测超时 · 公开联储数据仓按摘要收录 · 未实测"
+      "status": "软失败：本机探测超时 · 公开联储数据仓按摘要收录 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7611,7 +7826,8 @@
       "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
       "description": "CME FedWatch：联邦基金期货隐含的利率路径概率",
       "scenario": "联储议息预期定价观察",
-      "status": "软失败：本机探测遇HTTP 403 · 公开工具页按摘要收录 · 未实测"
+      "status": "软失败：本机探测遇HTTP 403 · 公开工具页按摘要收录 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7639,7 +7855,8 @@
       "url": "https://www.cmegroup.com/education.html",
       "description": "CME集团市场教育中心：期货期权概念课程",
       "scenario": "学习期货/期权市场结构",
-      "status": "软失败：本机探测遇HTTP 403 · 公开教育中心按摘要收录 · 未实测"
+      "status": "软失败：本机探测遇HTTP 403 · 公开教育中心按摘要收录 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7667,7 +7884,8 @@
       "url": "https://www.babypips.com/learn/forex",
       "description": "免费结构化外汇与技术分析课程（支撑阻力、K线、指标、价格行为等）",
       "scenario": "系统学习技术分析与外汇基础",
-      "status": "软失败：本机探测遇HTTP 403 · 公开课程站按摘要收录 · 未实测"
+      "status": "软失败：本机探测遇HTTP 403 · 公开课程站按摘要收录 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7695,7 +7913,8 @@
       "url": "https://stockcharts.com/",
       "description": "经典美股技术分析图表站，含SharpCharts与市场广度工具",
       "scenario": "美股图表与市场指标观察",
-      "status": "软失败：本机探测遇HTTP 403 · 公开图表站按摘要收录 · 未实测"
+      "status": "软失败：本机探测遇HTTP 403 · 公开图表站按摘要收录 · 未实测",
+      "subcategory": "美股"
     },
     {
       "category": "交易分析",
@@ -7724,7 +7943,8 @@
       "url": "https://www.bilibili.com/video/BV1mF411P7ZM/",
       "description": "B站Pine脚本入门：调用MACD/KDJ/RSI等常用指标",
       "scenario": "跟着视频写简单自定义指标",
-      "status": "软失败：本机探测遇HTTP 412 · 公开B站视频按摘要收录 · 未实测观看"
+      "status": "软失败：本机探测遇HTTP 412 · 公开B站视频按摘要收录 · 未实测观看",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7752,7 +7972,8 @@
       "url": "https://www.bilibili.com/video/BV1NtMfzmEvC/",
       "description": "B站TradingView新手入门教程系列样例视频",
       "scenario": "界面与基础看盘操作学习",
-      "status": "软失败：本机探测遇HTTP 412 · 公开B站视频按摘要收录 · 未实测观看"
+      "status": "软失败：本机探测遇HTTP 412 · 公开B站视频按摘要收录 · 未实测观看",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7780,7 +8001,8 @@
       "url": "https://www.macromicro.me/",
       "description": "宏观图表与跨资产数据可视化（中英）",
       "scenario": "宏观与跨市场关系观察",
-      "status": "软失败：本机探测遇HTTP 403 · 公开宏观图站按摘要收录 · 未实测"
+      "status": "软失败：本机探测遇HTTP 403 · 公开宏观图站按摘要收录 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7807,7 +8029,8 @@
       "url": "https://www.reddit.com/r/TechnicalAnalysis/",
       "description": "Reddit技术分析讨论版",
       "scenario": "图表讨论学习；非投资建议",
-      "status": "软失败：本机探测握手超时 · 公开社区按摘要收录 · 未实测"
+      "status": "软失败：本机探测握手超时 · 公开社区按摘要收录 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7835,7 +8058,8 @@
       "url": "https://trendspider.com/",
       "description": "自动化趋势线识别与多时间框架扫描类图表分析平台",
       "scenario": "辅助技术形态扫描与策略实验室了解",
-      "status": "软失败：本机探测连接被断开 · 公开产品页按摘要收录 · 未实测"
+      "status": "软失败：本机探测连接被断开 · 公开产品页按摘要收录 · 未实测",
+      "subcategory": "通用"
     },
     {
       "category": "交易分析",
@@ -7863,18 +8087,19 @@
       "url": "https://www.aqr.com/Insights/Research",
       "description": "AQR公开研究文章与白皮书入口",
       "scenario": "机构视角因子与风险研究",
-      "status": "软失败：本机探测SSL异常 · 公开研究库按摘要收录 · 未实测"
+      "status": "软失败：本机探测SSL异常 · 公开研究库按摘要收录 · 未实测",
+      "subcategory": "通用"
     }
   ],
-  "updatedAt": "2026-11-09T15:09:36+08:00",
+  "updatedAt": "2026-11-09T15:30:09+08:00",
   "canvasId": "511a7df2-1b3f-4ad5-8083-bc1c035eeeac",
   "total": 305,
   "latestBatch": {
-    "theme": "交易分析分类 + 100新条（情报/教程/资讯/工具）",
+    "theme": "交易分析分类 + 100新条（情报/教程/资讯/工具）；v19 子分类标注（AI视频制作/交易分析）",
     "added": 100,
     "migrated": 5,
     "skippedDupes": 0,
     "total": 305,
-    "note": "新建交易分析分类；迁移5条既有分析向条目；追加100条新资源；verified均为false"
+    "note": "新建交易分析分类；迁移5条既有分析向条目；追加100条新资源；verified均为false；为 AI视频制作 与 交易分析 条目增加 subcategory 二级筛选"
   }
 }

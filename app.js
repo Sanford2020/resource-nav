@@ -6,10 +6,16 @@
     resources: [],
     query: "",
     category: "all",
+    subcategory: "all",
     verified: "all",
     statusKeyword: "all",
     kind: "all",
     sort: "name-asc",
+  };
+
+  const SUBCATEGORIES = {
+    AI视频制作: ["模型平台", "开源本地", "教程流程", "提示词案例", "资讯对比"],
+    交易分析: ["数字货币", "美股", "港股", "A股", "通用"],
   };
 
   const CAT_ACCENTS = [
@@ -27,6 +33,8 @@
     metaBar: document.getElementById("metaBar"),
     searchInput: document.getElementById("searchInput"),
     categoryFilters: document.getElementById("categoryFilters"),
+    subcategoryFieldset: document.getElementById("subcategoryFieldset"),
+    subcategoryFilters: document.getElementById("subcategoryFilters"),
     verifiedFilters: document.getElementById("verifiedFilters"),
     statusFilters: document.getElementById("statusFilters"),
     kindFilters: document.getElementById("kindFilters"),
@@ -69,6 +77,7 @@
       resource.description,
       resource.scenario,
       resource.category,
+      resource.subcategory,
       resource.type,
       resource.status,
     ]
@@ -105,6 +114,12 @@
     const q = state.query.trim().toLowerCase();
     return state.resources.filter((r) => {
       if (state.category !== "all" && r.category !== state.category) return false;
+      if (
+        state.subcategory !== "all" &&
+        (r.subcategory || "") !== state.subcategory
+      ) {
+        return false;
+      }
       if (state.verified === "true" && !r.verified) return false;
       if (state.verified === "false" && r.verified) return false;
       if (state.statusKeyword !== "all") {
@@ -152,6 +167,7 @@
     return (
       !state.query.trim() &&
       state.category === "all" &&
+      state.subcategory === "all" &&
       state.verified === "all" &&
       state.statusKeyword === "all" &&
       state.kind === "all"
@@ -164,6 +180,10 @@
     const status = escapeHtml(resource.status || "");
     const accent = categoryAccent(resource.category);
     const catShort = escapeHtml(shortCategory(resource.category));
+    const subcat =
+      resource.subcategory && (resource.category === "AI视频制作" || resource.category === "交易分析")
+        ? `<span class="card-subcat">${escapeHtml(resource.subcategory)}</span>`
+        : "";
     const stagger = Math.min(listIndex, 22) * 16;
     const layoutClass =
       layout === "lead" ? " card--lead" : layout === "wide" ? " card--wide" : "";
@@ -174,7 +194,7 @@
       <div class="card-inner">
         <span class="card-cat-label">${catShort}</span>
         <h3 class="card-title">${escapeHtml(resource.name)}</h3>
-        <div class="card-meta">${cat}${status ? " · " + status : ""}</div>
+        <div class="card-meta">${subcat}${cat}${status ? " · " + status : ""}</div>
         <p class="card-desc">${desc}</p>
         <div class="badge-row">${renderBadges(resource)}</div>
       </div>
@@ -284,6 +304,7 @@
       "description",
       "scenario",
       "category",
+      "subcategory",
       "type",
       "status",
       "verified",
@@ -318,7 +339,12 @@
 
     els.detailBody.innerHTML = [
       caveat,
-      section("分类与类型", `<p>${escapeHtml(resource.category || "")}</p><p>${escapeHtml(resource.type || "")}</p>`),
+      section(
+        "分类与类型",
+        `<p>${escapeHtml(resource.category || "")}${
+          resource.subcategory ? ` · ${escapeHtml(resource.subcategory)}` : ""
+        }</p><p>${escapeHtml(resource.type || "")}</p>`
+      ),
       section("核实状态", `<p>${escapeHtml(resource.status || "（无）")}</p>`),
       section("描述", `<p>${escapeHtml(resource.description || "（无）")}</p>`),
       section(
@@ -355,7 +381,49 @@
 
   let visibleList = [];
 
+  function subcategoryCounts(parent) {
+    const counts = Object.create(null);
+    state.resources.forEach((r) => {
+      if (r.category !== parent || !r.subcategory) return;
+      counts[r.subcategory] = (counts[r.subcategory] || 0) + 1;
+    });
+    return counts;
+  }
+
+  function renderSubcategoryChips() {
+    const parent = state.category;
+    const order = SUBCATEGORIES[parent];
+    if (!order) {
+      els.subcategoryFieldset.hidden = true;
+      state.subcategory = "all";
+      return;
+    }
+
+    els.subcategoryFieldset.hidden = false;
+    els.subcategoryFieldset.style.setProperty("--cat-accent", categoryAccent(parent));
+
+    const counts = subcategoryCounts(parent);
+    const subs = order.filter((label) => (counts[label] || 0) > 0);
+    const allActive = state.subcategory === "all" ? " is-active" : "";
+    const chips = subs
+      .map((label) => {
+        const active = state.subcategory === label ? " is-active" : "";
+        const n = counts[label];
+        return `<button type="button" class="chip${active}" data-subcategory="${escapeHtml(
+          label
+        )}">${escapeHtml(label)}<span class="chip-count">${n}</span></button>`;
+      })
+      .join("");
+
+    els.subcategoryFilters.innerHTML = `<button type="button" class="chip${allActive}" data-subcategory="all">全部子类</button>${chips}`;
+
+    els.subcategoryFilters.querySelectorAll(".chip").forEach((chip) => {
+      chip.classList.toggle("is-active", chip.dataset.subcategory === state.subcategory);
+    });
+  }
+
   function refresh() {
+    renderSubcategoryChips();
     const filtered = sortResources(filteredResources());
     visibleList = filtered;
     renderCards(filtered);
@@ -382,15 +450,26 @@
       )
       .join("");
     els.categoryFilters.innerHTML = allBtn + chips;
-    els.categoryFilters.addEventListener("click", (e) => {
-      const btn = e.target.closest(".chip");
-      if (!btn) return;
-      els.categoryFilters.querySelectorAll(".chip").forEach((c) => c.classList.remove("is-active"));
-      btn.classList.add("is-active");
-      state.category = btn.dataset.category;
-      refresh();
-    });
   }
+
+  els.categoryFilters.addEventListener("click", (e) => {
+    const btn = e.target.closest(".chip");
+    if (!btn || !els.categoryFilters.contains(btn)) return;
+    els.categoryFilters.querySelectorAll(".chip").forEach((c) => c.classList.remove("is-active"));
+    btn.classList.add("is-active");
+    state.category = btn.dataset.category;
+    state.subcategory = "all";
+    refresh();
+  });
+
+  els.subcategoryFilters.addEventListener("click", (e) => {
+    const btn = e.target.closest(".chip");
+    if (!btn || !els.subcategoryFilters.contains(btn)) return;
+    state.subcategory = btn.dataset.subcategory;
+    els.subcategoryFilters.querySelectorAll(".chip").forEach((c) => c.classList.remove("is-active"));
+    btn.classList.add("is-active");
+    refresh();
+  });
 
   async function loadData() {
     const res = await fetch("data/resources.json");

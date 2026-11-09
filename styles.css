@@ -454,6 +454,38 @@ body > * {
   margin-top: 0.25rem;
 }
 
+.subcategory-block {
+  margin-top: 0.15rem;
+  padding-top: 0.35rem;
+  border-top: 1px dashed var(--rule);
+}
+
+.subcategory-block .chip {
+  font-size: 0.74rem;
+  padding: 0.25rem 0.5rem;
+  min-height: 30px;
+  border-color: color-mix(in srgb, var(--rule) 70%, transparent);
+}
+
+.subcategory-block .chip.is-active {
+  background: var(--cat-accent, var(--ink));
+}
+
+.chip-count {
+  opacity: 0.72;
+  font-size: 0.68rem;
+  font-weight: 600;
+  margin-left: 0.15rem;
+}
+
+.card-subcat {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--cat-accent, var(--ink-muted));
+  margin-right: 0.35rem;
+}
+
 .sort-row {
   display: flex;
   flex-direction: column;
