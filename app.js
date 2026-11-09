@@ -184,10 +184,10 @@
       resource.subcategory && (resource.category === "AI视频制作" || resource.category === "交易分析")
         ? `<span class="card-subcat">${escapeHtml(resource.subcategory)}</span>`
         : "";
-    const stagger = Math.min(listIndex, 22) * 16;
     const layoutClass =
       layout === "lead" ? " card--lead" : layout === "wide" ? " card--wide" : "";
-    return `<button type="button" class="card${layoutClass}" data-index="${listIndex}" style="--cat-accent: ${accent}; --stagger: ${stagger}ms" aria-label="查看详情：${escapeHtml(
+    const key = escapeHtml(resourceKey(resource));
+    return `<button type="button" class="card motion-scroll-reveal${layoutClass}" data-index="${listIndex}" data-resource-key="${key}" style="--cat-accent: ${accent}" aria-label="查看详情：${escapeHtml(
       resource.name
     )}">
       <span class="card-cat-stripe" aria-hidden="true"></span>
@@ -202,11 +202,17 @@
   }
 
   function renderCards(list) {
+    const flipRects =
+      motionReady && typeof MotionNav !== "undefined"
+        ? MotionNav.captureCardRects(els.cardGrid)
+        : new Map();
+
     if (!list.length) {
       els.bentoHero.hidden = true;
       els.bentoHero.innerHTML = "";
       els.cardGrid.innerHTML =
         '<p class="empty-hint">没有匹配结果，请调整搜索或筛选项。</p>';
+      wireMotionAfterRender(null, null);
       return;
     }
 
@@ -233,6 +239,8 @@
         return renderCardMarkup(r, listIndex, layout);
       })
       .join("");
+
+    wireMotionAfterRender(els.cardGrid, flipRects);
   }
 
   function handleCardActivate(e) {
@@ -365,6 +373,7 @@
 
     els.detailDrawer.hidden = false;
     els.detailDrawer.setAttribute("aria-hidden", "false");
+    if (typeof MotionNav !== "undefined") MotionNav.openDrawerSpring(els.detailDrawer);
     requestAnimationFrame(() => els.detailDrawer.classList.add("is-open"));
     document.body.style.overflow = "hidden";
     els.closeDrawer.focus();
@@ -374,12 +383,28 @@
     els.detailDrawer.classList.remove("is-open");
     els.detailDrawer.setAttribute("aria-hidden", "true");
     document.body.style.overflow = "";
+    if (typeof MotionNav !== "undefined") MotionNav.closeDrawerSpring(els.detailDrawer);
     window.setTimeout(() => {
       els.detailDrawer.hidden = true;
-    }, 200);
+    }, 420);
   }
 
   let visibleList = [];
+  let cleanupReveal = () => {};
+  let motionReady = false;
+
+  function resourceKey(resource) {
+    return [resource.name, resource.category, resource.url || resource.repo || ""].join("|");
+  }
+
+  function wireMotionAfterRender(flipHost, prevRects) {
+    if (typeof MotionNav === "undefined") return;
+    cleanupReveal();
+    cleanupReveal = MotionNav.observeScrollReveal(document.querySelector(".content-stage"));
+    if (flipHost && prevRects) {
+      MotionNav.flipGrid(flipHost, prevRects);
+    }
+  }
 
   function subcategoryCounts(parent) {
     const counts = Object.create(null);
@@ -427,7 +452,20 @@
     const filtered = sortResources(filteredResources());
     visibleList = filtered;
     renderCards(filtered);
-    els.resultCount.textContent = `显示 ${filtered.length} / ${state.resources.length} 条`;
+    const total = state.resources.length;
+    const countText = `显示 ${filtered.length} / ${total} 条`;
+    if (typeof MotionNav !== "undefined" && motionReady) {
+      const prev = els.resultCount.textContent || "";
+      const m = prev.match(/显示\s*(\d+)\s*\/\s*(\d+)/);
+      if (m && Number(m[2]) === total && Number(m[1]) !== filtered.length) {
+        els.resultCount.textContent = `显示 ${m[1]} / ${total} 条`;
+        MotionNav.animateCount(els.resultCount, filtered.length);
+      } else {
+        els.resultCount.textContent = countText;
+      }
+    } else {
+      els.resultCount.textContent = countText;
+    }
   }
 
   function bindChipRow(container, attr, stateKey) {
@@ -436,6 +474,7 @@
       if (!btn || !container.contains(btn)) return;
       container.querySelectorAll(".chip").forEach((c) => c.classList.remove("is-active"));
       btn.classList.add("is-active");
+      if (typeof MotionNav !== "undefined") MotionNav.pulseChip(btn);
       state[stateKey] = btn.dataset[attr];
       refresh();
     });
@@ -457,6 +496,7 @@
     if (!btn || !els.categoryFilters.contains(btn)) return;
     els.categoryFilters.querySelectorAll(".chip").forEach((c) => c.classList.remove("is-active"));
     btn.classList.add("is-active");
+    if (typeof MotionNav !== "undefined") MotionNav.pulseChip(btn);
     state.category = btn.dataset.category;
     state.subcategory = "all";
     refresh();
@@ -468,10 +508,14 @@
     state.subcategory = btn.dataset.subcategory;
     els.subcategoryFilters.querySelectorAll(".chip").forEach((c) => c.classList.remove("is-active"));
     btn.classList.add("is-active");
+    if (typeof MotionNav !== "undefined") MotionNav.pulseChip(btn);
     refresh();
   });
 
   async function loadData() {
+    if (typeof MotionNav !== "undefined") {
+      MotionNav.renderSkeletonGrid(els.cardGrid, 12);
+    }
     const res = await fetch("data/resources.json");
     if (!res.ok) throw new Error("无法加载 data/resources.json");
     state.data = await res.json();
@@ -500,7 +544,15 @@
     meta.push(`共 ${state.resources.length} 条`);
     els.metaBar.textContent = meta.join(" · ");
 
+    motionReady = true;
     refresh();
+
+    if (typeof MotionNav !== "undefined") {
+      MotionNav.initMaskReveal(document.querySelector(".masthead-copy"));
+      MotionNav.initMastheadStagger(document.querySelector(".masthead-inner"));
+      MotionNav.initMastheadStagger(document.querySelector(".editors-note"));
+      MotionNav.bindCardTilt(els.cardGrid, els.bentoHero);
+    }
   }
 
   els.searchInput.addEventListener("input", () => {
