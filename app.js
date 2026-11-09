@@ -135,6 +135,7 @@
 
   function categoryAccent(category) {
     if (category === "AI视频制作") return "#c41e3a";
+    if (category === "交易分析") return "#0f766e";
     const s = category || "未分类";
     let h = 0;
     for (let i = 0; i < s.length; i++) h = (h + s.charCodeAt(i) * (i + 3)) % CAT_ACCENTS.length;
@@ -400,10 +401,17 @@
       compareZh(a, b)
     );
     const aiVideo = "AI视频制作";
+    const trading = "交易分析";
     const pin = cats.indexOf(aiVideo);
     if (pin > 0) {
       cats.splice(pin, 1);
       cats.unshift(aiVideo);
+    }
+    const pinT = cats.indexOf(trading);
+    if (pinT > 0) {
+      cats.splice(pinT, 1);
+      const afterAll = 0;
+      cats.splice(afterAll + 1, 0, trading);
     }
     buildCategoryChips(cats);
 
