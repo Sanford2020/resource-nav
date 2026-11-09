@@ -1,8 +1,899 @@
 {
-  "version": 15,
-  "checkedAt": "2026-11-09T00:42:00+08:00",
+  "version": 16,
+  "checkedAt": "2026-11-09T12:00:35+08:00",
   "timezone": "Asia/Shanghai",
   "resources": [
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "https://kling.ai/quickstart/kling-4-model-user-guide",
+      "xSource": "https://x.com/ftium4real/status/2119590003001246124",
+      "xSources": [
+        "https://x.com/ftium4real/status/2119590003001246124"
+      ],
+      "name": "Kling 4.0 官方用户手册",
+      "category": "内容创作 / 视觉",
+      "type": "官方使用手册",
+      "url": "https://kling.ai/quickstart/kling-4-model-user-guide",
+      "description": "可灵4.0官方手册：文生/图生/Omni参考、3–30秒、720p/1080p/4K、多参考与视频编辑入口说明",
+      "scenario": "AI视频参数查阅、广告/短剧镜头控制入门",
+      "status": "官方手册页面已确认可访问 · 未实测生成",
+      "readScope": "WebSearch摘要与官方页面HEAD/搜索结果；未通读77分钟全文",
+      "officialFacts": [
+        "官方列Text-to-Video/Image-to-Video/Omni Reference",
+        "官方列生成时长3-30秒",
+        "官方列分辨率含720p/1080p/4K"
+      ],
+      "limits": [
+        "未实测各模式出片",
+        "地区/套餐限制未核验",
+        "HDR与2分钟延长是否全量开放以产品页为准"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "https://kling.ai/document-api/api/video/4-0/text-to-video.md",
+      "xSource": "",
+      "xSources": [],
+      "name": "Kling 4.0 Text-to-Video API 文档",
+      "category": "内容创作 / 视觉",
+      "type": "官方API文档",
+      "url": "https://kling.ai/document-api/api/video/4-0/text-to-video.md",
+      "description": "可灵4.0文生视频API：路径、Bearer鉴权、分辨率/比例/时长枚举与prompt长度规则",
+      "scenario": "把可灵接到自动化出片脚本",
+      "status": "官方API文档摘要已读 · 未实测调用",
+      "readScope": "WebSearch返回的官方markdown要点",
+      "officialFacts": [
+        "POST /text-to-video/kling-4.0",
+        "settings.resolution: 720p/1080p",
+        "duration支持3–30秒整数"
+      ],
+      "limits": [
+        "未实测鉴权与计费",
+        "未验证回调与水印字段"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "https://kling.ai/document-api/api/video/4-0/image-to-video.md",
+      "xSource": "",
+      "xSources": [],
+      "name": "Kling 4.0 Image-to-Video API 文档",
+      "category": "内容创作 / 视觉",
+      "type": "官方API文档",
+      "url": "https://kling.ai/document-api/api/video/4-0/image-to-video.md",
+      "description": "可灵4.0图生视频API：首/中/尾多关键帧，单次最多约10张",
+      "scenario": "首尾帧/关键帧驱动短剧分镜",
+      "status": "官方API文档摘要已读 · 未实测",
+      "officialFacts": [
+        "支持first/middle/last多关键帧",
+        "官方称最多约10张图"
+      ],
+      "limits": [
+        "未实测关键帧一致性"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "https://dev.runway.com/models/catalog",
+      "xSource": "",
+      "xSources": [],
+      "name": "Runway 模型目录（Gen-4.5/Aleph/Kling/Seedance）",
+      "category": "内容创作 / 视觉",
+      "type": "官方开发者目录",
+      "url": "https://dev.runway.com/models/catalog",
+      "description": "Runway Dev统一模型目录：自有Gen-4.5/Aleph 2.0与第三方Kling、Seedance、Veo、Gemini Omni等",
+      "scenario": "选型对比与API集成入口",
+      "status": "官方目录页已读摘要 · 未实测",
+      "officialFacts": [
+        "列Gen-4.5文生/图生视频",
+        "列Aleph 2.0上下文视频编辑",
+        "列Seedance 2.5与Kling 4.0"
+      ],
+      "limits": [
+        "价格与配额随时变",
+        "未实测Model Router"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:35+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "https://help.runwayml.com/hc/en-us/articles/50488490233363-Creating-with-Seedance-2-0",
+      "xSource": "",
+      "xSources": [],
+      "name": "Runway Seedance 2.0 创作说明",
+      "category": "内容创作 / 视觉",
+      "type": "官方帮助文档",
+      "url": "https://help.runwayml.com/hc/en-us/articles/50488490233363-Creating-with-Seedance-2-0",
+      "description": "Runway应用内Seedance 2.0：References/首尾帧/文生三种模式与输入上限",
+      "scenario": "在Runway里用Seedance做参考驱动镜头",
+      "status": "官方帮助摘要已读 · 未实测 · 本环境抓取403",
+      "officialFacts": [
+        "时长约5–15秒（Runway页）",
+        "分辨率480p/720p/1080p",
+        "参考图最多9、视频最多3、音频最多3（官方表）"
+      ],
+      "limits": [
+        "与火山原生Seedance规格可能不同",
+        "需Standard计划或以上（官方写明）",
+        "本环境HEAD/GET返回403（可能反爬）；URL来自官方搜索结果，未完整抓取正文"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:35+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "https://help.runwayml.com/hc/en-us/sections/39888423025683-Gen-4",
+      "xSource": "",
+      "xSources": [],
+      "name": "Runway Gen-4 帮助分区",
+      "category": "内容创作 / 视觉",
+      "type": "官方帮助索引",
+      "url": "https://help.runwayml.com/hc/en-us/sections/39888423025683-Gen-4",
+      "description": "Runway Gen-4相关帮助：视频、图像、参考与Act-Two多角色对白",
+      "scenario": "Runway镜头控制与多角色对白查阅",
+      "status": "官方分区索引已确认 · 子文未逐篇实测 · 本环境抓取403",
+      "limits": [
+        "未打开每篇子文全文",
+        "本环境HEAD/GET返回403（可能反爬）；URL来自官方搜索结果，未完整抓取正文"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "https://docs.agents.lumalabs.ai/guides/videos/generation/",
+      "xSource": "",
+      "xSources": [],
+      "name": "Luma Ray 3.2 视频生成指南",
+      "category": "内容创作 / 视觉",
+      "type": "官方API指南",
+      "url": "https://docs.agents.lumalabs.ai/guides/videos/generation/",
+      "description": "Luma Agents API上Ray 3.2：文生/图生、多关键帧、分辨率与HDR参数",
+      "scenario": "Dream Machine/Luma Agents出片接入",
+      "status": "官方指南摘要已读 · 未实测",
+      "officialFacts": [
+        "model标识ray-3.2",
+        "type: video覆盖文生与图生",
+        "分辨率含360p/540p/720p/1080p"
+      ],
+      "limits": [
+        "旧Dream Machine API已迁移提示",
+        "未实测计费"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "https://docs.agents.lumalabs.ai/",
+      "xSource": "",
+      "xSources": [],
+      "name": "Luma Agents API Quickstart",
+      "category": "内容创作 / 视觉",
+      "type": "官方快速入门",
+      "url": "https://docs.agents.lumalabs.ai/",
+      "description": "提交generation→轮询→下载presigned URL的三步流程",
+      "scenario": "快速接Luma视频/图像API",
+      "status": "官方quickstart摘要已读 · 未实测",
+      "officialFacts": [
+        "Base URL https://agents.lumalabs.ai/v1",
+        "Bearer鉴权"
+      ],
+      "limits": [
+        "未创建密钥"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "https://create.pika.art/apps/create-video",
+      "xSource": "",
+      "xSources": [],
+      "name": "Pika Video Studio",
+      "category": "内容创作 / 视觉",
+      "type": "官方创作台",
+      "url": "https://create.pika.art/apps/create-video",
+      "description": "Pika Video Studio：文本/图片/参考生成视频，可@提及角色与场景，含音频",
+      "scenario": "社交短片与多参考叙事实验",
+      "status": "官方产品页摘要已读 · 未实测",
+      "officialFacts": [
+        "官方称可附加大量角色/产品/场景参考",
+        "支持图生视频与参考引导"
+      ],
+      "limits": [
+        "具体模型与时长以产品内为准",
+        "未实测导出水印"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "https://pika.art/llms.txt",
+      "xSource": "",
+      "xSources": [],
+      "name": "Pika 平台 llms.txt 应用目录",
+      "category": "内容创作 / 视觉",
+      "type": "官方机器可读目录",
+      "url": "https://pika.art/llms.txt",
+      "description": "Pika应用清单：Video Studio、Seedance入口、Talking Head、Motion Transfer、语音与音乐工具等",
+      "scenario": "快速扫Pika里和视频相关的子工具",
+      "status": "llms.txt摘要已读 · 未实测",
+      "officialFacts": [
+        "列出Video Studio与多种第三方模型入口",
+        "列出语音/音乐相关应用"
+      ],
+      "limits": [
+        "第三方模型可用性随时变"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "https://dev.pika.art/models/quick-start",
+      "xSource": "",
+      "xSources": [],
+      "name": "Pika API Quick Start",
+      "category": "内容创作 / 视觉",
+      "type": "官方API入门",
+      "url": "https://dev.pika.art/models/quick-start",
+      "description": "Pika API：一把钥匙调视频/图像/音频等异步任务并轮询结果",
+      "scenario": "程序化批量出片",
+      "status": "官方quick start摘要已读 · 未实测",
+      "limits": [
+        "未实测密钥与计费"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "https://www.capcut.com/tools/video-studio",
+      "xSource": "",
+      "xSources": [],
+      "name": "CapCut Video Studio",
+      "category": "内容创作 / 视觉",
+      "type": "官方在线工具",
+      "url": "https://www.capcut.com/tools/video-studio",
+      "description": "CapCut Video Studio：提示词/脚本+可选参考图生成视频后在线剪辑导出",
+      "scenario": "从文案到短视频的一体化草稿",
+      "status": "官方产品页摘要已读 · 未实测",
+      "officialFacts": [
+        "官方描述text-to-video流程：输入→生成→审片导出"
+      ],
+      "limits": [
+        "可用模型因地区账号而异",
+        "未实测商业授权"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "https://dreamina.capcut.com/seedance",
+      "xSource": "",
+      "xSources": [],
+      "name": "Dreamina Seedance 中心",
+      "category": "内容创作 / 视觉",
+      "type": "官方产品页",
+      "url": "https://dreamina.capcut.com/seedance",
+      "description": "Dreamina上的Seedance视频中心：文生/图生与效果工作流入口，页称Seedance 2.5已上线",
+      "scenario": "国际站用Seedance出片",
+      "status": "官方产品页摘要已读 · 未实测",
+      "officialFacts": [
+        "页面宣传Seedance 2.5",
+        "支持text/image to video表述"
+      ],
+      "limits": [
+        "额度与地区限制未核验"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "https://jimeng.jianying.com",
+      "xSource": "",
+      "xSources": [],
+      "name": "即梦 Jimeng 创作台",
+      "category": "内容创作 / 视觉",
+      "type": "官方平台入口",
+      "url": "https://jimeng.jianying.com",
+      "description": "字节即梦Web入口，社区资料称其为Seedance文生/图生主界面之一",
+      "scenario": "国内站短剧/广告镜头草稿",
+      "status": "入口URL已收录 · 页面能力未登录实测",
+      "limits": [
+        "需登录；功能以站内为准",
+        "未确认当前默认模型版本"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "https://aistudio.google.com/models/veo",
+      "xSource": "",
+      "xSources": [],
+      "name": "Google Veo 3.1（AI Studio）",
+      "category": "内容创作 / 视觉",
+      "type": "官方模型页",
+      "url": "https://aistudio.google.com/models/veo",
+      "description": "Google AI Studio上的Veo 3.1：原生音频、文本/图/视频输入、分辨率与时长表",
+      "scenario": "电影感有声短镜头生成",
+      "status": "官方模型页摘要已读 · 未实测",
+      "officialFacts": [
+        "页列Veo 3.1 & Fast、Lite等",
+        "分辨率含720p/1080p/4k（带条件）",
+        "时长示例4s/6s/8s"
+      ],
+      "limits": [
+        "访问资格与地区限制未核验",
+        "未跑generate_videos示例"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "https://seed.bytedance.com",
+      "xSource": "",
+      "xSources": [],
+      "name": "SEED 字节研究页",
+      "category": "内容创作 / 视觉",
+      "type": "官方研究入口",
+      "url": "https://seed.bytedance.com",
+      "description": "字节SEED研究页，社区资源表将其列为Seedance相关官方入口之一",
+      "scenario": "查Seed系列模型背景资料",
+      "status": "URL已收录 · 未深读站内全部页面",
+      "limits": [
+        "不等于可直接出片控制台"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "openfilm/openfilm",
+      "official": "https://openfilm.dev/docs/",
+      "xSource": "https://x.com/Jolyne_AI/status/2119611940490358966",
+      "xSources": [
+        "https://x.com/Jolyne_AI/status/2119611940490358966"
+      ],
+      "name": "OpenFilm",
+      "category": "内容创作 / 视觉",
+      "type": "开源视频Agent+本地Studio",
+      "url": "https://github.com/openfilm/openfilm",
+      "description": "用HTML film.html编排时间线；Claude Code/Codex写片，本地Studio剪辑渲染",
+      "scenario": "Coding Agent做解说/品牌片/代码动画成片",
+      "status": "GitHub与文档摘要已读 · 未实测安装渲染",
+      "officialFacts": [
+        "README称需Node 22.2+与ffmpeg",
+        "制作/剪辑/渲染可不需账号",
+        "生成素材需自备第三方密钥"
+      ],
+      "limits": [
+        "星数以GitHub实时为准（本批查询约5.3k）",
+        "未观看演示视频"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "JuneYaooo/rea-video",
+      "official": "",
+      "xSource": "https://x.com/shenghouxuyao/status/2119636422806364637",
+      "xSources": [
+        "https://x.com/shenghouxuyao/status/2119636422806364637"
+      ],
+      "name": "rea-video 视频逆向拆解",
+      "category": "内容创作 / 视觉",
+      "type": "开源CLI/Skill",
+      "url": "https://github.com/JuneYaooo/rea-video",
+      "description": "按镜头判断实拍/AI/代码动画等，并给出复刻路径与report.html",
+      "scenario": "拆解爆款短视频生产线再决定怎么复刻",
+      "status": "README摘要已读 · 未实测跑片",
+      "officialFacts": [
+        "依赖ffmpeg与Python 3.10+",
+        "面向Claude Code/Codex等Agent",
+        "可选接Gemini/豆包增强判断"
+      ],
+      "limits": [
+        "星数以GitHub实时为准",
+        "拆解准确率未测"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "cclank/lanshu-awesome-ai-video-kit",
+      "official": "",
+      "xSource": "",
+      "xSources": [],
+      "name": "蓝书 Awesome AI Video Kit",
+      "category": "内容创作 / 视觉",
+      "type": "开源工具包/方法论合集",
+      "url": "https://github.com/cclank/lanshu-awesome-ai-video-kit",
+      "description": "企业AI视频项目沉淀：提示词、多模型资源表、Claude Skill与方法论文档索引",
+      "scenario": "按模型扫官方文档与提示词入口",
+      "status": "仓库描述与RESOURCES摘要已读 · 未逐文件实测",
+      "officialFacts": [
+        "README称含大量prompt与方法论",
+        "RESOURCES.md索引Seedance/Kling/Veo/Runway等"
+      ],
+      "limits": [
+        "第三方链接时效性需自查",
+        "未审计每个外链"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "seedanceprompts/seedance-prompts",
+      "official": "",
+      "xSource": "",
+      "xSources": [],
+      "name": "seedance-prompts 资源导航仓",
+      "category": "内容创作 / 视觉",
+      "type": "提示词/平台导航合集",
+      "url": "https://github.com/seedanceprompts/seedance-prompts",
+      "description": "Seedance相关官方平台、提示词仓、第三方API列表的导航合集",
+      "scenario": "找Seedance提示词库与平台入口",
+      "status": "README表格摘要已读 · 未逐条打开外链",
+      "officialFacts": [
+        "列出即梦/SEED/小云雀/剪映等入口",
+        "列出多个prompt仓库"
+      ],
+      "limits": [
+        "合集链接质量参差",
+        "API可用性随时变"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "https://www.runninghub.cn/",
+      "xSource": "https://x.com/TuyetloanP81840/status/2119558729121341444",
+      "xSources": [
+        "https://x.com/TuyetloanP81840/status/2119558729121341444"
+      ],
+      "name": "RunningHub 标准模型API检索",
+      "category": "内容创作 / 视觉",
+      "type": "第三方出片平台/API页",
+      "url": "https://www.runninghub.cn/call-api/search-api/standard-model",
+      "description": "RunningHub列出Seedance等多模态视频API与按秒/Token计价条目（第三方）",
+      "scenario": "社区工作流导入与按量试跑",
+      "status": "产品页摘要已读 · 未实测扣费出片",
+      "officialFacts": [
+        "页列seedance2.5/2.0多模态与文生视频条目"
+      ],
+      "limits": [
+        "非火山官方；价格与规格以RunningHub为准",
+        "社区成本口述未核验"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "",
+      "xSource": "https://x.com/TuyetloanP81840/status/2119558729121341444",
+      "xSources": [
+        "https://x.com/TuyetloanP81840/status/2119558729121341444"
+      ],
+      "name": "MiliAgent 工作流库（H3短剧相关）",
+      "category": "内容创作 / 视觉",
+      "type": "社区工作流库入口",
+      "url": "https://miliagent.com/library/",
+      "description": "作者称放出AI短剧H3工作流供RunningHub导入；本条保留库入口供检索",
+      "scenario": "找可导入的短剧Comfy/H3类工作流",
+      "status": "帖子与链接已记录 · 库内具体工作流未逐条验证",
+      "limits": [
+        "未确认库内条目是否仍可下载",
+        "未实测导入RunningHub"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "",
+      "xSource": "https://x.com/maoyang01233685/status/2119573786324574525",
+      "xSources": [
+        "https://x.com/maoyang01233685/status/2119573786324574525"
+      ],
+      "name": "Muse少儿英文动画自动化教程",
+      "category": "内容创作 / 视觉",
+      "type": "案例教程长文",
+      "url": "https://x.com/i/article/2119458534186442752",
+      "description": "作者用Muse做少儿英文动画：从零搭自动化制作空间、提示词与踩坑（社区长文）",
+      "scenario": "儿童向系列动画批量化草稿",
+      "status": "标题与主帖已读 · 长文正文未全文核验 · 未实测Muse",
+      "limits": [
+        "未打开article全文逐段核实",
+        "播放/收藏数据为作者侧宣传",
+        "Muse产品规则未官方核对"
+      ],
+      "readScope": "X主帖与article标题"
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "",
+      "xSource": "https://x.com/dawei38/status/2119593045335351539",
+      "xSources": [
+        "https://x.com/dawei38/status/2119593045335351539"
+      ],
+      "name": "黄果短剧生产线拆解",
+      "category": "内容创作 / 视觉",
+      "type": "案例拆解长文",
+      "url": "https://x.com/i/article/2119568613967552512",
+      "description": "《没有演员，没有片场：我扒光了黄果短剧的整个生产线》——无片场AI短剧流程拆解线索",
+      "scenario": "了解短剧工业化分工与工具链说法",
+      "status": "标题已读 · 正文待核 · 未实测",
+      "limits": [
+        "未取得全文，不复述具体流水线步骤",
+        "商业数据与成本未审计"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "",
+      "xSource": "https://x.com/btc5767/status/2119611438415196535",
+      "xSources": [
+        "https://x.com/btc5767/status/2119611438415196535"
+      ],
+      "name": "Claude导演+Codex首尾帧+Seedance出片拆解",
+      "category": "内容创作 / 视觉",
+      "type": "流程整理长文（二创整理）",
+      "url": "https://x.com/i/article/2119611376033484800",
+      "description": "整理帖称把Claude导演/Codex画帧/Seedance出片8步流程与提示词写成完整版；与已有Eian条目相关但来源不同",
+      "scenario": "对照既有Eian全流程阅读",
+      "status": "主帖与标题已读 · 正文待核 · 未实测",
+      "limits": [
+        "可能复述Eian等内容，需与原帖交叉核对",
+        "课程价格与效果宣传未验证"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "",
+      "xSource": "https://x.com/Kling_ai/status/2119628975094067413",
+      "xSources": [
+        "https://x.com/Kling_ai/status/2119628975094067413"
+      ],
+      "name": "Kling 4.0 饮料广告创作案例（官方号转发）",
+      "category": "内容创作 / 视觉",
+      "type": "广告案例长文",
+      "url": "https://x.com/i/article/2118632853118562304",
+      "description": "完整能量饮料广告案例：产品细节、角色一致性与对白，强调从剪辑转向导演",
+      "scenario": "可灵做产品广告分镜参考",
+      "status": "官方账号转发与标题已读 · 正文未全文核验 · 未复刻",
+      "limits": [
+        "成片效果为作者展示",
+        "未独立复现"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "",
+      "xSource": "https://x.com/calmrisewild/status/2119636692978282971",
+      "xSources": [
+        "https://x.com/calmrisewild/status/2119636692978282971"
+      ],
+      "name": "Seedance巨型受击失效提示",
+      "category": "内容创作 / 视觉",
+      "type": "实操踩坑贴",
+      "url": "https://x.com/calmrisewild/status/2119636692978282971",
+      "description": "Seedance 2.5下巨型物体被砍中不倒：三种写法失败；建议单独镜头或改成崩解爆炸设计",
+      "scenario": "复杂物理破坏镜头提示词避坑",
+      "status": "主帖note全文已读 · 未实测复现",
+      "limits": [
+        "单一样本；不保证其他模型同表现",
+        "配图未逐帧核验"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "",
+      "xSource": "https://x.com/BDFrankHoubre/status/2119492028899704928",
+      "xSources": [
+        "https://x.com/BDFrankHoubre/status/2119492028899704928"
+      ],
+      "name": "角色一致性提示词シート · ScreenWeaver",
+      "category": "内容创作 / 视觉",
+      "type": "提示技巧页/工具页",
+      "url": "https://www.screenweaver.ai/tools/ai-character-consistency-sheet",
+      "description": "作者称AI视频模型无记忆导致换脸；给出可贴在每条prompt顶部的一致性写法，并链到一致性sheet工具",
+      "scenario": "多镜头角色脸一致",
+      "status": "帖文与工具URL已记录 · 工具页未深度实测",
+      "limits": [
+        "第三方工具；有效性未测",
+        "视频未观看"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "",
+      "xSource": "https://x.com/achuanmemo/status/2119615547683832062",
+      "xSources": [
+        "https://x.com/achuanmemo/status/2119615547683832062"
+      ],
+      "name": "Scenepond 动作参考+Seedance 2.5案例",
+      "category": "内容创作 / 视觉",
+      "type": "案例分享帖",
+      "url": "https://scenepond.ai/en/s/c33dDjTVEalz",
+      "description": "角色图+动作参考接入Scenepond中的Seedance 2.5，再写运镜与节拍",
+      "scenario": "动物/角色舞蹈类参考驱动短片",
+      "status": "步骤帖已读 · Scenepond页未登录实测",
+      "limits": [
+        "第三方编排台",
+        "素材与成品归属未核"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "",
+      "xSource": "https://x.com/two3pro/status/2119635320803414118",
+      "xSources": [
+        "https://x.com/two3pro/status/2119635320803414118"
+      ],
+      "name": "本地跑 MiniMax H3 方案讨论",
+      "category": "内容创作 / 视觉",
+      "type": "方案讨论文章",
+      "url": "https://x.com/i/article/2119593525251854336",
+      "description": "《本地无审查跑 MiniMax H3 有门槛吗？》——本地/方案选择讨论线索",
+      "scenario": "评估H3本地或平台部署门槛",
+      "status": "标题已读 · 正文待核 · 未实测",
+      "limits": [
+        "“无审查”表述不等同合法合规建议",
+        "硬件与许可要求未核验",
+        "可能含成人向语境需自审"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "",
+      "xSource": "https://x.com/EZheng66099/status/2119635159565611421",
+      "xSources": [
+        "https://x.com/EZheng66099/status/2119635159565611421"
+      ],
+      "name": "Agent+Blender预演+达芬奇调色打斗片案例",
+      "category": "内容创作 / 视觉",
+      "type": "制作案例帖",
+      "url": "https://x.com/EZheng66099/status/2119635159565611421",
+      "description": "53秒57镜打斗：Agent做Blender预演与提示/检查，作者在DaVinci选片调色",
+      "scenario": "动作戏预演→生成→人工调色闭环灵感",
+      "status": "主帖与note已读 · 视频未观看 · 未复现",
+      "limits": [
+        "未核实工具链完整脚本",
+        "成片质量主观"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "",
+      "xSource": "https://x.com/voidmode/status/2119603613265801424",
+      "xSources": [
+        "https://x.com/voidmode/status/2119603613265801424"
+      ],
+      "name": "海报链接→Claude Code→4K影片案例",
+      "category": "内容创作 / 视觉",
+      "type": "制作日志长文",
+      "url": "https://x.com/i/article/2119596122373005312",
+      "description": "把海报链接丢进Claude Code，约18小时做出网站与4K影片的过程记录（含史实错误自述）",
+      "scenario": "Agent驱动长片/说明片实验",
+      "status": "标题与主帖已读 · 正文待核 · 未实测",
+      "limits": [
+        "作者自述耗时与错误；未独立复现",
+        "成片未观看"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "",
+      "xSource": "https://x.com/xhelios43/status/2119629728394994120",
+      "xSources": [
+        "https://x.com/xhelios43/status/2119629728394994120"
+      ],
+      "name": "Gemini Omni vs Seedance vs Kling 同提示对比贴",
+      "category": "内容创作 / 视觉",
+      "type": "模型对比讨论帖",
+      "url": "https://x.com/xhelios43/status/2119629728394994120",
+      "description": "同提示同参考下多模型现场bake-off：强调按镜头表选模型而非追“最强”",
+      "scenario": "分镜选型心态与对比方法",
+      "status": "主帖已读 · 对比视频/图未核验",
+      "limits": [
+        "非严格可控实验",
+        "未附完整提示词全文"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "",
+      "xSource": "https://x.com/tolik12308/status/2119577130480652713",
+      "xSources": [
+        "https://x.com/tolik12308/status/2119577130480652713"
+      ],
+      "name": "Picsart内Seedance 2.5一镜到底实验",
+      "category": "内容创作 / 视觉",
+      "type": "实验帖",
+      "url": "https://x.com/tolik12308/status/2119577130480652713",
+      "description": "作者在Picsart用Seedance 2.5做约10秒一镜，并想扩展整部片子",
+      "scenario": "消费级App里试Seedance连贯镜头",
+      "status": "主帖已读 · 未实测Picsart",
+      "limits": [
+        "第三方App封装；能力可能裁剪"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "",
+      "xSource": "https://x.com/ImaStudio_ai/status/2119638539726094609",
+      "xSources": [
+        "https://x.com/ImaStudio_ai/status/2119638539726094609"
+      ],
+      "name": "Ima Studio MiniMax H3 时装MV提示",
+      "category": "内容创作 / 视觉",
+      "type": "提示词案例帖",
+      "url": "https://x.com/ImaStudio_ai/status/2119638539726094609",
+      "description": "MiniMax H3时装MV：9镜15秒，换装/音乐/剪辑节奏提示，可替换角色",
+      "scenario": "时装短片分镜提示词模板",
+      "status": "主帖已读 · 成片未观看 · 未实测Ima",
+      "limits": [
+        "营销账号发布",
+        "链接落地页未深核"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "",
+      "xSource": "https://x.com/mehvishs25/status/2119636888231497799",
+      "xSources": [
+        "https://x.com/mehvishs25/status/2119636888231497799"
+      ],
+      "name": "Higgsfield上Seedance 2.5恐怖短片提示",
+      "category": "内容创作 / 视觉",
+      "type": "提示词案例帖",
+      "url": "https://x.com/mehvishs25/status/2119636888231497799",
+      "description": "地下生物实验室科幻恐怖短片提示，声称在Higgsfield用Seedance 2.5制作",
+      "scenario": "类型片提示词灵感",
+      "status": "主帖开头已读 · 完整prompt可能截断 · 未实测",
+      "limits": [
+        "未验证平台与模型版本",
+        "成片未观看"
+      ]
+    },
+    {
+      "verified": false,
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T12:00:22+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "repo": "",
+      "official": "",
+      "xSource": "https://x.com/LaurenIsAbigail/status/2119638267876495693",
+      "xSources": [
+        "https://x.com/LaurenIsAbigail/status/2119638267876495693"
+      ],
+      "name": "Dreamina Marketing Studio 广告模板工作流",
+      "category": "内容创作 / 视觉",
+      "type": "产品工作流体验帖",
+      "url": "https://x.com/LaurenIsAbigail/status/2119638267876495693",
+      "description": "选模板→上传产品→调模型设置→生成：把成片广告改成新品广告的流程体验",
+      "scenario": "电商产品广告快改",
+      "status": "主帖已读 · 未实测Dreamina Marketing Studio",
+      "limits": [
+        "可能为推广贴",
+        "效果与价格未核"
+      ]
+    },
     {
       "name": "AI短剧制作与审片闭环 · 言川",
       "category": "内容创作 / 视觉",
@@ -2027,24 +2918,201 @@
       "evidenceUrl": "https://github.com/0xsyncroot/opentrade/blob/HEAD/README.md"
     }
   ],
-  "updatedAt": "2026-11-08T21:42:00+08:00",
+  "updatedAt": "2026-11-09T12:00:22+08:00",
   "canvasId": "511a7df2-1b3f-4ad5-8083-bc1c035eeeac",
-  "total": 88,
+  "total": 125,
   "latestBatch": {
+    "theme": "AI视频生成/制作/短剧（广收）",
+    "added": 37,
+    "duplicates": 2,
+    "total": 125,
+    "note": "本批按用户要求广收AI视频相关官方文档、开源工具、教程与踩坑帖；verified多为false；未开例程",
     "sources": [
       {
-        "source": "https://x.com/yanchuanlab/status/2119456612721283546",
-        "added": 1,
-        "status": "教程全文与官方相关规格已读 · 未实测"
+        "name": "Kling 4.0 官方用户手册",
+        "url": "https://kling.ai/quickstart/kling-4-model-user-guide",
+        "status": "官方手册页面已确认可访问 · 未实测生成"
       },
       {
-        "source": "https://x.com/0xwhrrari/status/2118327478250840140",
-        "added": 1,
-        "status": "仅标题和引言已读 · 正文待核"
+        "name": "Kling 4.0 Text-to-Video API 文档",
+        "url": "https://kling.ai/document-api/api/video/4-0/text-to-video.md",
+        "status": "官方API文档摘要已读 · 未实测调用"
+      },
+      {
+        "name": "Kling 4.0 Image-to-Video API 文档",
+        "url": "https://kling.ai/document-api/api/video/4-0/image-to-video.md",
+        "status": "官方API文档摘要已读 · 未实测"
+      },
+      {
+        "name": "Runway 模型目录（Gen-4.5/Aleph/Kling/Seedance）",
+        "url": "https://dev.runway.com/models/catalog",
+        "status": "官方目录页已读摘要 · 未实测"
+      },
+      {
+        "name": "Runway Seedance 2.0 创作说明",
+        "url": "https://help.runwayml.com/hc/en-us/articles/50488490233363-Creating-with-Seedance-2-0",
+        "status": "官方帮助摘要已读 · 未实测"
+      },
+      {
+        "name": "Runway Gen-4 帮助分区",
+        "url": "https://help.runwayml.com/hc/en-us/sections/39888423025683-Gen-4",
+        "status": "官方分区索引已确认 · 子文未逐篇实测"
+      },
+      {
+        "name": "Luma Ray 3.2 视频生成指南",
+        "url": "https://docs.agents.lumalabs.ai/guides/videos/generation/",
+        "status": "官方指南摘要已读 · 未实测"
+      },
+      {
+        "name": "Luma Agents API Quickstart",
+        "url": "https://docs.agents.lumalabs.ai/",
+        "status": "官方quickstart摘要已读 · 未实测"
+      },
+      {
+        "name": "Pika Video Studio",
+        "url": "https://create.pika.art/apps/create-video",
+        "status": "官方产品页摘要已读 · 未实测"
+      },
+      {
+        "name": "Pika 平台 llms.txt 应用目录",
+        "url": "https://pika.art/llms.txt",
+        "status": "llms.txt摘要已读 · 未实测"
+      },
+      {
+        "name": "Pika API Quick Start",
+        "url": "https://dev.pika.art/models/quick-start",
+        "status": "官方quick start摘要已读 · 未实测"
+      },
+      {
+        "name": "CapCut Video Studio",
+        "url": "https://www.capcut.com/tools/video-studio",
+        "status": "官方产品页摘要已读 · 未实测"
+      },
+      {
+        "name": "Dreamina Seedance 中心",
+        "url": "https://dreamina.capcut.com/seedance",
+        "status": "官方产品页摘要已读 · 未实测"
+      },
+      {
+        "name": "即梦 Jimeng 创作台",
+        "url": "https://jimeng.jianying.com",
+        "status": "入口URL已收录 · 页面能力未登录实测"
+      },
+      {
+        "name": "Google Veo 3.1（AI Studio）",
+        "url": "https://aistudio.google.com/models/veo",
+        "status": "官方模型页摘要已读 · 未实测"
+      },
+      {
+        "name": "SEED 字节研究页",
+        "url": "https://seed.bytedance.com",
+        "status": "URL已收录 · 未深读站内全部页面"
+      },
+      {
+        "name": "OpenFilm",
+        "url": "https://github.com/openfilm/openfilm",
+        "status": "GitHub与文档摘要已读 · 未实测安装渲染"
+      },
+      {
+        "name": "rea-video 视频逆向拆解",
+        "url": "https://github.com/JuneYaooo/rea-video",
+        "status": "README摘要已读 · 未实测跑片"
+      },
+      {
+        "name": "蓝书 Awesome AI Video Kit",
+        "url": "https://github.com/cclank/lanshu-awesome-ai-video-kit",
+        "status": "仓库描述与RESOURCES摘要已读 · 未逐文件实测"
+      },
+      {
+        "name": "seedance-prompts 资源导航仓",
+        "url": "https://github.com/seedanceprompts/seedance-prompts",
+        "status": "README表格摘要已读 · 未逐条打开外链"
+      },
+      {
+        "name": "RunningHub 标准模型API检索",
+        "url": "https://www.runninghub.cn/call-api/search-api/standard-model",
+        "status": "产品页摘要已读 · 未实测扣费出片"
+      },
+      {
+        "name": "MiliAgent 工作流库（H3短剧相关）",
+        "url": "https://miliagent.com/library/",
+        "status": "帖子与链接已记录 · 库内具体工作流未逐条验证"
+      },
+      {
+        "name": "Muse少儿英文动画自动化教程",
+        "url": "https://x.com/i/article/2119458534186442752",
+        "status": "标题与主帖已读 · 长文正文未全文核验 · 未实测Muse"
+      },
+      {
+        "name": "黄果短剧生产线拆解",
+        "url": "https://x.com/i/article/2119568613967552512",
+        "status": "标题已读 · 正文待核 · 未实测"
+      },
+      {
+        "name": "Claude导演+Codex首尾帧+Seedance出片拆解",
+        "url": "https://x.com/i/article/2119611376033484800",
+        "status": "主帖与标题已读 · 正文待核 · 未实测"
+      },
+      {
+        "name": "Kling 4.0 饮料广告创作案例（官方号转发）",
+        "url": "https://x.com/i/article/2118632853118562304",
+        "status": "官方账号转发与标题已读 · 正文未全文核验 · 未复刻"
+      },
+      {
+        "name": "Seedance巨型受击失效提示",
+        "url": "https://x.com/calmrisewild/status/2119636692978282971",
+        "status": "主帖note全文已读 · 未实测复现"
+      },
+      {
+        "name": "角色一致性提示词シート · ScreenWeaver",
+        "url": "https://www.screenweaver.ai/tools/ai-character-consistency-sheet",
+        "status": "帖文与工具URL已记录 · 工具页未深度实测"
+      },
+      {
+        "name": "Scenepond 动作参考+Seedance 2.5案例",
+        "url": "https://scenepond.ai/en/s/c33dDjTVEalz",
+        "status": "步骤帖已读 · Scenepond页未登录实测"
+      },
+      {
+        "name": "本地跑 MiniMax H3 方案讨论",
+        "url": "https://x.com/i/article/2119593525251854336",
+        "status": "标题已读 · 正文待核 · 未实测"
+      },
+      {
+        "name": "Agent+Blender预演+达芬奇调色打斗片案例",
+        "url": "https://x.com/EZheng66099/status/2119635159565611421",
+        "status": "主帖与note已读 · 视频未观看 · 未复现"
+      },
+      {
+        "name": "海报链接→Claude Code→4K影片案例",
+        "url": "https://x.com/i/article/2119596122373005312",
+        "status": "标题与主帖已读 · 正文待核 · 未实测"
+      },
+      {
+        "name": "Gemini Omni vs Seedance vs Kling 同提示对比贴",
+        "url": "https://x.com/xhelios43/status/2119629728394994120",
+        "status": "主帖已读 · 对比视频/图未核验"
+      },
+      {
+        "name": "Picsart内Seedance 2.5一镜到底实验",
+        "url": "https://x.com/tolik12308/status/2119577130480652713",
+        "status": "主帖已读 · 未实测Picsart"
+      },
+      {
+        "name": "Ima Studio MiniMax H3 时装MV提示",
+        "url": "https://x.com/ImaStudio_ai/status/2119638539726094609",
+        "status": "主帖已读 · 成片未观看 · 未实测Ima"
+      },
+      {
+        "name": "Higgsfield上Seedance 2.5恐怖短片提示",
+        "url": "https://x.com/mehvishs25/status/2119636888231497799",
+        "status": "主帖开头已读 · 完整prompt可能截断 · 未实测"
+      },
+      {
+        "name": "Dreamina Marketing Studio 广告模板工作流",
+        "url": "https://x.com/LaurenIsAbigail/status/2119638267876495693",
+        "status": "主帖已读 · 未实测Dreamina Marketing Studio"
       }
-    ],
-    "added": 2,
-    "duplicates": 0,
-    "total": 88
+    ]
   }
 }
