@@ -12,6 +12,17 @@
     sort: "name-asc",
   };
 
+  const CAT_ACCENTS = [
+    "#c41e3a",
+    "#1a365d",
+    "#d97706",
+    "#0f766e",
+    "#6b21a8",
+    "#4d7c0f",
+    "#9f1239",
+    "#005f73",
+  ];
+
   const els = {
     metaBar: document.getElementById("metaBar"),
     searchInput: document.getElementById("searchInput"),
@@ -21,6 +32,7 @@
     kindFilters: document.getElementById("kindFilters"),
     sortSelect: document.getElementById("sortSelect"),
     resultCount: document.getElementById("resultCount"),
+    bentoHero: document.getElementById("bentoHero"),
     cardGrid: document.getElementById("cardGrid"),
     detailDrawer: document.getElementById("detailDrawer"),
     drawerBackdrop: document.getElementById("drawerBackdrop"),
@@ -121,31 +133,92 @@
     return `${verifiedBadge}<span class="badge kind-${kind}">${kindLabel(kind)}</span>`;
   }
 
+  function categoryAccent(category) {
+    const s = category || "未分类";
+    let h = 0;
+    for (let i = 0; i < s.length; i++) h = (h + s.charCodeAt(i) * (i + 3)) % CAT_ACCENTS.length;
+    return CAT_ACCENTS[h];
+  }
+
+  function shortCategory(category) {
+    const c = category || "未分类";
+    const part = c.split(/[\/·]/)[0].trim();
+    return part.length > 10 ? part.slice(0, 10) + "…" : part;
+  }
+
+  function isDefaultView() {
+    return (
+      !state.query.trim() &&
+      state.category === "all" &&
+      state.verified === "all" &&
+      state.statusKeyword === "all" &&
+      state.kind === "all"
+    );
+  }
+
+  function renderCardMarkup(resource, listIndex, layout) {
+    const desc = escapeHtml(resource.description || resource.scenario || "（无简述）");
+    const cat = escapeHtml(resource.category || "未分类");
+    const status = escapeHtml(resource.status || "");
+    const accent = categoryAccent(resource.category);
+    const catShort = escapeHtml(shortCategory(resource.category));
+    const stagger = Math.min(listIndex, 22) * 16;
+    const layoutClass =
+      layout === "lead" ? " card--lead" : layout === "wide" ? " card--wide" : "";
+    return `<button type="button" class="card${layoutClass}" data-index="${listIndex}" style="--cat-accent: ${accent}; --stagger: ${stagger}ms" aria-label="查看详情：${escapeHtml(
+      resource.name
+    )}">
+      <span class="card-cat-stripe" aria-hidden="true"></span>
+      <div class="card-inner">
+        <span class="card-cat-label">${catShort}</span>
+        <h3 class="card-title">${escapeHtml(resource.name)}</h3>
+        <div class="card-meta">${cat}${status ? " · " + status : ""}</div>
+        <p class="card-desc">${desc}</p>
+        <div class="badge-row">${renderBadges(resource)}</div>
+      </div>
+    </button>`;
+  }
+
   function renderCards(list) {
     if (!list.length) {
+      els.bentoHero.hidden = true;
+      els.bentoHero.innerHTML = "";
       els.cardGrid.innerHTML =
-        '<div class="empty-state"><p class="empty-title">没有匹配结果</p><p class="result-count">试试换个关键词，或把筛选重置为「全部」。</p></div>';
+        '<p class="empty-hint">没有匹配结果，请调整搜索或筛选项。</p>';
       return;
     }
-    els.cardGrid.innerHTML = list
-      .map((r, index) => {
-        const kind = inferKind(r);
-        const desc = escapeHtml(r.description || r.scenario || "（无简述）");
-        const cat = escapeHtml(r.category || "未分类");
-        const status = escapeHtml(r.status || "");
-        const stagger = Math.min(index, 24) * 28;
-        return `<button type="button" class="card card-kind-${kind}" data-index="${index}" style="--stagger:${stagger}ms" aria-label="查看详情：${escapeHtml(
-          r.name
-        )}">
-          <span class="card-sheen" aria-hidden="true"></span>
-          <span class="card-rail" aria-hidden="true"></span>
-          <h3 class="card-title">${escapeHtml(r.name)}</h3>
-          <div class="card-meta"><span class="card-cat">${cat}</span>${status ? '<span class="dot">·</span><span>' + status + "</span>" : ""}</div>
-          <p class="card-desc">${desc}</p>
-          <div class="badge-row">${renderBadges(r)}</div>
-        </button>`;
+
+    const showHero = isDefaultView() && list.length >= 4;
+    let gridList = list;
+
+    if (showHero) {
+      const heroes = list.slice(0, 2);
+      gridList = list.slice(2);
+      els.bentoHero.hidden = false;
+      els.bentoHero.innerHTML = heroes
+        .map((r, i) => renderCardMarkup(r, i, i === 0 ? "lead" : "wide"))
+        .join("");
+    } else {
+      els.bentoHero.hidden = true;
+      els.bentoHero.innerHTML = "";
+    }
+
+    const indexOffset = showHero ? 2 : 0;
+    els.cardGrid.innerHTML = gridList
+      .map((r, i) => {
+        const listIndex = indexOffset + i;
+        const layout = i % 7 === 0 ? "wide" : "normal";
+        return renderCardMarkup(r, listIndex, layout);
       })
       .join("");
+  }
+
+  function handleCardActivate(e) {
+    const card = e.target.closest(".card");
+    if (!card) return;
+    const idx = Number(card.dataset.index);
+    const resource = visibleList[idx];
+    if (resource) openDetail(resource);
   }
 
   function collectLinks(resource) {
@@ -275,7 +348,7 @@
     document.body.style.overflow = "";
     window.setTimeout(() => {
       els.detailDrawer.hidden = true;
-    }, 320);
+    }, 200);
   }
 
   let visibleList = [];
@@ -284,7 +357,7 @@
     const filtered = sortResources(filteredResources());
     visibleList = filtered;
     renderCards(filtered);
-    els.resultCount.innerHTML = `<span class="count-chip">显示 <strong>${filtered.length}</strong> / ${state.resources.length} 条</span>`;
+    els.resultCount.textContent = `显示 ${filtered.length} / ${state.resources.length} 条`;
   }
 
   function bindChipRow(container, attr, stateKey) {
@@ -327,11 +400,11 @@
     );
     buildCategoryChips(cats);
 
-    const parts = [];
-    if (state.data.checkedAt) parts.push(`<span class="meta-pill">数据核对 ${escapeHtml(state.data.checkedAt)}</span>`);
-    if (state.data.version != null) parts.push(`<span class="meta-pill">版本 v${escapeHtml(String(state.data.version))}</span>`);
-    parts.push(`<span class="meta-pill meta-pill-accent">共 ${state.resources.length} 条</span>`);
-    els.metaBar.innerHTML = parts.join("");
+    const meta = [];
+    if (state.data.checkedAt) meta.push(`数据核对：${state.data.checkedAt}`);
+    if (state.data.version != null) meta.push(`版本 v${state.data.version}`);
+    meta.push(`共 ${state.resources.length} 条`);
+    els.metaBar.textContent = meta.join(" · ");
 
     refresh();
   }
@@ -350,13 +423,8 @@
   bindChipRow(els.statusFilters, "status", "statusKeyword");
   bindChipRow(els.kindFilters, "kind", "kind");
 
-  els.cardGrid.addEventListener("click", (e) => {
-    const card = e.target.closest(".card");
-    if (!card) return;
-    const idx = Number(card.dataset.index);
-    const resource = visibleList[idx];
-    if (resource) openDetail(resource);
-  });
+  els.cardGrid.addEventListener("click", handleCardActivate);
+  els.bentoHero.addEventListener("click", handleCardActivate);
 
   els.closeDrawer.addEventListener("click", closeDetail);
   els.drawerBackdrop.addEventListener("click", closeDetail);
@@ -372,6 +440,6 @@
   });
 
   loadData().catch((err) => {
-    els.cardGrid.innerHTML = `<p class="result-count">加载失败：${escapeHtml(err.message)}</p>`;
+    els.cardGrid.innerHTML = `<p class="empty-hint">加载失败：${escapeHtml(err.message)}</p>`;
   });
 })();

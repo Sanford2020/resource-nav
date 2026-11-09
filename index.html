@@ -4,110 +4,118 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Sanford  curated tools, tutorials, and case studies with verification notes." />
-  <meta name="theme-color" content="#030712" />
-  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#f3ead8" />
+  <meta name="color-scheme" content="light" />
   <title>Sanford 的资源工具导航</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Noto+Serif+SC:wght@500;700;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="ambient" aria-hidden="true">
-    <span class="orb orb-a"></span>
-    <span class="orb orb-b"></span>
-    <span class="orb orb-c"></span>
-    <span class="grid-fade"></span>
-  </div>
-
-  <header class="site-header">
-    <div class="header-inner">
-      <div class="brand">
-        <div class="brand-mark" aria-hidden="true">
-          <span class="mark-core"></span>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <div class="masthead-rail" aria-hidden="true"></div>
+      <div class="masthead-copy">
+        <div class="masthead-meta">
+          <span class="issue-mark">RESOURCE DESK · 编辑部</span>
+          <div class="meta-bar" id="metaBar" aria-live="polite"></div>
         </div>
-        <div class="brand-copy">
-          <p class="eyebrow">SANFORD · RESOURCE RADAR</p>
-          <h1>Sanford 的资源工具导航</h1>
-          <p class="tagline">广扫去噪后的精选库 · 搜索 / 分类 / 核实筛选 · 附来源与说明</p>
-        </div>
+        <h1 class="masthead-title">
+          <span class="title-line">Sanford</span>
+          <span class="title-line title-heavy">资源工具导航</span>
+        </h1>
+        <p class="masthead-deck">精选资源导航 · 搜索与筛选 · 附核实说明与来源链接</p>
       </div>
-      <div class="meta-bar" id="metaBar" aria-live="polite"></div>
+      <div class="masthead-stats" aria-hidden="true">
+        <span class="stat-block">125<br><small>条目</small></span>
+        <span class="stat-block stat-accent">刊面<br><small>重排</small></span>
+      </div>
     </div>
   </header>
 
-  <aside class="caveat-banner" role="note">
-    <span class="caveat-ico" aria-hidden="true">!</span>
-    <div>
-      <strong>核实提示：</strong>
-      除非条目标注 <span class="pill pill-ok">已实测</span>，否则仅为文档/帖子阅读与线索整理，未在此站运行时验证。
-      请区分 <span class="kind kind-tool">工具</span>、<span class="kind kind-tutorial">教程/方法</span>、<span class="kind kind-case">案例</span> 标签。
-    </div>
+  <aside class="editors-note" role="note">
+    <span class="note-label">编者注</span>
+  <p>
+    除非条目标注 <span class="pill pill-ok">已实测</span>，否则仅为文档/帖子阅读与线索整理，未在此站运行时验证。
+    请区分 <span class="kind kind-tool">工具</span>、<span class="kind kind-tutorial">教程/方法</span>、<span class="kind kind-case">案例</span> 标签。
+  </p>
   </aside>
 
-  <main class="layout">
-  <section class="controls" aria-label="筛选与排序">
-    <div class="controls-top">
+  <div class="command-center">
+    <aside class="filter-rail" aria-label="筛选与排序">
+      <h2 class="rail-heading">检索台</h2>
+
       <label class="search-wrap">
         <span class="visually-hidden">关键词搜索</span>
         <input type="search" id="searchInput" placeholder="搜索名称、描述、场景、分类、类型…" autocomplete="off" />
       </label>
+
+      <fieldset class="filter-group category-block">
+        <legend>分类</legend>
+        <div class="chip-row chip-row-wrap" id="categoryFilters" role="group" aria-label="分类筛选"></div>
+      </fieldset>
+
       <button type="button" class="toggle-advanced" id="toggleAdvanced" aria-expanded="false" aria-controls="advancedFilters">
         更多筛选
       </button>
-    </div>
 
-    <div id="advancedFilters" class="advanced-filters" hidden>
-      <fieldset class="filter-group">
-        <legend>核实状态</legend>
-        <div class="chip-row" id="verifiedFilters" role="group" aria-label="核实状态筛选">
-          <button type="button" class="chip is-active" data-verified="all">全部</button>
-          <button type="button" class="chip" data-verified="true">已实测</button>
-          <button type="button" class="chip" data-verified="false">未实测</button>
+      <div id="advancedFilters" class="advanced-filters" hidden>
+        <fieldset class="filter-group">
+          <legend>核实状态</legend>
+          <div class="chip-row" id="verifiedFilters" role="group" aria-label="核实状态筛选">
+            <button type="button" class="chip is-active" data-verified="all">全部</button>
+            <button type="button" class="chip" data-verified="true">已实测</button>
+            <button type="button" class="chip" data-verified="false">未实测</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="filter-group">
+          <legend>状态关键词</legend>
+          <div class="chip-row" id="statusFilters" role="group" aria-label="状态筛选">
+            <button type="button" class="chip is-active" data-status="all">不限</button>
+            <button type="button" class="chip" data-status="已实测">含「已实测」</button>
+            <button type="button" class="chip" data-status="待核">含「待核」</button>
+            <button type="button" class="chip" data-status="已读">含「已读」</button>
+            <button type="button" class="chip" data-status="未核实">含「未核实」</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="filter-group">
+          <legend>内容性质</legend>
+          <div class="chip-row" id="kindFilters" role="group" aria-label="内容性质">
+            <button type="button" class="chip is-active" data-kind="all">全部</button>
+            <button type="button" class="chip" data-kind="tool">偏工具</button>
+            <button type="button" class="chip" data-kind="tutorial">偏教程</button>
+            <button type="button" class="chip" data-kind="case">偏案例</button>
+          </div>
+        </fieldset>
+
+        <div class="sort-row">
+          <label for="sortSelect">排序</label>
+          <select id="sortSelect">
+            <option value="name-asc">名称 A→Z</option>
+            <option value="name-desc">名称 Z→A</option>
+            <option value="category-asc">分类 A→Z</option>
+            <option value="category-desc">分类 Z→A</option>
+            <option value="checkedAt-desc">核对时间 新→旧</option>
+            <option value="checkedAt-asc">核对时间 旧→新</option>
+          </select>
         </div>
-      </fieldset>
-
-      <fieldset class="filter-group">
-        <legend>状态关键词</legend>
-        <div class="chip-row" id="statusFilters" role="group" aria-label="状态筛选">
-          <button type="button" class="chip is-active" data-status="all">不限</button>
-          <button type="button" class="chip" data-status="已实测">含「已实测」</button>
-          <button type="button" class="chip" data-status="待核">含「待核」</button>
-          <button type="button" class="chip" data-status="已读">含「已读」</button>
-          <button type="button" class="chip" data-status="未核实">含「未核实」</button>
-        </div>
-      </fieldset>
-
-      <fieldset class="filter-group">
-        <legend>内容性质</legend>
-        <div class="chip-row" id="kindFilters" role="group" aria-label="内容性质">
-          <button type="button" class="chip is-active" data-kind="all">全部</button>
-          <button type="button" class="chip" data-kind="tool">偏工具</button>
-          <button type="button" class="chip" data-kind="tutorial">偏教程</button>
-          <button type="button" class="chip" data-kind="case">偏案例</button>
-        </div>
-      </fieldset>
-
-      <div class="sort-row">
-        <label for="sortSelect">排序</label>
-        <select id="sortSelect">
-          <option value="name-asc">名称 A→Z</option>
-          <option value="name-desc">名称 Z→A</option>
-          <option value="category-asc">分类 A→Z</option>
-          <option value="category-desc">分类 Z→A</option>
-          <option value="checkedAt-desc">核对时间 新→旧</option>
-          <option value="checkedAt-asc">核对时间 旧→新</option>
-        </select>
       </div>
-    </div>
+    </aside>
 
-    <fieldset class="filter-group category-block">
-      <legend>分类</legend>
-      <div class="chip-row chip-row-wrap" id="categoryFilters" role="group" aria-label="分类筛选"></div>
-    </fieldset>
+    <main class="content-stage" aria-label="资源列表">
+      <header class="stage-header">
+        <h2 class="section-kicker">本期目录</h2>
+        <p class="result-count" id="resultCount" aria-live="polite"></p>
+      </header>
 
-    <p class="result-count" id="resultCount" aria-live="polite"></p>
-  </section>
+      <div class="bento-hero" id="bentoHero" hidden aria-label="头版推荐"></div>
 
-  <section class="card-grid" id="cardGrid" aria-label="资源列表"></section>
-  </main>
+      <section class="bento-grid card-grid" id="cardGrid"></section>
+    </main>
+  </div>
 
   <div id="detailDrawer" class="detail-drawer" aria-hidden="true" aria-labelledby="detailTitle" hidden>
     <div class="drawer-backdrop" id="drawerBackdrop" tabindex="-1"></div>
