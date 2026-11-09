@@ -1,6 +1,6 @@
 {
-  "version": 16,
-  "checkedAt": "2026-11-09T12:00:35+08:00",
+  "version": 17,
+  "checkedAt": "2026-11-09T14:32:04+08:00",
   "timezone": "Asia/Shanghai",
   "resources": [
     {
@@ -15,7 +15,7 @@
         "https://x.com/ftium4real/status/2119590003001246124"
       ],
       "name": "Kling 4.0 官方用户手册",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "官方使用手册",
       "url": "https://kling.ai/quickstart/kling-4-model-user-guide",
       "description": "可灵4.0官方手册：文生/图生/Omni参考、3–30秒、720p/1080p/4K、多参考与视频编辑入口说明",
@@ -43,7 +43,7 @@
       "xSource": "",
       "xSources": [],
       "name": "Kling 4.0 Text-to-Video API 文档",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "官方API文档",
       "url": "https://kling.ai/document-api/api/video/4-0/text-to-video.md",
       "description": "可灵4.0文生视频API：路径、Bearer鉴权、分辨率/比例/时长枚举与prompt长度规则",
@@ -70,7 +70,7 @@
       "xSource": "",
       "xSources": [],
       "name": "Kling 4.0 Image-to-Video API 文档",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "官方API文档",
       "url": "https://kling.ai/document-api/api/video/4-0/image-to-video.md",
       "description": "可灵4.0图生视频API：首/中/尾多关键帧，单次最多约10张",
@@ -94,7 +94,7 @@
       "xSource": "",
       "xSources": [],
       "name": "Runway 模型目录（Gen-4.5/Aleph/Kling/Seedance）",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "官方开发者目录",
       "url": "https://dev.runway.com/models/catalog",
       "description": "Runway Dev统一模型目录：自有Gen-4.5/Aleph 2.0与第三方Kling、Seedance、Veo、Gemini Omni等",
@@ -120,7 +120,7 @@
       "xSource": "",
       "xSources": [],
       "name": "Runway Seedance 2.0 创作说明",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "官方帮助文档",
       "url": "https://help.runwayml.com/hc/en-us/articles/50488490233363-Creating-with-Seedance-2-0",
       "description": "Runway应用内Seedance 2.0：References/首尾帧/文生三种模式与输入上限",
@@ -147,7 +147,7 @@
       "xSource": "",
       "xSources": [],
       "name": "Runway Gen-4 帮助分区",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "官方帮助索引",
       "url": "https://help.runwayml.com/hc/en-us/sections/39888423025683-Gen-4",
       "description": "Runway Gen-4相关帮助：视频、图像、参考与Act-Two多角色对白",
@@ -168,7 +168,7 @@
       "xSource": "",
       "xSources": [],
       "name": "Luma Ray 3.2 视频生成指南",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "官方API指南",
       "url": "https://docs.agents.lumalabs.ai/guides/videos/generation/",
       "description": "Luma Agents API上Ray 3.2：文生/图生、多关键帧、分辨率与HDR参数",
@@ -194,7 +194,7 @@
       "xSource": "",
       "xSources": [],
       "name": "Luma Agents API Quickstart",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "官方快速入门",
       "url": "https://docs.agents.lumalabs.ai/",
       "description": "提交generation→轮询→下载presigned URL的三步流程",
@@ -218,7 +218,7 @@
       "xSource": "",
       "xSources": [],
       "name": "Pika Video Studio",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "官方创作台",
       "url": "https://create.pika.art/apps/create-video",
       "description": "Pika Video Studio：文本/图片/参考生成视频，可@提及角色与场景，含音频",
@@ -243,7 +243,7 @@
       "xSource": "",
       "xSources": [],
       "name": "Pika 平台 llms.txt 应用目录",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "官方机器可读目录",
       "url": "https://pika.art/llms.txt",
       "description": "Pika应用清单：Video Studio、Seedance入口、Talking Head、Motion Transfer、语音与音乐工具等",
@@ -267,7 +267,7 @@
       "xSource": "",
       "xSources": [],
       "name": "Pika API Quick Start",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "官方API入门",
       "url": "https://dev.pika.art/models/quick-start",
       "description": "Pika API：一把钥匙调视频/图像/音频等异步任务并轮询结果",
@@ -287,7 +287,7 @@
       "xSource": "",
       "xSources": [],
       "name": "CapCut Video Studio",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "官方在线工具",
       "url": "https://www.capcut.com/tools/video-studio",
       "description": "CapCut Video Studio：提示词/脚本+可选参考图生成视频后在线剪辑导出",
@@ -311,7 +311,7 @@
       "xSource": "",
       "xSources": [],
       "name": "Dreamina Seedance 中心",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "官方产品页",
       "url": "https://dreamina.capcut.com/seedance",
       "description": "Dreamina上的Seedance视频中心：文生/图生与效果工作流入口，页称Seedance 2.5已上线",
@@ -335,7 +335,7 @@
       "xSource": "",
       "xSources": [],
       "name": "即梦 Jimeng 创作台",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "官方平台入口",
       "url": "https://jimeng.jianying.com",
       "description": "字节即梦Web入口，社区资料称其为Seedance文生/图生主界面之一",
@@ -356,7 +356,7 @@
       "xSource": "",
       "xSources": [],
       "name": "Google Veo 3.1（AI Studio）",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "官方模型页",
       "url": "https://aistudio.google.com/models/veo",
       "description": "Google AI Studio上的Veo 3.1：原生音频、文本/图/视频输入、分辨率与时长表",
@@ -382,7 +382,7 @@
       "xSource": "",
       "xSources": [],
       "name": "SEED 字节研究页",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "官方研究入口",
       "url": "https://seed.bytedance.com",
       "description": "字节SEED研究页，社区资源表将其列为Seedance相关官方入口之一",
@@ -404,7 +404,7 @@
         "https://x.com/Jolyne_AI/status/2119611940490358966"
       ],
       "name": "OpenFilm",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "开源视频Agent+本地Studio",
       "url": "https://github.com/openfilm/openfilm",
       "description": "用HTML film.html编排时间线；Claude Code/Codex写片，本地Studio剪辑渲染",
@@ -432,7 +432,7 @@
         "https://x.com/shenghouxuyao/status/2119636422806364637"
       ],
       "name": "rea-video 视频逆向拆解",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "开源CLI/Skill",
       "url": "https://github.com/JuneYaooo/rea-video",
       "description": "按镜头判断实拍/AI/代码动画等，并给出复刻路径与report.html",
@@ -458,7 +458,7 @@
       "xSource": "",
       "xSources": [],
       "name": "蓝书 Awesome AI Video Kit",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "开源工具包/方法论合集",
       "url": "https://github.com/cclank/lanshu-awesome-ai-video-kit",
       "description": "企业AI视频项目沉淀：提示词、多模型资源表、Claude Skill与方法论文档索引",
@@ -483,7 +483,7 @@
       "xSource": "",
       "xSources": [],
       "name": "seedance-prompts 资源导航仓",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "提示词/平台导航合集",
       "url": "https://github.com/seedanceprompts/seedance-prompts",
       "description": "Seedance相关官方平台、提示词仓、第三方API列表的导航合集",
@@ -510,7 +510,7 @@
         "https://x.com/TuyetloanP81840/status/2119558729121341444"
       ],
       "name": "RunningHub 标准模型API检索",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "第三方出片平台/API页",
       "url": "https://www.runninghub.cn/call-api/search-api/standard-model",
       "description": "RunningHub列出Seedance等多模态视频API与按秒/Token计价条目（第三方）",
@@ -536,7 +536,7 @@
         "https://x.com/TuyetloanP81840/status/2119558729121341444"
       ],
       "name": "MiliAgent 工作流库（H3短剧相关）",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "社区工作流库入口",
       "url": "https://miliagent.com/library/",
       "description": "作者称放出AI短剧H3工作流供RunningHub导入；本条保留库入口供检索",
@@ -559,7 +559,7 @@
         "https://x.com/maoyang01233685/status/2119573786324574525"
       ],
       "name": "Muse少儿英文动画自动化教程",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "案例教程长文",
       "url": "https://x.com/i/article/2119458534186442752",
       "description": "作者用Muse做少儿英文动画：从零搭自动化制作空间、提示词与踩坑（社区长文）",
@@ -584,7 +584,7 @@
         "https://x.com/dawei38/status/2119593045335351539"
       ],
       "name": "黄果短剧生产线拆解",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "案例拆解长文",
       "url": "https://x.com/i/article/2119568613967552512",
       "description": "《没有演员，没有片场：我扒光了黄果短剧的整个生产线》——无片场AI短剧流程拆解线索",
@@ -607,7 +607,7 @@
         "https://x.com/btc5767/status/2119611438415196535"
       ],
       "name": "Claude导演+Codex首尾帧+Seedance出片拆解",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "流程整理长文（二创整理）",
       "url": "https://x.com/i/article/2119611376033484800",
       "description": "整理帖称把Claude导演/Codex画帧/Seedance出片8步流程与提示词写成完整版；与已有Eian条目相关但来源不同",
@@ -630,7 +630,7 @@
         "https://x.com/Kling_ai/status/2119628975094067413"
       ],
       "name": "Kling 4.0 饮料广告创作案例（官方号转发）",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "广告案例长文",
       "url": "https://x.com/i/article/2118632853118562304",
       "description": "完整能量饮料广告案例：产品细节、角色一致性与对白，强调从剪辑转向导演",
@@ -653,7 +653,7 @@
         "https://x.com/calmrisewild/status/2119636692978282971"
       ],
       "name": "Seedance巨型受击失效提示",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "实操踩坑贴",
       "url": "https://x.com/calmrisewild/status/2119636692978282971",
       "description": "Seedance 2.5下巨型物体被砍中不倒：三种写法失败；建议单独镜头或改成崩解爆炸设计",
@@ -676,7 +676,7 @@
         "https://x.com/BDFrankHoubre/status/2119492028899704928"
       ],
       "name": "角色一致性提示词シート · ScreenWeaver",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "提示技巧页/工具页",
       "url": "https://www.screenweaver.ai/tools/ai-character-consistency-sheet",
       "description": "作者称AI视频模型无记忆导致换脸；给出可贴在每条prompt顶部的一致性写法，并链到一致性sheet工具",
@@ -699,7 +699,7 @@
         "https://x.com/achuanmemo/status/2119615547683832062"
       ],
       "name": "Scenepond 动作参考+Seedance 2.5案例",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "案例分享帖",
       "url": "https://scenepond.ai/en/s/c33dDjTVEalz",
       "description": "角色图+动作参考接入Scenepond中的Seedance 2.5，再写运镜与节拍",
@@ -722,7 +722,7 @@
         "https://x.com/two3pro/status/2119635320803414118"
       ],
       "name": "本地跑 MiniMax H3 方案讨论",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "方案讨论文章",
       "url": "https://x.com/i/article/2119593525251854336",
       "description": "《本地无审查跑 MiniMax H3 有门槛吗？》——本地/方案选择讨论线索",
@@ -792,7 +792,7 @@
         "https://x.com/xhelios43/status/2119629728394994120"
       ],
       "name": "Gemini Omni vs Seedance vs Kling 同提示对比贴",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "模型对比讨论帖",
       "url": "https://x.com/xhelios43/status/2119629728394994120",
       "description": "同提示同参考下多模型现场bake-off：强调按镜头表选模型而非追“最强”",
@@ -815,7 +815,7 @@
         "https://x.com/tolik12308/status/2119577130480652713"
       ],
       "name": "Picsart内Seedance 2.5一镜到底实验",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "实验帖",
       "url": "https://x.com/tolik12308/status/2119577130480652713",
       "description": "作者在Picsart用Seedance 2.5做约10秒一镜，并想扩展整部片子",
@@ -837,7 +837,7 @@
         "https://x.com/ImaStudio_ai/status/2119638539726094609"
       ],
       "name": "Ima Studio MiniMax H3 时装MV提示",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "提示词案例帖",
       "url": "https://x.com/ImaStudio_ai/status/2119638539726094609",
       "description": "MiniMax H3时装MV：9镜15秒，换装/音乐/剪辑节奏提示，可替换角色",
@@ -860,7 +860,7 @@
         "https://x.com/mehvishs25/status/2119636888231497799"
       ],
       "name": "Higgsfield上Seedance 2.5恐怖短片提示",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "提示词案例帖",
       "url": "https://x.com/mehvishs25/status/2119636888231497799",
       "description": "地下生物实验室科幻恐怖短片提示，声称在Higgsfield用Seedance 2.5制作",
@@ -883,7 +883,7 @@
         "https://x.com/LaurenIsAbigail/status/2119638267876495693"
       ],
       "name": "Dreamina Marketing Studio 广告模板工作流",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "产品工作流体验帖",
       "url": "https://x.com/LaurenIsAbigail/status/2119638267876495693",
       "description": "选模板→上传产品→调模型设置→生成：把成片广告改成新品广告的流程体验",
@@ -896,7 +896,7 @@
     },
     {
       "name": "AI短剧制作与审片闭环 · 言川",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "短剧方法教程及经验案例，非工具",
       "repo": "",
       "url": "https://x.com/yanchuanlab/status/2116853657237143691",
@@ -1096,7 +1096,7 @@
     },
     {
       "name": "代码动画复刻 · 教程与源码",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "代码动画方法教程＋同项目源码，合并一条",
       "repo": "daodao166888/viral-video-replica",
       "url": "https://github.com/daodao166888/viral-video-replica",
@@ -1999,7 +1999,7 @@
     },
     {
       "name": "Unscreen → Canva 视频去背景",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "网站 / 官方迁移入口",
       "repo": "",
       "url": "https://www.canva.com/features/video-background-remover/",
@@ -2323,7 +2323,7 @@
     },
     {
       "name": "AI 视频全流程 · Eian",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "type": "AI视频方法教程，非软件",
       "repo": "",
       "url": "https://x.com/EianLu/status/2118317430665613741",
@@ -2819,7 +2819,7 @@
     },
     {
       "name": "OpenMontage",
-      "category": "内容创作 / 视觉",
+      "category": "AI视频制作",
       "repo": "calesthio/OpenMontage",
       "url": "https://github.com/calesthio/OpenMontage",
       "description": "让编程 Agent 串联研究、脚本、素材、剪辑与合成",
@@ -2916,203 +2916,2177 @@
       "license": "README标示MIT",
       "dependencies": "Node20+、GMGN API与签名配置，可选Telegram",
       "evidenceUrl": "https://github.com/0xsyncroot/opentrade/blob/HEAD/README.md"
+    },
+    {
+      "name": "iosur·2026选型对比",
+      "category": "AI视频制作",
+      "type": "中文资讯/对比",
+      "url": "https://iosur.com/zh/posts/best-ai-video-tools-2026/",
+      "official": "",
+      "repo": "",
+      "description": "可灵/即梦/海螺/Vidu/Runway对比与Sora停服后选型",
+      "scenario": "选型学习、提示词与行业情报",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "AI评测·可灵即梦海螺入门",
+      "category": "AI视频制作",
+      "type": "中文教程",
+      "url": "https://aipingce.net/guides/ai-video-creation-guide/",
+      "official": "",
+      "repo": "",
+      "description": "可灵/即梦/海螺新手起步、免费额度测法与工作流模板",
+      "scenario": "选型学习、提示词与行业情报",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "图生视频完全教程",
+      "category": "AI视频制作",
+      "type": "中文教程",
+      "url": "https://www.dbyun.net/tutorial/9467",
+      "official": "",
+      "repo": "",
+      "description": "人像复活/风景/产品图生视频通用方法与提示词模板",
+      "scenario": "选型学习、提示词与行业情报",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "OpenAI Sora 停服说明",
+      "category": "AI视频制作",
+      "type": "官方公告/资讯",
+      "url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+      "official": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+      "repo": "",
+      "description": "OpenAI官方：Sora网页/App于2026-04-26停服，API于2026-09-24停服",
+      "scenario": "选型学习、提示词与行业情报",
+      "verified": false,
+      "status": "抓取HTTP 403（可能反爬） · 本环境返回403但有响应体(~10KB)；公开搜索摘要与页面主题一致；未实测",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "KreatorFlow AI视频对比",
+      "category": "AI视频制作",
+      "type": "资讯/对比文章",
+      "url": "https://kreatorflow.ai/guides/best-ai-video-generators-2026",
+      "official": "",
+      "repo": "",
+      "description": "2026主流AI视频生成器对比导读",
+      "scenario": "选型学习、提示词与行业情报",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "PromptNow AI视频对比",
+      "category": "AI视频制作",
+      "type": "资讯/对比文章",
+      "url": "https://promptnow.app/en/guias/ai-video-generators-compared",
+      "official": "",
+      "repo": "",
+      "description": "2026年11月AI视频模型版本与规格对比",
+      "scenario": "选型学习、提示词与行业情报",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "SitePoint AI视频工具",
+      "category": "AI视频制作",
+      "type": "资讯/对比文章",
+      "url": "https://www.sitepoint.com/top-6-ai-video-generators-in-2026-features-strengths-and-limits/",
+      "official": "",
+      "repo": "",
+      "description": "2026六款AI视频生成器功能与限制",
+      "scenario": "选型学习、提示词与行业情报",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Wan2.2 仓库",
+      "category": "AI视频制作",
+      "type": "开源视频模型",
+      "url": "https://github.com/Wan-Video/Wan2.2",
+      "official": "",
+      "repo": "Wan-Video/Wan2.2",
+      "description": "Wan2.2开源仓库线索",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Wan2.1 开源仓库",
+      "category": "AI视频制作",
+      "type": "开源视频模型",
+      "url": "https://github.com/Wan-Video/Wan2.1",
+      "official": "",
+      "repo": "Wan-Video/Wan2.1",
+      "description": "阿里Wan2.1开源文生/图生视频套件",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "LTX-Video",
+      "category": "AI视频制作",
+      "type": "开源视频模型",
+      "url": "https://github.com/Lightricks/LTX-Video",
+      "official": "",
+      "repo": "Lightricks/LTX-Video",
+      "description": "Lightricks LTX-Video开源仓库",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Mochi",
+      "category": "AI视频制作",
+      "type": "开源视频模型",
+      "url": "https://github.com/genmoai/mochi",
+      "official": "",
+      "repo": "genmoai/mochi",
+      "description": "Genmo Mochi开源视频模型",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Open-Sora",
+      "category": "AI视频制作",
+      "type": "开源视频模型",
+      "url": "https://github.com/hpcaitech/Open-Sora",
+      "official": "",
+      "repo": "hpcaitech/Open-Sora",
+      "description": "Open-Sora开源视频生成项目",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Open-Sora-Plan",
+      "category": "AI视频制作",
+      "type": "开源视频模型",
+      "url": "https://github.com/PKU-YuanGroup/Open-Sora-Plan",
+      "official": "",
+      "repo": "PKU-YuanGroup/Open-Sora-Plan",
+      "description": "北大Open-Sora-Plan开源计划",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "HunyuanVideo",
+      "category": "AI视频制作",
+      "type": "开源视频模型",
+      "url": "https://github.com/Tencent/HunyuanVideo",
+      "official": "",
+      "repo": "Tencent/HunyuanVideo",
+      "description": "腾讯混元视频开源仓库",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "CogVideoX",
+      "category": "AI视频制作",
+      "type": "开源视频模型",
+      "url": "https://github.com/THUDM/CogVideo",
+      "official": "",
+      "repo": "THUDM/CogVideo",
+      "description": "智谱CogVideo/CogVideoX开源仓库",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Domer AI模型对比",
+      "category": "AI视频制作",
+      "type": "英文对比文章",
+      "url": "https://domer.io/blog/ai-video-generation-models-compared",
+      "official": "",
+      "repo": "",
+      "description": "Sora/Kling/Runway/Luma等模型实操向对比",
+      "scenario": "选型学习、提示词与行业情报",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Higgsfield Academy",
+      "category": "AI视频制作",
+      "type": "官方教程社区",
+      "url": "https://higgsfield.ai/academy",
+      "official": "https://higgsfield.ai/academy",
+      "repo": "",
+      "description": "Higgsfield学院教程与工作流",
+      "scenario": "选型学习、提示词与行业情报",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "ComfyUI Wan教程",
+      "category": "AI视频制作",
+      "type": "官方教程",
+      "url": "https://docs.comfy.org/tutorials/video/wan/wan-video",
+      "official": "https://docs.comfy.org/tutorials/video/wan/wan-video",
+      "repo": "",
+      "description": "ComfyUI官方Wan2.1文生/图生工作流教程",
+      "scenario": "选型学习、提示词与行业情报",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "可灵提示词指南",
+      "category": "AI视频制作",
+      "type": "官方提示词教程",
+      "url": "https://kling.ai/quickstart/prompt-guide",
+      "official": "https://kling.ai/quickstart/prompt-guide",
+      "repo": "",
+      "description": "可灵官方提示词指南线索",
+      "scenario": "选型学习、提示词与行业情报",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Runway Academy",
+      "category": "AI视频制作",
+      "type": "官方教程",
+      "url": "https://academy.runwayml.com",
+      "official": "https://academy.runwayml.com",
+      "repo": "",
+      "description": "Runway学院课程与教程入口",
+      "scenario": "选型学习、提示词与行业情报",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Figma Weave AI视频工具榜",
+      "category": "AI视频制作",
+      "type": "资讯/工具榜",
+      "url": "https://www.figma.com/resource-library/best-ai-video-generators/",
+      "official": "",
+      "repo": "",
+      "description": "Figma资源库整理的十款AI视频生成器对比",
+      "scenario": "选型学习、提示词与行业情报",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Honeyvid Sora替代清单",
+      "category": "AI视频制作",
+      "type": "资讯/替代方案",
+      "url": "https://honeyvid.ai/learn/sora-alternatives/",
+      "official": "",
+      "repo": "",
+      "description": "Sora停服后替代工具与价格线索整理",
+      "scenario": "选型学习、提示词与行业情报",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "ElserStudio Sora替代",
+      "category": "AI视频制作",
+      "type": "资讯/替代方案",
+      "url": "https://elserstudio.ai/blog/10-best-sora-alternatives-for-ai-filmmaking-after-the-shutdown",
+      "official": "",
+      "repo": "",
+      "description": "Sora关停后影视向替代方案导读",
+      "scenario": "选型学习、提示词与行业情报",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "海螺 AI 国际站",
+      "category": "AI视频制作",
+      "type": "官方平台入口",
+      "url": "https://hailuoai.video",
+      "official": "https://hailuoai.video",
+      "repo": "",
+      "description": "MiniMax Hailuo国际站视频创作入口",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Pictory",
+      "category": "AI视频制作",
+      "type": "官方平台入口",
+      "url": "https://pictory.ai",
+      "official": "https://pictory.ai",
+      "repo": "",
+      "description": "长文转短视频/脚本驱动剪辑",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Fliki",
+      "category": "AI视频制作",
+      "type": "官方平台入口",
+      "url": "https://fliki.ai",
+      "official": "https://fliki.ai",
+      "repo": "",
+      "description": "脚本+TTS+素材的AI视频工具",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Runway 官网",
+      "category": "AI视频制作",
+      "type": "官方平台入口",
+      "url": "https://runwayml.com",
+      "official": "https://runwayml.com",
+      "repo": "",
+      "description": "Runway Gen系列与Aleph视频创作平台",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Viggle AI",
+      "category": "AI视频制作",
+      "type": "官方平台入口",
+      "url": "https://viggle.ai",
+      "official": "https://viggle.ai",
+      "repo": "",
+      "description": "角色动作迁移/控制类AI视频",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Pika 官网",
+      "category": "AI视频制作",
+      "type": "官方平台入口",
+      "url": "https://pika.art",
+      "official": "https://pika.art",
+      "repo": "",
+      "description": "Pika视频生成平台主页",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Vidu AI",
+      "category": "AI视频制作",
+      "type": "官方平台入口",
+      "url": "https://www.vidu.com",
+      "official": "https://www.vidu.com",
+      "repo": "",
+      "description": "生数科技Vidu文生/图生视频平台",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Kling AI 官网",
+      "category": "AI视频制作",
+      "type": "官方平台入口",
+      "url": "https://kling.ai",
+      "official": "https://kling.ai",
+      "repo": "",
+      "description": "可灵国际站入口",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "InVideo AI",
+      "category": "AI视频制作",
+      "type": "官方平台入口",
+      "url": "https://invideo.io",
+      "official": "https://invideo.io",
+      "repo": "",
+      "description": "文案到成片的AI视频编辑/生成平台",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "通义万相 Wan 官网",
+      "category": "AI视频制作",
+      "type": "官方平台入口",
+      "url": "https://wan.video",
+      "official": "https://wan.video",
+      "repo": "",
+      "description": "阿里通义万相/Wan视频生成品牌站",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "海螺 AI（Hailuo）官网",
+      "category": "AI视频制作",
+      "type": "官方平台入口",
+      "url": "https://hailuoai.com",
+      "official": "https://hailuoai.com",
+      "repo": "",
+      "description": "MiniMax海螺视频生成主入口（国内）",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Genmo",
+      "category": "AI视频制作",
+      "type": "官方平台入口",
+      "url": "https://www.genmo.ai",
+      "official": "https://www.genmo.ai",
+      "repo": "",
+      "description": "Genmo Mochi等视频生成入口",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Kaiber",
+      "category": "AI视频制作",
+      "type": "官方平台入口",
+      "url": "https://kaiber.ai",
+      "official": "https://kaiber.ai",
+      "repo": "",
+      "description": "风格化AI视频生成",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Vidu 国内站",
+      "category": "AI视频制作",
+      "type": "官方平台入口",
+      "url": "https://www.vidu.cn",
+      "official": "https://www.vidu.cn",
+      "repo": "",
+      "description": "Vidu中国站入口",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "可灵 AI 国内站",
+      "category": "AI视频制作",
+      "type": "官方平台入口",
+      "url": "https://kling.kuaishou.com",
+      "official": "https://kling.kuaishou.com",
+      "repo": "",
+      "description": "快手可灵国内创作入口",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Adobe Firefly",
+      "category": "AI视频制作",
+      "type": "官方创作台",
+      "url": "https://firefly.adobe.com",
+      "official": "https://firefly.adobe.com",
+      "repo": "",
+      "description": "Firefly在线创作（含视频相关能力）",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Google Flow（Veo创作环境）",
+      "category": "AI视频制作",
+      "type": "官方创作台",
+      "url": "https://labs.google/flow",
+      "official": "https://labs.google/flow",
+      "repo": "",
+      "description": "Google Flow：Veo视频创作/场景编排环境",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Runway App",
+      "category": "AI视频制作",
+      "type": "官方创作台",
+      "url": "https://app.runwayml.com",
+      "official": "https://app.runwayml.com",
+      "repo": "",
+      "description": "Runway在线创作应用入口",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "通义万相创作台",
+      "category": "AI视频制作",
+      "type": "官方创作台",
+      "url": "https://tongyi.aliyun.com/wanxiang",
+      "official": "https://tongyi.aliyun.com/wanxiang",
+      "repo": "",
+      "description": "阿里云通义万相创作入口",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Google AI Studio",
+      "category": "AI视频制作",
+      "type": "官方创作台",
+      "url": "https://aistudio.google.com",
+      "official": "https://aistudio.google.com",
+      "repo": "",
+      "description": "Google AI Studio总入口（含Veo）",
+      "scenario": "文生/图生视频出片与产品选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Google DeepMind Veo",
+      "category": "AI视频制作",
+      "type": "官方模型页",
+      "url": "https://deepmind.google/models/veo/",
+      "official": "https://deepmind.google/models/veo/",
+      "repo": "",
+      "description": "DeepMind Veo模型介绍页",
+      "scenario": "AI视频生成、短剧/广告镜头草稿或工具选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Higgsfield 开放视频模型目录",
+      "category": "AI视频制作",
+      "type": "官方模型目录",
+      "url": "https://open.higgsfield.ai/explore/video",
+      "official": "https://open.higgsfield.ai/explore/video",
+      "repo": "",
+      "description": "列出H3/Wan等第三方视频模型与计价线索",
+      "scenario": "AI视频生成、短剧/广告镜头草稿或工具选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Civitai Video",
+      "category": "AI视频制作",
+      "type": "社区模型站",
+      "url": "https://civitai.com/models?types=Checkpoint&baseModels=SVD",
+      "official": "",
+      "repo": "",
+      "description": "Civitai上视频相关模型检索线索",
+      "scenario": "交流案例、提示词与踩坑",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Stable Video Diffusion 模型卡",
+      "category": "AI视频制作",
+      "type": "模型页",
+      "url": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt",
+      "official": "",
+      "repo": "",
+      "description": "SVD图生视频模型卡",
+      "scenario": "AI视频制作学习、选型或出片工作流参考",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Replicate 文生视频合集",
+      "category": "AI视频制作",
+      "type": "第三方模型聚合",
+      "url": "https://replicate.com/collections/text-to-video",
+      "official": "",
+      "repo": "",
+      "description": "Replicate文生视频模型合集",
+      "scenario": "AI视频制作学习、选型或出片工作流参考",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Kuaishou Kling API",
+      "category": "AI视频制作",
+      "type": "官方开发者文档",
+      "url": "https://app.klingai.com/global/dev/document-api/quickStart",
+      "official": "https://app.klingai.com/global/dev/document-api/quickStart",
+      "repo": "",
+      "description": "可灵开发者文档快速开始线索",
+      "scenario": "程序化批量出片与集成",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Gemini API 视频生成文档（video-generation）",
+      "category": "AI视频制作",
+      "type": "官方API文档",
+      "url": "https://ai.google.dev/gemini-api/docs/video-generation",
+      "official": "https://ai.google.dev/gemini-api/docs/video-generation",
+      "repo": "",
+      "description": "Gemini API视频生成文档（可能跳转AI Studio文档）",
+      "scenario": "程序化批量出片与集成",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 文档可达；未实测调用",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Remotion",
+      "category": "AI视频制作",
+      "type": "代码动画",
+      "url": "https://www.remotion.dev",
+      "official": "",
+      "repo": "",
+      "description": "React代码驱动视频；程序化成片",
+      "scenario": "AI视频制作学习、选型或出片工作流参考",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Manim",
+      "category": "AI视频制作",
+      "type": "代码动画",
+      "url": "https://www.manim.community",
+      "official": "",
+      "repo": "",
+      "description": "数学/讲解动画程序化成片",
+      "scenario": "AI视频制作学习、选型或出片工作流参考",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Motion Canvas",
+      "category": "AI视频制作",
+      "type": "代码动画",
+      "url": "https://motioncanvas.io",
+      "official": "",
+      "repo": "",
+      "description": "代码驱动动画视频框架",
+      "scenario": "AI视频制作学习、选型或出片工作流参考",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "ElevenLabs",
+      "category": "AI视频制作",
+      "type": "配音工具",
+      "url": "https://elevenlabs.io",
+      "official": "",
+      "repo": "",
+      "description": "AI配音/语音克隆，视频成片常用",
+      "scenario": "AI视频成片配音配乐",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Suno AI",
+      "category": "AI视频制作",
+      "type": "配乐工具",
+      "url": "https://suno.com",
+      "official": "",
+      "repo": "",
+      "description": "AI音乐生成，短视频BGM常用",
+      "scenario": "AI视频成片配音配乐",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Udio",
+      "category": "AI视频制作",
+      "type": "配乐工具",
+      "url": "https://www.udio.com",
+      "official": "",
+      "repo": "",
+      "description": "AI音乐生成",
+      "scenario": "AI视频成片配音配乐",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Opus Clip",
+      "category": "AI视频制作",
+      "type": "官方剪辑平台",
+      "url": "https://www.opus.pro",
+      "official": "https://www.opus.pro",
+      "repo": "",
+      "description": "长视频自动切片为短视频",
+      "scenario": "AI生成素材后的剪辑增强",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Descript",
+      "category": "AI视频制作",
+      "type": "官方剪辑平台",
+      "url": "https://www.descript.com",
+      "official": "https://www.descript.com",
+      "repo": "",
+      "description": "文本编辑式音视频剪辑，含AI能力",
+      "scenario": "AI生成素材后的剪辑增强",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "剪映专业版",
+      "category": "AI视频制作",
+      "type": "官方剪辑平台",
+      "url": "https://www.capcut.cn",
+      "official": "https://www.capcut.cn",
+      "repo": "",
+      "description": "剪映/CapCut中国站，AI视频后期常用",
+      "scenario": "AI生成素材后的剪辑增强",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "MoviePy",
+      "category": "AI视频制作",
+      "type": "开源剪辑库",
+      "url": "https://github.com/Zulko/moviepy",
+      "official": "",
+      "repo": "Zulko/moviepy",
+      "description": "Python视频编辑库",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Auto-Editor",
+      "category": "AI视频制作",
+      "type": "开源剪辑",
+      "url": "https://github.com/WyattBlue/auto-editor",
+      "official": "",
+      "repo": "WyattBlue/auto-editor",
+      "description": "按静音等自动剪辑CLI",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "花生AI",
+      "category": "AI视频制作",
+      "type": "AI剪辑智能体",
+      "url": "https://www.huasheng.ai",
+      "official": "",
+      "repo": "",
+      "description": "文案到成片/MG动画向AI视频剪辑智能体",
+      "scenario": "AI视频制作学习、选型或出片工作流参考",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "HeyGen",
+      "category": "AI视频制作",
+      "type": "官方数字人平台",
+      "url": "https://www.heygen.com",
+      "official": "https://www.heygen.com",
+      "repo": "",
+      "description": "AI数字人/口型同步与多语言口播视频",
+      "scenario": "口播/培训向数字人成片",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Synthesia",
+      "category": "AI视频制作",
+      "type": "官方数字人平台",
+      "url": "https://www.synthesia.io",
+      "official": "https://www.synthesia.io",
+      "repo": "",
+      "description": "企业向AI数字人口播视频",
+      "scenario": "口播/培训向数字人成片",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "D-ID",
+      "category": "AI视频制作",
+      "type": "官方数字人平台",
+      "url": "https://www.d-id.com",
+      "official": "https://www.d-id.com",
+      "repo": "",
+      "description": "照片说话/数字人视频",
+      "scenario": "口播/培训向数字人成片",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "闪剪",
+      "category": "AI视频制作",
+      "type": "数字人/口播平台",
+      "url": "https://www.chanjing.cc",
+      "official": "",
+      "repo": "",
+      "description": "闪剪数字人口播与短视频工具",
+      "scenario": "口播/培训向数字人成片",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "ComfyUI Awesome Workflows",
+      "category": "AI视频制作",
+      "type": "开源工作流合集",
+      "url": "https://github.com/Apatero-Org/ComfyUI-AWESOME-Workflows",
+      "official": "",
+      "repo": "Apatero-Org/ComfyUI-AWESOME-Workflows",
+      "description": "含Wan/Hunyuan/CogVideoX等大量视频工作流",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "LiblibAI",
+      "category": "AI视频制作",
+      "type": "社区平台",
+      "url": "https://www.liblib.art",
+      "official": "",
+      "repo": "",
+      "description": "国内AI创作社区（含视频相关模型/工作流）",
+      "scenario": "交流案例、提示词与踩坑",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Awesome ComfyUI Video",
+      "category": "AI视频制作",
+      "type": "开源导航合集",
+      "url": "https://github.com/neverbiasu/Awesome-ComfyUI-Video",
+      "official": "",
+      "repo": "neverbiasu/Awesome-ComfyUI-Video",
+      "description": "ComfyUI视频节点与工作流精选列表",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "ComfyUI Wan示例",
+      "category": "AI视频制作",
+      "type": "开源示例",
+      "url": "https://github.com/comfyanonymous/ComfyUI_examples/tree/master/wan",
+      "official": "",
+      "repo": "comfyanonymous/ComfyUI_examples/tree/master/wan",
+      "description": "ComfyUI官方Wan工作流示例",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "category": "AI视频制作",
+      "type": "开源自动化管线",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "official": "",
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "description": "文案到短视频自动化开源方案",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "FramePack",
+      "category": "AI视频制作",
+      "type": "开源长视频方案",
+      "url": "https://github.com/lllyasviel/FramePack",
+      "official": "",
+      "repo": "lllyasviel/FramePack",
+      "description": "低显存长视频生成相关开源项目",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "AnimateDiff",
+      "category": "AI视频制作",
+      "type": "开源动画模块",
+      "url": "https://github.com/guoyww/AnimateDiff",
+      "official": "",
+      "repo": "guoyww/AnimateDiff",
+      "description": "AnimateDiff运动模块经典开源项目",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "ComfyUI VideoHelperSuite",
+      "category": "AI视频制作",
+      "type": "开源节点套件",
+      "url": "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite",
+      "official": "",
+      "repo": "Kosinkadink/ComfyUI-VideoHelperSuite",
+      "description": "ComfyUI视频辅助节点套件",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Whisper",
+      "category": "AI视频制作",
+      "type": "开源字幕",
+      "url": "https://github.com/openai/whisper",
+      "official": "",
+      "repo": "openai/whisper",
+      "description": "语音转写；自动字幕常用",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "faster-whisper",
+      "category": "AI视频制作",
+      "type": "开源字幕",
+      "url": "https://github.com/SYSTRAN/faster-whisper",
+      "official": "",
+      "repo": "SYSTRAN/faster-whisper",
+      "description": "更快的Whisper实现",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "ComfyUI 主仓库",
+      "category": "AI视频制作",
+      "type": "开源节点UI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "official": "",
+      "repo": "Comfy-Org/ComfyUI",
+      "description": "ComfyUI主仓库（自comfyanonymous迁移至Comfy-Org）",
+      "scenario": "本地/自托管AI视频试验与工作流搭建",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · GitHub可达；未安装实测",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Adobe Firefly Video",
+      "category": "AI视频制作",
+      "type": "官方产品页",
+      "url": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
+      "official": "https://www.adobe.com/products/firefly/features/ai-video-generator.html",
+      "repo": "",
+      "description": "Adobe Firefly AI视频生成功能介绍",
+      "scenario": "AI视频生成、短剧/广告镜头草稿或工具选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "HeyGen 文档",
+      "category": "AI视频制作",
+      "type": "官方文档",
+      "url": "https://docs.heygen.com",
+      "official": "https://docs.heygen.com",
+      "repo": "",
+      "description": "HeyGen API与产品文档入口",
+      "scenario": "口播/培训/多语言数字人成片",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
+    },
+    {
+      "name": "Higgsfield AI",
+      "category": "AI视频制作",
+      "type": "官方创意套件",
+      "url": "https://higgsfield.ai",
+      "official": "https://higgsfield.ai",
+      "repo": "",
+      "description": "多模型AI视频/图像创意生产平台",
+      "scenario": "AI视频生成、短剧/广告镜头草稿或工具选型",
+      "verified": false,
+      "status": "URL可达(HTTP 200) · 页面用途按标题/公开摘要归类 · 未深读全文 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-09T14:30:00+08:00",
+      "notDone": "未实测生成、未注册账号、未接API、未下载成片",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "本批仅做URL可达性与公开摘要级归类，不保证功能仍上线",
+        "价格/配额/地区限制以产品内为准",
+        "未观看演示成片，未做同提示对比实验"
+      ],
+      "tags": [
+        "AI视频",
+        "AI视频制作"
+      ],
+      "readScope": "WebSearch摘要 + HTTP可达性检查；多数页面未通读全文"
     }
   ],
-  "updatedAt": "2026-11-09T12:00:22+08:00",
+  "updatedAt": "2026-11-09T14:32:04+08:00",
   "canvasId": "511a7df2-1b3f-4ad5-8083-bc1c035eeeac",
-  "total": 125,
+  "total": 205,
   "latestBatch": {
-    "theme": "AI视频生成/制作/短剧（广收）",
-    "added": 37,
-    "duplicates": 2,
-    "total": 125,
-    "note": "本批按用户要求广收AI视频相关官方文档、开源工具、教程与踩坑帖；verified多为false；未开例程",
-    "sources": [
-      {
-        "name": "Kling 4.0 官方用户手册",
-        "url": "https://kling.ai/quickstart/kling-4-model-user-guide",
-        "status": "官方手册页面已确认可访问 · 未实测生成"
-      },
-      {
-        "name": "Kling 4.0 Text-to-Video API 文档",
-        "url": "https://kling.ai/document-api/api/video/4-0/text-to-video.md",
-        "status": "官方API文档摘要已读 · 未实测调用"
-      },
-      {
-        "name": "Kling 4.0 Image-to-Video API 文档",
-        "url": "https://kling.ai/document-api/api/video/4-0/image-to-video.md",
-        "status": "官方API文档摘要已读 · 未实测"
-      },
-      {
-        "name": "Runway 模型目录（Gen-4.5/Aleph/Kling/Seedance）",
-        "url": "https://dev.runway.com/models/catalog",
-        "status": "官方目录页已读摘要 · 未实测"
-      },
-      {
-        "name": "Runway Seedance 2.0 创作说明",
-        "url": "https://help.runwayml.com/hc/en-us/articles/50488490233363-Creating-with-Seedance-2-0",
-        "status": "官方帮助摘要已读 · 未实测"
-      },
-      {
-        "name": "Runway Gen-4 帮助分区",
-        "url": "https://help.runwayml.com/hc/en-us/sections/39888423025683-Gen-4",
-        "status": "官方分区索引已确认 · 子文未逐篇实测"
-      },
-      {
-        "name": "Luma Ray 3.2 视频生成指南",
-        "url": "https://docs.agents.lumalabs.ai/guides/videos/generation/",
-        "status": "官方指南摘要已读 · 未实测"
-      },
-      {
-        "name": "Luma Agents API Quickstart",
-        "url": "https://docs.agents.lumalabs.ai/",
-        "status": "官方quickstart摘要已读 · 未实测"
-      },
-      {
-        "name": "Pika Video Studio",
-        "url": "https://create.pika.art/apps/create-video",
-        "status": "官方产品页摘要已读 · 未实测"
-      },
-      {
-        "name": "Pika 平台 llms.txt 应用目录",
-        "url": "https://pika.art/llms.txt",
-        "status": "llms.txt摘要已读 · 未实测"
-      },
-      {
-        "name": "Pika API Quick Start",
-        "url": "https://dev.pika.art/models/quick-start",
-        "status": "官方quick start摘要已读 · 未实测"
-      },
-      {
-        "name": "CapCut Video Studio",
-        "url": "https://www.capcut.com/tools/video-studio",
-        "status": "官方产品页摘要已读 · 未实测"
-      },
-      {
-        "name": "Dreamina Seedance 中心",
-        "url": "https://dreamina.capcut.com/seedance",
-        "status": "官方产品页摘要已读 · 未实测"
-      },
-      {
-        "name": "即梦 Jimeng 创作台",
-        "url": "https://jimeng.jianying.com",
-        "status": "入口URL已收录 · 页面能力未登录实测"
-      },
-      {
-        "name": "Google Veo 3.1（AI Studio）",
-        "url": "https://aistudio.google.com/models/veo",
-        "status": "官方模型页摘要已读 · 未实测"
-      },
-      {
-        "name": "SEED 字节研究页",
-        "url": "https://seed.bytedance.com",
-        "status": "URL已收录 · 未深读站内全部页面"
-      },
-      {
-        "name": "OpenFilm",
-        "url": "https://github.com/openfilm/openfilm",
-        "status": "GitHub与文档摘要已读 · 未实测安装渲染"
-      },
-      {
-        "name": "rea-video 视频逆向拆解",
-        "url": "https://github.com/JuneYaooo/rea-video",
-        "status": "README摘要已读 · 未实测跑片"
-      },
-      {
-        "name": "蓝书 Awesome AI Video Kit",
-        "url": "https://github.com/cclank/lanshu-awesome-ai-video-kit",
-        "status": "仓库描述与RESOURCES摘要已读 · 未逐文件实测"
-      },
-      {
-        "name": "seedance-prompts 资源导航仓",
-        "url": "https://github.com/seedanceprompts/seedance-prompts",
-        "status": "README表格摘要已读 · 未逐条打开外链"
-      },
-      {
-        "name": "RunningHub 标准模型API检索",
-        "url": "https://www.runninghub.cn/call-api/search-api/standard-model",
-        "status": "产品页摘要已读 · 未实测扣费出片"
-      },
-      {
-        "name": "MiliAgent 工作流库（H3短剧相关）",
-        "url": "https://miliagent.com/library/",
-        "status": "帖子与链接已记录 · 库内具体工作流未逐条验证"
-      },
-      {
-        "name": "Muse少儿英文动画自动化教程",
-        "url": "https://x.com/i/article/2119458534186442752",
-        "status": "标题与主帖已读 · 长文正文未全文核验 · 未实测Muse"
-      },
-      {
-        "name": "黄果短剧生产线拆解",
-        "url": "https://x.com/i/article/2119568613967552512",
-        "status": "标题已读 · 正文待核 · 未实测"
-      },
-      {
-        "name": "Claude导演+Codex首尾帧+Seedance出片拆解",
-        "url": "https://x.com/i/article/2119611376033484800",
-        "status": "主帖与标题已读 · 正文待核 · 未实测"
-      },
-      {
-        "name": "Kling 4.0 饮料广告创作案例（官方号转发）",
-        "url": "https://x.com/i/article/2118632853118562304",
-        "status": "官方账号转发与标题已读 · 正文未全文核验 · 未复刻"
-      },
-      {
-        "name": "Seedance巨型受击失效提示",
-        "url": "https://x.com/calmrisewild/status/2119636692978282971",
-        "status": "主帖note全文已读 · 未实测复现"
-      },
-      {
-        "name": "角色一致性提示词シート · ScreenWeaver",
-        "url": "https://www.screenweaver.ai/tools/ai-character-consistency-sheet",
-        "status": "帖文与工具URL已记录 · 工具页未深度实测"
-      },
-      {
-        "name": "Scenepond 动作参考+Seedance 2.5案例",
-        "url": "https://scenepond.ai/en/s/c33dDjTVEalz",
-        "status": "步骤帖已读 · Scenepond页未登录实测"
-      },
-      {
-        "name": "本地跑 MiniMax H3 方案讨论",
-        "url": "https://x.com/i/article/2119593525251854336",
-        "status": "标题已读 · 正文待核 · 未实测"
-      },
-      {
-        "name": "Agent+Blender预演+达芬奇调色打斗片案例",
-        "url": "https://x.com/EZheng66099/status/2119635159565611421",
-        "status": "主帖与note已读 · 视频未观看 · 未复现"
-      },
-      {
-        "name": "海报链接→Claude Code→4K影片案例",
-        "url": "https://x.com/i/article/2119596122373005312",
-        "status": "标题与主帖已读 · 正文待核 · 未实测"
-      },
-      {
-        "name": "Gemini Omni vs Seedance vs Kling 同提示对比贴",
-        "url": "https://x.com/xhelios43/status/2119629728394994120",
-        "status": "主帖已读 · 对比视频/图未核验"
-      },
-      {
-        "name": "Picsart内Seedance 2.5一镜到底实验",
-        "url": "https://x.com/tolik12308/status/2119577130480652713",
-        "status": "主帖已读 · 未实测Picsart"
-      },
-      {
-        "name": "Ima Studio MiniMax H3 时装MV提示",
-        "url": "https://x.com/ImaStudio_ai/status/2119638539726094609",
-        "status": "主帖已读 · 成片未观看 · 未实测Ima"
-      },
-      {
-        "name": "Higgsfield上Seedance 2.5恐怖短片提示",
-        "url": "https://x.com/mehvishs25/status/2119636888231497799",
-        "status": "主帖开头已读 · 完整prompt可能截断 · 未实测"
-      },
-      {
-        "name": "Dreamina Marketing Studio 广告模板工作流",
-        "url": "https://x.com/LaurenIsAbigail/status/2119638267876495693",
-        "status": "主帖已读 · 未实测Dreamina Marketing Studio"
-      }
-    ]
+    "theme": "AI视频制作分类 + 80新条（情报/教程/资讯/工具）",
+    "added": 80,
+    "migrated": 40,
+    "skippedDupes": 0,
+    "total": 205,
+    "note": "新建AI视频制作分类；迁移40条既有AI视频条目；追加80条新资源；verified均为false"
   }
 }
