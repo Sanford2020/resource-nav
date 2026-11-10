@@ -1,6 +1,6 @@
 {
-  "version": 20,
-  "checkedAt": "2026-11-09T17:06:02+08:00",
+  "version": 21,
+  "checkedAt": "2026-11-10T15:04:18+08:00",
   "timezone": "Asia/Shanghai",
   "resources": [
     {
@@ -9061,16 +9061,1286 @@
       "verified": false,
       "xSource": "",
       "xSources": []
+    },
+    {
+      "name": "Kling 4.0 Flash 官方 API 文档",
+      "category": "AI视频制作",
+      "subcategory": "模型平台",
+      "type": "官方API文档",
+      "url": "https://kling.ai/document-api/api/video/4-0-flash/text-to-video.md",
+      "description": "可灵 4.0 Flash 官方 API：文生/图生（仅首帧）及同系列 Omni 参考，默认 720p，时长 3–20 秒",
+      "scenario": "查阅 Flash 档位参数、接入文生/图生接口",
+      "verified": true,
+      "status": "官方文档正文已读 · 未实测生成",
+      "cost": "未核实；未购买或注册。文档写明按输出时长计费并指向定价页，未打开结账页。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未申请 API Key、未调用接口、未出片",
+      "official": "https://kling.ai/document-api/api/video/4-0-flash/text-to-video.md",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未注册账号、未调用付费 API、未实测出片",
+        "地区、套餐、队列与限额以产品内当时显示为准",
+        "价格未核到结账页，不以口头报价入库",
+        "同系列 Omni 端点仅在文档目录中确认存在，本轮未通读 Omni 页全部字段"
+      ],
+      "readScope": "已读官方 text-to-video.md 与 image-to-video.md 正文（含请求字段与时长/分辨率枚举）；未测 Omni 页全部示例，未打开定价结账页",
+      "officialFacts": [
+        "文生路径为 POST /text-to-video/kling-4.0-flash，图生路径为 POST /image-to-video/kling-4.0-flash",
+        "settings.resolution 文档枚举仅为 720p，默认 720p",
+        "settings.duration 支持整数 3–20 秒；未设且提示词未写时长时默认 10 秒",
+        "图生仅支持首帧，格式 jpg/jpeg/png，单张不超过 30MB，边长不小于 300px，宽高比 2:5–5:2",
+        "英文提示词最长约 26000 字符，非英文约 11000 字符"
+      ],
+      "tags": [
+        "AI视频制作",
+        "模型平台",
+        "可灵"
+      ]
+    },
+    {
+      "name": "Grok Imagine Video 官方能力文档",
+      "category": "AI视频制作",
+      "subcategory": "模型平台",
+      "type": "官方开发者文档",
+      "url": "https://docs.x.ai/developers/model-capabilities/video/overview",
+      "description": "xAI 官方文档：Grok Imagine 视频模型将文本、静帧、参考或已有片段生成带音频的视频，并说明 1.5 / 1.5-lite / 基础档能力差异",
+      "scenario": "对照官方规格选择 Imagine 视频模型与接口参数",
+      "verified": true,
+      "status": "官方文档正文已读 · 未实测生成",
+      "cost": "未核实；未购买或注册。文档写明按分辨率的每秒价格见 Models 页，本轮未打开该定价页或结账页。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未申请 xAI API Key、未调用生成接口、未出片",
+      "official": "https://docs.x.ai/developers/model-capabilities/video/overview",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未注册账号、未调用付费 API、未实测出片",
+        "地区、套餐、队列与限额以产品内当时显示为准",
+        "价格未核到结账页，不以口头报价入库",
+        "编辑与延长能力仅基础档支持，1.5 / 1.5-lite 文档表记为不支持"
+      ],
+      "readScope": "已读 docs.x.ai 的 Video Overview 全文，以及 Video Generation 页中关于异步轮询、时长/分辨率/宽高比的正文；未读完编辑/延长全部示例，未打开 Models 定价页",
+      "officialFacts": [
+        "grok-imagine-video-1.5 支持原生 1080p 文生/图生、最多 14 张参考图与 3 个音色参考，并可固定首/尾帧及最多 4 个中间关键帧，时长最长 15 秒",
+        "grok-imagine-video-1.5-lite 做文生/图生并带口型同步语音，1080p 由 720p 上采样；文档建议简单镜头用 lite",
+        "基础档 grok-imagine-video 最高 720p，并承担视频编辑（源最长 8.7 秒）与延长（追加 2–10 秒）",
+        "请求为异步：提交后用 request_id 轮询，状态含 pending / done / failed",
+        "duration 可设 1–15 秒，默认 8 秒；分辨率档为 480p / 720p / 1080p（基础档无 1080p）"
+      ],
+      "tags": [
+        "AI视频制作",
+        "模型平台",
+        "Grok Imagine"
+      ]
+    },
+    {
+      "name": "万相 3.0 官方视频生成指南",
+      "category": "AI视频制作",
+      "subcategory": "模型平台",
+      "type": "官方文档",
+      "url": "https://help.aliyun.com/zh/model-studio/wan3-video-generation-guide",
+      "description": "阿里云百炼官方指南：wan3.0-video / wan3.0-video-prime 为 All-in-One 模型，覆盖文生、图生、多模态参考、编辑与延长",
+      "scenario": "查阅万相 3.0 云端能力、素材组合与调用注意点",
+      "verified": true,
+      "status": "官方文档正文已读 · 未实测生成",
+      "cost": "未核实；未购买或注册。文档含「计费与限流」章节，未核到结账页或具体单价。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册阿里云/百炼、未配置 API Key、未调用接口、未出片",
+      "official": "https://help.aliyun.com/zh/model-studio/wan3-video-generation-guide",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未注册账号、未调用付费 API、未实测出片",
+        "地区、套餐、队列与限额以产品内当时显示为准",
+        "价格未核到结账页，不以口头报价入库",
+        "各地域可用模型不同且资源相互独立，以百炼控制台为准",
+        "此条为云端文档，不表示万相 3.0 已开源权重"
+      ],
+      "readScope": "已读官方 Markdown 版《万相3.0-视频生成》能力表、文生参数与任务类型说明；未通读全部示例提示词与计费细项",
+      "officialFacts": [
+        "官方概述：单次最长 30 秒、输出 30fps，原生输出台词、BGM 和音效，单次最多 20 个多模态素材（图片、视频、音频、文档、网页）",
+        "wan3.0-video / wan3.0-video-prime 无需改模型名即可覆盖文生、首帧/首尾帧图生、全模态参考、编辑与延长，按 input.media 的 type 与提示词意图路由",
+        "文生可设 resolution=480P/720P/1080P（默认 1080P），ratio 含 21:9/16:9/4:3/1:1/3:4/9:16，duration=2–30 秒或 -1 智能时长",
+        "参考图最多 10 张（单张≤20MB），参考视频最多 5 段且总时长≤15 秒（单文件≤100MB），参考音频最多 5 段且总时长≤15 秒（单文件≤15MB）",
+        "文档强调模型、Endpoint 与 API Key 须同一地域，跨地域调用会失败"
+      ],
+      "tags": [
+        "AI视频制作",
+        "模型平台",
+        "万相"
+      ]
+    },
+    {
+      "name": "万相 3.0 视频生成 Prompt 指南",
+      "category": "AI视频制作",
+      "subcategory": "提示词案例",
+      "type": "官方提示词教程",
+      "url": "https://help.aliyun.com/zh/model-studio/wan3-video-generation-prompt-guide",
+      "description": "阿里云百炼官方提示词指南：万相 3.0 各任务写法、公式与调优示例，覆盖分镜、参考素材引用、台词与负向清单",
+      "scenario": "按官方公式写万相 3.0 文生/参考/编辑提示词",
+      "verified": true,
+      "status": "官方文档正文已读 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未按示例出片、未下载或运行文中 Skill",
+      "official": "https://help.aliyun.com/zh/model-studio/wan3-video-generation-prompt-guide",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未注册账号、未调用付费 API、未实测出片",
+        "地区、套餐、队列与限额以产品内当时显示为准",
+        "价格未核到结账页，不以口头报价入库",
+        "平台另提供 wan3-pe 提示词优化 Skill，本轮未下载、未运行"
+      ],
+      "readScope": "已读官方 Markdown 指南开头的任务类型对照与推荐提示词公式；未逐条复核全部调优示例",
+      "officialFacts": [
+        "副标题写明为「提示词编写实践，涵盖公式、写作技巧与调优示例」",
+        "任务类型包括：仅提示词成片、首帧续写、首尾帧过渡、参考主体外观/声音、复刻参考运动、风格参考、音频对齐、多宫格分镜、多关键帧、文档/网页生视频、按指令编辑与延长",
+        "推荐公式包含总体描述、参考素材引用、分镜时间、台词/音效/BGM、风格情绪与负向清单，用不到的板块可跳过"
+      ],
+      "tags": [
+        "AI视频制作",
+        "提示词",
+        "万相"
+      ]
+    },
+    {
+      "name": "PixVerse 官网",
+      "category": "AI视频制作",
+      "subcategory": "模型平台",
+      "type": "官方平台入口",
+      "url": "https://pixverse.ai/en",
+      "description": "PixVerse 官方平台：自研视频模型与文生/图生、转场、延长、参考与剪辑工具，并聚合部分第三方模型",
+      "scenario": "了解 PixVerse 产品入口与模型家族，再决定是否试用",
+      "verified": true,
+      "status": "官网与官方信息页正文已读 · 未实测生成",
+      "cost": "未核实；未购买或注册。官方信息页写明 Web 套餐与 API 定价分开、需在购买或账单页确认，本轮未打开结账页。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册、未生成、未调用 API",
+      "official": "https://pixverse.ai/en",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未注册账号、未调用付费 API、未实测出片",
+        "地区、套餐、队列与限额以产品内当时显示为准",
+        "价格未核到结账页，不以口头报价入库",
+        "信息页提醒：Web 目录列出的模型不保证都对 API 开放"
+      ],
+      "readScope": "已读 https://pixverse.ai/en 首页导航与产品概述，以及 /en/ai-info-page 中关于产品、模型家族与限制的说明（页面标注 Last updated: October 19, 2026）；未核价、未登录应用",
+      "officialFacts": [
+        "官方信息页定义：PixVerse 是包含视频模型、生成与编辑工具、开发者 API 以及实时互动世界体验的 AI 视频平台",
+        "自研模型家族在信息页中包括 PixVerse V6、面向影视制作的 PixVerse C1，以及实时互动的 PixVerse R2（与固定时长成片不同）",
+        "Web 目录还列出 Seedance、MiniMax H3、FLUX 3、Wan 3.0、Kling、Grok、OpenAI 等第三方或选择器标签，信息页写明这些不是 PixVerse 自研家族",
+        "开发者 API 文档能力包括文生/图生、转场、延长、参考生成、对口型与音效等；可选版本因账号、订阅、地区和模式而异"
+      ],
+      "tags": [
+        "AI视频制作",
+        "模型平台"
+      ]
+    },
+    {
+      "name": "Midjourney Video 官方文档",
+      "category": "AI视频制作",
+      "subcategory": "模型平台",
+      "type": "官方帮助文档",
+      "url": "https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video",
+      "description": "Midjourney 官方视频文档：以一张图为起始帧生成约 5 秒视频，可延长至最长 21 秒，并说明运动、循环、分辨率与批次参数",
+      "scenario": "查阅 Midjourney 图生视频规则与参数",
+      "verified": true,
+      "status": "官方文档正文已读 · 未实测生成",
+      "cost": "未核实；未购买或注册。文档用 GPU 时间说明消耗，并指向 Batch Size 表，未核到结账页。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未登录 Midjourney、未生成或延长视频",
+      "official": "https://docs.midjourney.com/hc/en-us/articles/37460773864589-Video",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未注册账号、未调用付费 API、未实测出片",
+        "地区、套餐、队列与限额以产品内当时显示为准",
+        "价格未核到结账页，不以口头报价入库",
+        "本环境直接 curl 会被 Cloudflare 拦截，需注意链接在部分网络下的可达性"
+      ],
+      "readScope": "直接 HTTP 请求遇 Cloudflare 403；随后用 WebFetch 读到该帮助文完整正文（生成方式、延长、循环、运动、分辨率与下载说明）。不以 403 页判断用途。",
+      "officialFacts": [
+        "文档开篇写明可将单张图变成约 5 秒视频，可选文本提示",
+        "起始生成 5 秒，之后每次延长再加 4 秒，最多延长 4 次，最长 21 秒",
+        "视频专用参数包括 --motion low/high、--raw、--loop、--end、--bs 1|2|4",
+        "默认分辨率约 480p（SD）；Standard / Pro / Mega 可在 Fast 模式下生成约 720p（HD）",
+        "所有方案都可在 Fast 模式生成视频；仅 Pro 与 Mega 可在 Relax 模式生成（文档写明 Relax 仅为 SD）"
+      ],
+      "tags": [
+        "AI视频制作",
+        "模型平台",
+        "Midjourney"
+      ]
+    },
+    {
+      "name": "MiniMax H3 官方视频生成文档",
+      "category": "AI视频制作",
+      "subcategory": "模型平台",
+      "type": "官方API文档",
+      "url": "https://platform.minimax.io/docs/guides/video-generation",
+      "description": "MiniMax 官方文档：MiniMax-H3 统一理解文本/图像/视频/音频，支持文生、图生（含首尾帧）、参考生成与视频编辑，输出 768P 或 2K、4–15 秒",
+      "scenario": "查阅 H3 云端接口模式、输入限制与异步取片流程",
+      "verified": true,
+      "status": "官方文档正文已读 · 未实测生成",
+      "cost": "未核实；未购买或注册。文档写明使用 MiniMax-H3 需选择按量付费 API，未打开定价或结账页。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册、未申请 API Key、未调用接口、未出片",
+      "official": "https://platform.minimax.io/docs/guides/video-generation",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未注册账号、未调用付费 API、未实测出片",
+        "地区、套餐、队列与限额以产品内当时显示为准",
+        "价格未核到结账页，不以口头报价入库",
+        "与已收录的 MiniMax H3 开源仓库互补，不表示本页可免费无限调用"
+      ],
+      "readScope": "HTML 文档页前端渲染较多；已读官方 Markdown 版 Video Generation 全文（模式表、输出规格、输入限制与示例流程）。站点已有 MiniMax H3 开源仓库，本条为云端官方文档，不重复作为开源条目。",
+      "officialFacts": [
+        "官方称 MiniMax-H3 为开放的通用多模态视频模型，支持生成、参考创作与编辑",
+        "输出分辨率 768P / 2K，时长 4–15 秒（仅整数）",
+        "参考输入：图片最多 9 张，视频最多 3 段且总时长≤15 秒，音频最多 3 段且总时长≤15 秒，混合文件总数不超过 12",
+        "提示词长度上限 7000 字符；流程为创建任务、轮询 task_id、再下载 content.url",
+        "文档注明使用 MiniMax-H3 需选择 Pay-as-you-go API"
+      ],
+      "tags": [
+        "AI视频制作",
+        "模型平台",
+        "MiniMax"
+      ]
+    },
+    {
+      "name": "SkyReels 官网",
+      "category": "AI视频制作",
+      "subcategory": "模型平台",
+      "type": "官方平台入口",
+      "url": "https://www.skyreels.ai/",
+      "description": "SkyReels 官方平台：可用文本、图像或多模态参考生成带同步音频的电影感视频，并强调参考控制与镜头过渡",
+      "scenario": "从官方入口了解 SkyReels 在线创作能力",
+      "verified": true,
+      "status": "官网用途说明已读 · 未实测生成",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册、未在线出片、未调用其 API",
+      "official": "https://www.skyreels.ai/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未注册账号、未调用付费 API、未实测出片",
+        "地区、套餐、队列与限额以产品内当时显示为准",
+        "价格未核到结账页，不以口头报价入库",
+        "无 JS 时首页几乎无正文，部分环境需能渲染前端才能打开"
+      ],
+      "readScope": "直接 HTTP 仅得到需 JavaScript 的短壳页；随后用 WebFetch 读到首页用途说明（文生/图生/Omni 参考、同步音频）。未登录产品内页。",
+      "officialFacts": [
+        "首页写明：输入文本、图像或参考，创建带同步音频且可充分控制的电影感视频",
+        "产品能力分 Text to Video、Image to Video，以及用图像/视频/音频参考控制角色、风格与跨镜头故事的 Omni Reference to Video",
+        "宣传点包括「音频先行、音画一起生成」和更自然的镜头过渡"
+      ],
+      "tags": [
+        "AI视频制作",
+        "模型平台"
+      ]
+    },
+    {
+      "name": "HunyuanVideo-1.5 开源仓库",
+      "category": "AI视频制作",
+      "subcategory": "开源本地",
+      "type": "开源视频模型",
+      "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+      "description": "腾讯混元官方开源的 HunyuanVideo-1.5：约 8.3B 参数的轻量视频生成模型，README 称可在消费级 GPU 上运行，并提供推理与工具",
+      "scenario": "本地或开源工作流试用混元 1.5，区别于已收录的初代 HunyuanVideo 仓库",
+      "verified": true,
+      "status": "官方 README 正文已读 · 未实测安装或出片",
+      "cost": "仓库提供代码与权重下载入口；具体许可未通读 LICENSE 全文；未安装、未下载完整权重。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未克隆仓库、未安装依赖、未下载权重、未出片",
+      "official": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+      "repo": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未注册账号、未调用付费 API、未实测出片",
+        "地区、套餐、队列与限额以产品内当时显示为准",
+        "价格未核到结账页，不以口头报价入库",
+        "与已收录的 Tencent/HunyuanVideo 初代仓库不是同一资源",
+        "许可与地区限制以 LICENSE 及权重页为准，本轮未通读"
+      ],
+      "readScope": "已读官方 README 开头、能力列举与开源计划；未通读训练章节与 LICENSE",
+      "officialFacts": [
+        "README 写明 HunyuanVideo-1.5 约 8.3B 参数，宣称可在消费级 GPU 上流畅运行",
+        "支持任务包括 Text-to-Video、First-Frame-to-Video、Key-Frames-to-Video、Video-to-Video Editing、Reference-to-Video、组合多图生视频等",
+        "开源计划勾选了 T2V/I2V 推理代码与 checkpoints，以及 ComfyUI、LightX2V、Diffusers 支持；部分权重（稀疏注意力、蒸馏与超分模型）仍标为未全部发布",
+        "文中称可用超分网络将输出提升到 1080p"
+      ],
+      "tags": [
+        "AI视频制作",
+        "开源本地",
+        "混元"
+      ]
+    },
+    {
+      "name": "SkyReels-V3 开源仓库",
+      "category": "AI视频制作",
+      "subcategory": "开源本地",
+      "type": "开源视频模型",
+      "url": "https://github.com/SkyworkAI/SkyReels-V3",
+      "description": "Skywork 官方发布的 SkyReels V3：统一多模态上下文学习框架，原生支持参考图多主体、音频引导与视频到视频",
+      "scenario": "本地下载开源权重与推理代码，做参考生视频、延长或对口型数字人",
+      "verified": true,
+      "status": "官方 README 正文已读 · 未实测安装或出片",
+      "cost": "仓库提供推理代码与权重链接；具体许可未通读 LICENSE 全文；未安装、未下载权重。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未克隆仓库、未安装、未下载模型、未出片",
+      "official": "https://github.com/SkyworkAI/SkyReels-V3",
+      "repo": "https://github.com/SkyworkAI/SkyReels-V3",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未注册账号、未调用付费 API、未实测出片",
+        "地区、套餐、队列与限额以产品内当时显示为准",
+        "价格未核到结账页，不以口头报价入库",
+        "与 SkyReels 官网在线产品互补，不保证本地硬件能按文档跑通"
+      ],
+      "readScope": "已读官方 README 的定位、能力说明与模型下载表；未通读全部评测表格与 LICENSE",
+      "officialFacts": [
+        "官方 README 称这是 SkyReels V3 旗舰视频生成模型的正式发布，基于统一的 multimodal in-context learning 框架",
+        "原生支持三类能力：参考图多主体生视频、音频引导生视频、视频到视频",
+        "模型表列出 Reference to Video 14B-720P、Video Extension 14B-720P，以及 Talking Avatar 19B-720P，权重在 Hugging Face 与 ModelScope",
+        "安装说明建议 Python 3.12+、CUDA 12.8+"
+      ],
+      "tags": [
+        "AI视频制作",
+        "开源本地"
+      ]
+    },
+    {
+      "name": "LTX-2 官方推理仓库",
+      "category": "AI视频制作",
+      "subcategory": "开源本地",
+      "type": "开源模型仓库",
+      "url": "https://github.com/Lightricks/LTX-2",
+      "description": "Lightricks 官方 Python 推理与 LoRA 仓库：用于运行 LTX-2 系列音画一体模型，README 推荐使用 LTX-2.5 权重",
+      "scenario": "按官方仓库在本地跑 LTX-2.5 蒸馏推理，而不是只看模型卡",
+      "verified": true,
+      "status": "官方 README 正文已读 · 未实测安装或出片",
+      "cost": "代码声明为 Apache License 2.0；模型权重另用 LTX-2.x / LTX-2 Community License，需在 Hugging Face 接受条款。未下载权重、未安装。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未克隆、未同步依赖、未下载约 66 GiB 权重、未出片",
+      "official": "https://github.com/Lightricks/LTX-2",
+      "repo": "https://github.com/Lightricks/LTX-2",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未注册账号、未调用付费 API、未实测出片",
+        "地区、套餐、队列与限额以产品内当时显示为准",
+        "价格未核到结账页，不以口头报价入库",
+        "站点已有 LTX-2 官方模型页与 LTX-2.5 Hugging Face 条目，本条补充官方推理代码与许可区分",
+        "社区许可的商业限制以 LICENSE 全文为准，本轮未通读"
+      ],
+      "readScope": "已读官方 README 的定位、许可区分、推荐模型与 Quick Start 下载说明；未通读全部 pipeline 文档",
+      "officialFacts": [
+        "README 称 LTX-2 是首个把同步音视频、多种性能模式、可制作输出、API 与开放获取放在同一模型里的 DiT 音画基础模型",
+        "本仓库代码为 Apache License 2.0；LTX-2.5 使用 LTX-2.x Community License，LTX-2.3 使用 LTX-2 Community License",
+        "推荐模型为 LTX-2.5，Quick Start 从其 Hugging Face 仓库按组件下载，文档称合计约 66 GiB",
+        "若遇 401/403，需在 Hugging Face 接受模型条款并用具备读取门禁仓库权限的 token"
+      ],
+      "tags": [
+        "AI视频制作",
+        "开源本地",
+        "LTX"
+      ]
+    },
+    {
+      "name": "港交所官网",
+      "category": "交易分析",
+      "subcategory": "港股",
+      "type": "交易所官网",
+      "url": "https://www.hkex.com.hk/",
+      "description": "香港交易所官方网站：证券与衍生品产品、交易与清算服务、规则表格以及市场数据入口",
+      "scenario": "查港交所产品、规则与官方市场数据入口（公告检索仍用已收录的披露易）",
+      "verified": true,
+      "status": "官网用途已读 · 未实测",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未实测看盘/检索公告、未注册账号、未接行情源",
+      "official": "https://www.hkex.com.hk/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "与已收录的港交所披露易互补，本条是交易所主站而非公告检索页"
+      ],
+      "readScope": "HTTP 200，已读首页导航：Our Products（证券、上市衍生品、场外衍生品等）、Trading/Clearing、Data and Index Services、Rules/Forms/Fees 等。未进入各子站全文。",
+      "officialFacts": [
+        "首页产品导航包括 Equities、Exchange Traded Products、Structured Products、REITs、Debt Securities 以及股指/个股/外汇/利率/商品等上市衍生品",
+        "服务导航包括证券与衍生品交易基础设施、托管、实时与历史数据、指数服务，以及规则、表格与费用",
+        "相关站点链接包括 LME、HKEXnews（披露易）、Bond Connect 等"
+      ],
+      "tags": [
+        "交易分析",
+        "港股",
+        "交易所"
+      ]
+    },
+    {
+      "name": "经济通 ETNet",
+      "category": "交易分析",
+      "subcategory": "港股",
+      "type": "中文行情门户",
+      "url": "https://www.etnet.com.hk/",
+      "description": "香港财经资讯平台：恒生指数与期指、国企与科技指数、大市成交、个股报价及新闻专栏",
+      "scenario": "查看港股即市指数、成交与主要个股报价",
+      "verified": true,
+      "status": "官网用途已读 · 未实测深度功能",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册会员、未使用专业版串流报价、未做交易",
+      "official": "https://www.etnet.com.hk/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "即市数据可能延迟或需会员；本轮未核验延迟与套餐"
+      ],
+      "readScope": "HTTP 200，已读首页可见的指数报价区、大市成交拆分、即市人气股与专栏入口。部分「串流报价/专业版」需会员，未登录。",
+      "officialFacts": [
+        "标题为「etnet 經濟通|香港新聞財經資訊和生活平台」",
+        "首页展示恒生指数、期指、国企指数、科技指数与大市成交，并拆分股票/窝轮/牛熊证成交",
+        "页面提供即时报价、极速报价、全文搜索及会员/专业版入口"
+      ],
+      "tags": [
+        "交易分析",
+        "港股",
+        "行情"
+      ]
+    },
+    {
+      "name": "智通财经网",
+      "category": "交易分析",
+      "subcategory": "通用",
+      "type": "中文资讯门户",
+      "url": "https://www.zhitongcaijing.com/",
+      "description": "中文资本市场资讯站：首页同时覆盖港股、美股与沪深要闻，并提供行情、数据、日历和公告等栏目",
+      "scenario": "快速浏览跨市场中文财经要闻与栏目入口",
+      "verified": true,
+      "status": "官网用途已读 · 未实测深度功能",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册、未打开付费或 APP 专属内容、未据此交易",
+      "official": "https://www.zhitongcaijing.com/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "同时覆盖多市场，按规则归入「通用」而非单一市场"
+      ],
+      "readScope": "HTTP 200，已读首页栏目（资讯、7x24、行情、数据、日历、路演）及港股/美股/沪深等频道标签与多条公开新闻标题。未登录、未逐篇深读。",
+      "officialFacts": [
+        "站点标题为「智通财经网-连线全球资本市场」",
+        "导航含资讯、7x24、行情、数据、日历、路演；推荐区分港股、美股、沪深、要闻、基金、公告、新股、研究等"
+      ],
+      "tags": [
+        "交易分析",
+        "资讯",
+        "港股",
+        "美股"
+      ]
+    },
+    {
+      "name": "格隆汇",
+      "category": "交易分析",
+      "subcategory": "通用",
+      "type": "中文资讯门户",
+      "url": "https://www.gelonghui.com/",
+      "description": "中文财经资讯平台：官网自称面向出海投资与融资，业务范围主要涉及港股与美股，提供数据、资讯与研究等服务入口",
+      "scenario": "作为港美股中文资讯与研究入口，先核官网说明再决定是否注册",
+      "verified": false,
+      "status": "URL可达 · 已读官网 title/meta 用途说明 · 首页正文为前端渲染未深读 · 未实测",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册、未使用开户或交易相关功能、未深读文章",
+      "official": "https://www.gelonghui.com/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "首页前端渲染严重，本轮未深读正文列表",
+        "meta 提及「交易」服务，本轮未登录核实是否可下单，不当作券商"
+      ],
+      "readScope": "HTTP 200。标题与 meta description 说明了业务范围；可见正文大量为样式与脚本，未稳定提取到完整新闻列表。",
+      "officialFacts": [
+        "标题为「格隆汇-财经资讯动态-股市行情」",
+        "meta 写明为中国投资者出海投资及中国公司出海融资提供数据、资讯、研究、交易等一站式服务，目前主要涉及港股与美股两大市场"
+      ],
+      "tags": [
+        "交易分析",
+        "资讯",
+        "港股",
+        "美股"
+      ]
+    },
+    {
+      "name": "上海证券交易所",
+      "category": "交易分析",
+      "subcategory": "A股",
+      "type": "交易所官网",
+      "url": "https://www.sse.com.cn/",
+      "description": "上海证券交易所官网：沪市要闻与本所动态、主要指数与市场数据、信息披露及发行上市审核等官方入口",
+      "scenario": "查上交所公告、规则、指数与上市/披露入口",
+      "verified": true,
+      "status": "官网用途已读 · 未实测",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册用户入口、未下载数据、未做交易",
+      "official": "https://www.sse.com.cn/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺"
+      ],
+      "readScope": "HTTP 200，已读首页栏目（要闻、热点动态、主要指数、市场数据、信息披露、发行上市审核等）及部分 2026 年公告标题。指数数值在抓取时显示为占位。",
+      "officialFacts": [
+        "页面标题为「首页 | 上海证券交易所」，服务热线 400-8888-400",
+        "首页提供投资者/会员机构/拟上市公司/债券机构/上市公司/基金公司等用户入口，以及股票、债券、期权、REITs、企业上市和信息披露等「一件事」入口",
+        "市场数据区列出上证指数、科创综指、上证50、科创50、上证180、沪深300等（抓取时指数点位未在静态页中展开）"
+      ],
+      "tags": [
+        "交易分析",
+        "A股",
+        "交易所"
+      ]
+    },
+    {
+      "name": "深圳证券交易所",
+      "category": "交易分析",
+      "subcategory": "A股",
+      "type": "交易所官网",
+      "url": "https://www.szse.cn/",
+      "description": "深圳证券交易所官网：深市要闻与公告、产品中心、市场总貌及深港通、发行上市审核等业务入口",
+      "scenario": "查深交所公告、产品与审核/深港通官方入口",
+      "verified": true,
+      "status": "官网用途已读 · 未实测",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册用户入口、未下载数据、未做交易",
+      "official": "https://www.szse.cn/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "首页部分统计数字在抓取文本中明显异常，不以该页数字作为行情依据"
+      ],
+      "readScope": "HTTP 200，已读首页导航、产品中心、深交所要闻/公告、市场总貌与快速入口（深港通、IPO 查询、发行上市审核专区等）。部分市场统计数字在静态页中显示异常占位，未当作实时行情。",
+      "officialFacts": [
+        "标题为「深交所主页」，meta keywords 含「深圳证券交易所」",
+        "产品中心列有股票、基金、公募 REITs、固收产品、股票期权、会员产品",
+        "快速入口包括深港通、IPO 信息查询、发行上市审核专区、主板/创业板业务专区等"
+      ],
+      "tags": [
+        "交易分析",
+        "A股",
+        "交易所"
+      ]
+    },
+    {
+      "name": "北京证券交易所",
+      "category": "交易分析",
+      "subcategory": "A股",
+      "type": "交易所官网",
+      "url": "https://www.bse.cn/",
+      "description": "北京证券交易所官网：本所动态与公告、近期上市、信息披露及发行上市审核入口，定位服务创新型中小企业",
+      "scenario": "查北交所公告、新上市与审核动态",
+      "verified": true,
+      "status": "官网用途已读 · 未实测",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册、未下载公告全文、未做交易",
+      "official": "https://www.bse.cn/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "无 JS 时首页几乎无正文"
+      ],
+      "readScope": "直接 HTTP 正文过短；随后用 WebFetch 读到首页的本所动态、近期上市、信息披露与审核入口。市场总貌数字在抓取时为占位。",
+      "officialFacts": [
+        "首页「本所动态」可见北交所上市公司董事会秘书培训通知、证券公司执业质量评价结果等官方公告",
+        "「近期上市」列出具体代码与简称（例如 2026-11-06 的 920085 森峰激光等）",
+        "信息披露区分上市公司公告、发行上市审核、北交所公告；另有审核项目动态、公开发行一览、业务规则等入口",
+        "客服电话在页面写为 400-626-3333"
+      ],
+      "tags": [
+        "交易分析",
+        "A股",
+        "交易所"
+      ]
+    },
+    {
+      "name": "集思录",
+      "category": "交易分析",
+      "subcategory": "A股",
+      "type": "中文投资社区",
+      "url": "https://www.jisilu.cn/",
+      "description": "以数据为本的中文投资社区：主打可转债、基金、回购与新股等实时数据表，并附投资日历和讨论区；部分数据需登录或会员",
+      "scenario": "查看可转债与基金等公开数据表和投资日历，注意收费与登录限制",
+      "verified": true,
+      "status": "官网用途已读 · 未实测会员功能",
+      "cost": "未核实；未购买或注册。首页可见部分数据标注需登录或会员，并列出若干收费项目，未打开结账页核对价格。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册、未付费、未使用需权限的数据表",
+      "official": "https://www.jisilu.cn/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "免费与会员边界未登录核验",
+        "列表中的价格仅在首页见到标价文字，未核到结账页，不作为报价"
+      ],
+      "readScope": "HTTP 200，已读首页自我定位、实时数据导航（可转债、QDII、ETF、新股、封闭基金、A/H 比价、债券、REITs 等）、投资日历摘要及「部分数据需登录/会员」提示。未登录。",
+      "officialFacts": [
+        "meta 写明「集思录，一个以数据为本的投资社区」，关键词含可转债、债券、新股、封闭基金、ETF、LOF",
+        "首页「实时投资数据」导航包括可转债、待发转债、T+0 QDII、ETF、新股、港股 IPO、北交所打新计算器、封闭基金、A/H 比价、LOF、债券、REITs 等",
+        "页面明确提示部分数据需要登录或会员权限，并有收费数据入口",
+        "页脚声明信息和数据仅供参考、不构成投资建议"
+      ],
+      "tags": [
+        "交易分析",
+        "A股",
+        "可转债",
+        "社区"
+      ]
+    },
+    {
+      "name": "同花顺问财",
+      "category": "交易分析",
+      "subcategory": "A股",
+      "type": "行情筛选工具",
+      "url": "https://www.iwencai.com/",
+      "description": "同花顺旗下智能选股平台：官网自称用自然语言/AI 做智能选股与技术分析，覆盖 A 股并涉及基金、港美股等；本轮未能深读交互正文",
+      "scenario": "作为问句选股入口，先读官方说明，实际能力需登录后自行验证",
+      "verified": false,
+      "status": "URL可达 · 已读官网 meta 用途说明 · 正文为前端渲染未深读 · 未实测",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未使用选股、未注册、未登录同花顺账号",
+      "official": "https://www.iwencai.com/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "无 JS 时几乎看不到选股界面",
+        "与已收录的同花顺财经、同花顺数据中心不是同一 URL"
+      ],
+      "readScope": "HTTP 200。已读 title 与 meta description/keywords。可见正文提示需启用 JavaScript，未看到完整选股界面。",
+      "officialFacts": [
+        "标题为「同花顺问财」",
+        "meta 写明为同花顺旗下专业智能选股平台，称通过 AI 提供智能选股、量化投资、技术分析、快速选股等服务，覆盖股票、指数、美股、港股、基金、债券、期货等信息"
+      ],
+      "tags": [
+        "交易分析",
+        "A股",
+        "筛选"
+      ]
+    },
+    {
+      "name": "掘金量化",
+      "category": "交易分析",
+      "subcategory": "A股",
+      "type": "中文量化研究平台",
+      "url": "https://www.myquant.cn/",
+      "description": "掘金量化官网：自称集数据、策略研究、交易工具、风控与绩效于一体，提供 Python/C++/C#/Matlab SDK，支持股票、期货、ETF 等；本轮只读到官网 meta",
+      "scenario": "了解该量化平台的官方定位后再决定是否注册试用",
+      "verified": false,
+      "status": "URL可达 · 已读官网 meta 用途说明 · 正文为前端渲染未深读 · 未实测",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册、未安装 SDK、未回测或仿真",
+      "official": "https://www.myquant.cn/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "未打开文档或控制台核实上述能力是否全部开放",
+        "实盘与券商接入未核实，不能当成已验证的交易通道"
+      ],
+      "readScope": "HTTP 200。已读 title、keywords 与较长的 meta description。页面主体为前端应用，可见正文几乎只有标题。",
+      "officialFacts": [
+        "标题为「掘金量化」",
+        "meta 称平台兼容 Python、C++、C# 和 Matlab 四种 SDK，支持股票、期货、ETF、可转债、逆回购、期权等，并具备 tick 级回测、仿真模拟、实盘交易、风险与绩效等服务"
+      ],
+      "tags": [
+        "交易分析",
+        "A股",
+        "回测"
+      ]
+    },
+    {
+      "name": "DefiLlama",
+      "category": "交易分析",
+      "subcategory": "数字货币",
+      "type": "链上数据平台",
+      "url": "https://defillama.com/",
+      "description": "开源风格的 DeFi 数据看板：追踪协议锁仓、费用与收入、成交与收益率，覆盖多链与稳定币、RWA、交易所等栏目",
+      "scenario": "查看多链 TVL、费用收入和收益率等公开汇总，而非下单",
+      "verified": true,
+      "status": "官网用途已读 · 未实测 API 或付费功能",
+      "cost": "未核实；未购买或注册。首页可见免费与 Premium/试用入口，未打开定价结账页。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册、未调用 API、未使用 Premium",
+      "official": "https://defillama.com/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "数据口径与延迟未做交叉核验"
+      ],
+      "readScope": "HTTP 200，已读首页标题、meta 与主导航（Metrics、Chains、Yields、Stablecoins、RWA、Exchanges、API & MCP 等）。未逐页核验数据口径。",
+      "officialFacts": [
+        "标题为「DefiLlama - DeFi Dashboard & Crypto Analytics」",
+        "meta 称可追踪 7000+ DeFi 协议、500+ 链上的 TVL、收入、费用、成交与收益率等，并强调无广告的透明数据",
+        "导航包括 Chains、Yields、Prediction Markets、Stablecoins、RWA、Exchanges、MiCA、Tokens、Equities 以及 API & MCP、LlamaSwap 等"
+      ],
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "链上数据"
+      ]
+    },
+    {
+      "name": "Dune",
+      "category": "交易分析",
+      "subcategory": "数字货币",
+      "type": "链上数据平台",
+      "url": "https://dune.com/",
+      "description": "链上数据分析平台：官方首页强调规范化多链数据集，覆盖稳定币、预测市场、RWA 与代币持仓流转，并可对接数仓",
+      "scenario": "用公开仪表盘或自建查询做链上研究（需注意登录与套餐）",
+      "verified": true,
+      "status": "官网用途已读 · 未实测查询或付费功能",
+      "cost": "未核实；未购买或注册。首页提到面向机构客户与 Datashare，未打开结账页。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册、未运行查询、未对接数仓",
+      "official": "https://dune.com/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "本环境 curl 可能被 Cloudflare 拦截",
+        "首页客户数等为宣传数字，未独立核验"
+      ],
+      "readScope": "直接 HTTP 遇 Cloudflare 403；随后用 WebFetch 读到首页定位与产品说明（多链数据集、稳定币/预测市场/RWA、Datashare）。未登录产品内。",
+      "officialFacts": [
+        "首页标题为「The industry standard for onchain data」",
+        "自称提供规范化区块链数据集，页面展示 100+ Chains、1,000+ Customers、1M+ Users 等宣传数字（未独立核验）",
+        "结构化数据栏目包括 Stablecoins、Prediction Markets、Real-World Assets，以及 ERC-20/原生代币余额与转账（文中写覆盖 23 条 EVM 链）",
+        "Datashare 说明可把数据接到 Snowflake、BigQuery、Databricks 和 Amazon S3"
+      ],
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "链上数据"
+      ]
+    },
+    {
+      "name": "ETHBEAT（原 L2BEAT）",
+      "category": "交易分析",
+      "subcategory": "数字货币",
+      "type": "链上数据平台",
+      "url": "https://l2beat.com/",
+      "description": "原 L2BEAT、现用名 ETHBEAT：在同一视图追踪以太坊生态的 Layer 2、隐私协议与互操作，并用 CROPS 框架评估项目",
+      "scenario": "比较以太坊 L2 与隐私协议的风险假设、锁仓与研究文档",
+      "verified": true,
+      "status": "官网用途已读 · 未实测",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未逐项目核验评估细节、未对接 API",
+      "official": "https://l2beat.com/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "品牌已从 L2BEAT 更名为 ETHBEAT，旧域名仍在使用"
+      ],
+      "readScope": "HTTP 200，已读首页更名说明、meta、CROPS 简介与隐私协议列表片段。未通读各项目评估全文。",
+      "officialFacts": [
+        "页面标题为「ETHBEAT (formerly L2BEAT)」",
+        "meta 称在同一视图追踪 Layer 2s、隐私协议、以太坊及其互操作流，项目按 CROPS 框架评估，并发布研究",
+        "CROPS 在页面解释为 Censorship resistance、Openness、Privacy and Security",
+        "首页可见 Privacy 分类及锁仓等汇总数字（数字随时间变化，入库时不作行情引用）"
+      ],
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "链上数据"
+      ]
+    },
+    {
+      "name": "Etherscan",
+      "category": "交易分析",
+      "subcategory": "数字货币",
+      "type": "链上数据平台",
+      "url": "https://etherscan.io/",
+      "description": "以太坊官方常用区块浏览器：查询地址、交易、代币、区块与合约，并提供网络状态汇总",
+      "scenario": "核验地址、交易哈希、代币合约与区块确认，而非交易下单",
+      "verified": true,
+      "status": "官网用途已读 · 未实测高级功能",
+      "cost": "未核实；未购买或注册。免费查询可用，付费 API/套餐未打开结账页。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册、未调用付费 API、未连接钱包",
+      "official": "https://etherscan.io/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺"
+      ],
+      "readScope": "HTTP 200，已读首页标题「The Ethereum Blockchain Explorer」及地址/代币/标签搜索入口、网络状态区。未使用高级分析或 API。",
+      "officialFacts": [
+        "页面标题与横幅为 Ethereum (ETH) Blockchain Explorer / The Ethereum Blockchain Explorer",
+        "搜索范围包括 Addresses、Tokens、Name Tags、Domain Names、Labels、Websites",
+        "首页展示 Ether 价格、市值、交易吞吐、Gas 与最终化区块等网络状态（数字会变，不作行情依据）"
+      ],
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "链上数据"
+      ]
+    },
+    {
+      "name": "mempool.space",
+      "category": "交易分析",
+      "subcategory": "数字货币",
+      "type": "链上数据平台",
+      "url": "https://mempool.space/",
+      "description": "比特币内存池与生态浏览器：官方说明可查看交易实时状态与网络信息，项目以开源方式发布",
+      "scenario": "观察比特币手续费、确认状态和内存池拥塞",
+      "verified": false,
+      "status": "URL可达 · 已读官网 title/meta 用途说明 · 页面为前端应用未深读交互 · 未实测",
+      "cost": "未核实；未购买或注册。公开页面可访问，付费或高级功能未核实。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未交互查询交易、未部署自托管实例",
+      "official": "https://mempool.space/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "本轮未操作具体交易查询"
+      ],
+      "readScope": "HTTP 200。已读 title「mempool - Bitcoin Explorer」及 meta/og 描述；页面为前端应用，未深读交互界面。",
+      "officialFacts": [
+        "标题为「mempool - Bitcoin Explorer」",
+        "官方 meta 写明：Explore the full Bitcoin ecosystem with The Mempool Open Source Project®. See the real-time status of your transactions, get network info, and more."
+      ],
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "链上数据"
+      ]
+    },
+    {
+      "name": "Crypto Fear & Greed Index",
+      "category": "交易分析",
+      "subcategory": "数字货币",
+      "type": "情绪指标面板",
+      "url": "https://alternative.me/crypto/fear-and-greed-index/",
+      "description": "alternative.me 的加密货币恐惧与贪婪指数：把多源情绪合成 0–100 的单一读数，用于观察比特币等大币种市场情绪",
+      "scenario": "作为加密市场情绪的参考读数，需结合其方法说明，不能单独作为买卖依据",
+      "verified": true,
+      "status": "官网用途已读 · 未实测历史接口",
+      "cost": "未核实；未购买或注册。该页为公开指标页。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未调用其 API、未核验数据源权重、未据此交易",
+      "official": "https://alternative.me/crypto/fear-and-greed-index/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "与已收录的 CNN Fear & Greed（股市情绪）不是同一指标",
+        "情绪指数有滞后与方法偏差，不能当作交易信号"
+      ],
+      "readScope": "HTTP 200，已读页面关于指数定义、0–100 含义、历史对照与「为什么要度量恐惧与贪婪」的说明，以及数据来自五个来源的提示。未逐项核验五个数据源细节。",
+      "officialFacts": [
+        "页面写明每天从不同来源分析情绪，合成 Bitcoin 及其他大型加密货币的 Fear & Greed Index",
+        "0 表示 Extreme Fear，100 表示 Extreme Greed",
+        "作者给出的假设是：极端恐惧或意味着投资者过度担忧，极端贪婪或意味着市场需要回调；这是其方法论叙述，不是经过本轮验证的投资结论",
+        "页面写明数据来自五个来源（本轮未把五个来源名称全部抄录核验）"
+      ],
+      "tags": [
+        "交易分析",
+        "数字货币",
+        "情绪"
+      ]
+    },
+    {
+      "name": "纽约证券交易所 NYSE",
+      "category": "交易分析",
+      "subcategory": "美股",
+      "type": "交易所官网",
+      "url": "https://www.nyse.com/",
+      "description": "纽约证券交易所官网：上市、交易、市场数据与洞察等官方入口，以及交易所自制市场节目",
+      "scenario": "查 NYSE 上市与市场数据等官方入口，而非实时免费行情终端",
+      "verified": true,
+      "status": "官网用途已读 · 未实测",
+      "cost": "未核实；未购买或注册",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册 NYSE Connect、未购买行情、未做交易",
+      "official": "https://www.nyse.com/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺"
+      ],
+      "readScope": "HTTP 200，已读首页导航 Listings / Trading / Market Data / Insights / About 及市场节目介绍。最终 URL 为 https://www.nyse.com/index。",
+      "officialFacts": [
+        "标题为「The New York Stock Exchange | NYSE」",
+        "主导航包括 Listings、Trading、Market Data、Insights、About",
+        "首页介绍 Capital markets 相关自制节目，如 Market Update 与 NYSE Live，并链到 tv.nyse.com"
+      ],
+      "tags": [
+        "交易分析",
+        "美股",
+        "交易所"
+      ]
+    },
+    {
+      "name": "TipRanks",
+      "category": "交易分析",
+      "subcategory": "美股",
+      "type": "投研社区",
+      "url": "https://www.tipranks.com/",
+      "description": "美股投研与分析师跟踪平台：汇总分析师评级、新闻、筛选与内部人等栏目；官方组织描述称按历史准确度跟踪和排序金融专家",
+      "scenario": "查分析师评级、一致目标价与相关新闻，注意付费墙与宣传语",
+      "verified": true,
+      "status": "官网用途已读 · 未实测付费功能",
+      "cost": "未核实；未购买或注册。部分列表与「Top Stocks」似有遮挡，未打开结账页。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册、未打开付费报告、未使用完整筛股",
+      "official": "https://www.tipranks.com/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "本环境 curl 可能被 Cloudflare 拦截",
+        "分析师数量等为官网陈述，未独立核验",
+        "评级与目标价不是投资建议"
+      ],
+      "readScope": "直接 HTTP 遇 Cloudflare 403；随后用 WebFetch 读到首页栏目（Market News、Analyst Ratings、Earnings/Dividend 日历、Stock Screener、Unusual Options 等）及 schema.org 组织描述。未登录。",
+      "officialFacts": [
+        "组织描述写明：TipRanks 是金融科技公司，按过往预测的可测准确度跟踪和排序超过 96,000 名金融专家（该数字未独立核验）",
+        "首页可见 Market News、分析师上调/下调、Earnings Calendar、Ex-Dividend Calendar、Economic Calendar、Stock Screener、Smart Score、Insiders' Hot Stocks、Unusual Options Activity 等栏目",
+        "资产覆盖导航包括 Stocks、ETFs、Indices、Mutual Funds、Crypto、Currencies、Commodities"
+      ],
+      "tags": [
+        "交易分析",
+        "美股",
+        "研究"
+      ]
+    },
+    {
+      "name": "OptionStrat",
+      "category": "交易分析",
+      "subcategory": "美股",
+      "type": "期权分析平台",
+      "url": "https://optionstrat.com/",
+      "description": "期权策略可视化工具：策略构建器、优化器与异常期权流入口，并列出从单腿期权到价差、蝶式、日历等多种策略模板",
+      "scenario": "在下单前用图形理解期权策略的盈亏结构（不是券商）",
+      "verified": true,
+      "status": "官网用途已读 · 未实测下单或付费功能",
+      "cost": "未核实；未购买或注册。是否免费或订阅以站内为准，未打开结账页。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册、未连接券商、未用真实期权链计算",
+      "official": "https://optionstrat.com/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "不是经纪商，不能在此直接下单"
+      ],
+      "readScope": "HTTP 200，已读首页标题、Strategy Builder / Options Optimizer / Unusual Options Flow 导航，以及多类策略模板和 Long Call 等说明文字。未进入需登录的细节页。",
+      "officialFacts": [
+        "标题为「OptionStrat | The Option Trader's Toolkit」",
+        "顶部工具包括 Strategy Builder、Options Optimizer、Unusual Options Flow",
+        "策略模板覆盖 Long Call/Put、Covered Call、Cash-Secured Put、垂直价差、铁蝶/铁鹰、日历与对角、跨式跨价等",
+        "对 Long Call 的说明写明：买方有权但无义务在执行价买入标的，最大亏损限于所付权利金"
+      ],
+      "tags": [
+        "交易分析",
+        "美股",
+        "期权"
+      ]
+    },
+    {
+      "name": "Microsoft Qlib",
+      "category": "交易分析",
+      "subcategory": "通用",
+      "type": "开源研究平台",
+      "url": "https://github.com/microsoft/qlib",
+      "description": "微软开源的面向 AI 的量化投资平台：覆盖从研究想法到落地，支持监督学习、市场动态建模和强化学习等范式",
+      "scenario": "用开源框架做量化研究、因子/模型实验（需自备数据与环境）",
+      "verified": true,
+      "status": "官方 README 正文已读 · 未实测安装或回测",
+      "cost": "开源仓库；具体许可未通读 LICENSE 全文；未安装。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未克隆、未安装 pyqlib、未跑回测或 RD-Agent",
+      "official": "https://github.com/microsoft/qlib",
+      "repo": "https://github.com/microsoft/qlib",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "许可以 LICENSE 为准，本轮未通读",
+        "研究框架不是现成交易系统"
+      ],
+      "readScope": "已读官方 README 中对 Qlib 的定义与建模范式说明，以及关于未发布的 artifact loading 破坏性变更提示。未通读文档站点与 LICENSE。",
+      "officialFacts": [
+        "README 定义：Qlib is an open-source, AI-oriented quantitative investment platform，目标是用 AI 赋能量化投资，从探索想法到实现生产",
+        "支持的建模范式包括 supervised learning、market dynamics modeling 和 reinforcement learning",
+        "仓库说明现已结合 RD-Agent，用于自动化量化研发（因子挖掘与模型优化）",
+        "README 顶部提示源码中有尚未发版的破坏性安全默认项，涉及 recorder 加载与 trusted=True"
+      ],
+      "tags": [
+        "交易分析",
+        "开源",
+        "研究"
+      ]
+    },
+    {
+      "name": "OpenBB",
+      "category": "交易分析",
+      "subcategory": "通用",
+      "type": "开源数据仓库",
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "description": "OpenBB 开源数据平台（ODP）：把自有、授权与公开数据接到 Python、工作区、Excel、MCP 和 REST，供分析与研究使用",
+      "scenario": "用开源库接入行情与基本面数据，再接到自己的研究或 Agent 工作流",
+      "verified": true,
+      "status": "官方 README 正文已读 · 未实测安装",
+      "cost": "README 给出 pip install openbb 的开源入门方式；OpenBB Workspace 为企业 UI，定价未核实。许可文件未通读。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未安装、未调用数据接口、未开通 Workspace",
+      "official": "https://github.com/OpenBB-finance/OpenBB",
+      "repo": "https://github.com/OpenBB-finance/OpenBB",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "GitHub 组织/仓库名出现重定向，引用时建议同时核最终地址",
+        "数据源授权与速率限制以各提供方和文档为准"
+      ],
+      "readScope": "已读 develop 分支 README 关于 Open Data Platform 与 Workspace 的说明，以及 pip 示例。访问 GitHub 页面时 OpenBB-finance/OpenBB 会重定向到 openbq-org/OpenBB，README 内容仍是 OpenBB 项目说明。",
+      "officialFacts": [
+        "README 称 Open Data Platform by OpenBB（ODP）是开源工具集，帮助数据工程师把自有、授权与公开数据接入 AI copilot 和研究仪表盘",
+        "定位为「connect once, consume everywhere」，可同时供给 Python、OpenBB Workspace 与 Excel、MCP server 和 REST API",
+        "入门示例为 pip install openbb，并用 obb.equity.price.historical(\"AAPL\") 取数",
+        "OpenBB Workspace 被描述为面向分析师的企业 UI，地址为 https://pro.openbb.co"
+      ],
+      "tags": [
+        "交易分析",
+        "开源",
+        "数据"
+      ]
+    },
+    {
+      "name": "VeighNa（vn.py）",
+      "category": "交易分析",
+      "subcategory": "通用",
+      "type": "开源研究平台",
+      "url": "https://github.com/vnpy/vnpy",
+      "description": "基于 Python 的开源量化交易系统开发框架（VeighNa）：面向策略与模块二次开发，4.x 增加 vnpy.alpha 多因子机器学习投研模块",
+      "scenario": "用开源框架自行开发策略、回测或接入柜台（需自备环境和权限）",
+      "verified": true,
+      "status": "官方 README 正文已读 · 未实测安装或交易",
+      "cost": "开源框架；具体许可未通读 LICENSE 全文。README 另介绍合作期货公司上的 VeighNa Fusion 商业产品，定价与开通未核实。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未安装、未回测、未接柜台、未申请 Fusion",
+      "official": "https://www.vnpy.com/docs/cn/index.html",
+      "repo": "https://github.com/vnpy/vnpy",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "开源框架不等于已配置好的实盘系统",
+        "Fusion 开通与费用未核实"
+      ],
+      "readScope": "已读官方 README 中文开头、产品定位、vnpy.alpha 模块说明与 Fusion 介绍。未通读全部模块列表和 LICENSE。",
+      "officialFacts": [
+        "README 写明 VeighNa 是基于 Python 的开源量化交易系统开发框架，用户包括私募、券商、期货公司等（该表述未独立核验）",
+        "徽章显示 version-4.5.0，平台 windows/linux/macos，Python 3.10–3.13",
+        "4.0 起新增 vnpy.alpha，提供 dataset / model / strategy / lab 等一站式多因子机器学习投研与交易模块，并写明设计受 Qlib 启发",
+        "另有 VeighNa Fusion：经合作期货公司开通，宣传开箱即用、数据中心与策略辅助，属商业产品而非本仓库本身"
+      ],
+      "tags": [
+        "交易分析",
+        "开源",
+        "回测"
+      ]
+    },
+    {
+      "name": "Portfolio Visualizer",
+      "category": "交易分析",
+      "subcategory": "通用",
+      "type": "研究/数据门户",
+      "url": "https://www.portfoliovisualizer.com/",
+      "description": "组合分析与回测网站：提供资产配置回测、绩效分析、蒙特卡洛、有效前沿与因子分析等工具，并声明仅供教育、非投资建议",
+      "scenario": "做资产配置或因子暴露的假设回测，结果只作教学参考",
+      "verified": true,
+      "status": "官网用途已读 · 未实测回测",
+      "cost": "未核实；未购买或注册。有登录/注册入口，具体免费额度未核到结账页。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未注册、未运行回测或蒙特卡洛",
+      "official": "https://www.portfoliovisualizer.com/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "回测为假设结果，存在前视与费用未建模等风险"
+      ],
+      "readScope": "HTTP 200，已读工具目录（Portfolio Analysis、Backtest、Monte Carlo、Efficient Frontier、Factor Analysis、Tactical Allocation 等）及用户协议/免责声明摘要。未实际提交回测。",
+      "officialFacts": [
+        "工具目录包括 Backtest Asset Class Allocation、Portfolio Manager、Performance Analysis、Monte Carlo Simulation、Efficient Frontier、Black-Litterman、Factor Regression、Tactical Allocation Models 等",
+        "页面声明 Educational only、Not investment advice，过去与假设结果不保证未来表现",
+        "声明 SRL 不提供投资、法律、会计或税务建议，且未在监管机构注册；输出为假设性结果"
+      ],
+      "tags": [
+        "交易分析",
+        "研究",
+        "回测"
+      ]
+    },
+    {
+      "name": "Multpl",
+      "category": "交易分析",
+      "subcategory": "通用",
+      "type": "宏观数据面板",
+      "url": "https://www.multpl.com/",
+      "description": "市场与宏观数据站：集中展示标普 500 估值（含 Shiller PE）、美债利率、通胀与 GDP 等长期序列，并声明仅供信息参考、不作交易建议",
+      "scenario": "查阅美股估值与利率等长期公开序列，注意数据可能延迟",
+      "verified": true,
+      "status": "官网用途已读 · 未实测下载",
+      "cost": "未核实；未购买或注册。该首页为公开数据展示。",
+      "checkedAt": "2026-11-10T14:57:30+08:00",
+      "notDone": "未导出数据、未核验原始出处是否与页面完全一致",
+      "official": "https://www.multpl.com/",
+      "repo": "",
+      "xSource": "",
+      "xSources": [],
+      "limits": [
+        "未实测看盘、检索、回测或下单",
+        "免费范围、延迟、登录墙与付费套餐以站内为准",
+        "不构成投资建议，不验证任何收益承诺",
+        "图表在无 JS 时不显示；数值会更新，入库不作行情引用"
+      ],
+      "readScope": "HTTP 200，已读首页指标列表（S&P 500 PE、Shiller PE、10 Year Treasury Rate、Earnings、Dividend Yield、US Inflation、US GDP 等）及页脚免责声明。图表需 JS，未把它当作实时终端。",
+      "officialFacts": [
+        "标题为「Multpl - Market, financial, and economic data」",
+        "首页列出 S&P 500 PE Ratio、Shiller PE Ratio、10 Year Treasury Rate、S&P 500 Earnings、Dividend Yield、US Inflation Rate、US GDP Growth Rate 等序列",
+        "页脚写明信息按 as is 提供，仅供信息用途，不得用于交易目的或当作建议，且数据可能延迟"
+      ],
+      "tags": [
+        "交易分析",
+        "宏观",
+        "数据"
+      ]
     }
   ],
-  "updatedAt": "2026-11-09T17:06:02+08:00",
+  "updatedAt": "2026-11-10T15:04:18+08:00",
   "canvasId": "511a7df2-1b3f-4ad5-8083-bc1c035eeeac",
-  "total": 338,
+  "total": 373,
   "latestBatch": {
-    "theme": "AI视频制作新模型与开源（Seedance 2.5/LTX-2/MiniMax H3/Wan-Animate-2 等）+ 交易分析补齐一线数据源（ETF 资金流/链上/期权/财报公告）",
-    "added": 33,
+    "date": "2026-11-10",
+    "theme": "增量：AI视频制作 + 交易分析",
+    "added": 35,
     "skippedDupes": 0,
-    "total": 338,
-    "note": "新增 33 条：AI视频制作 10 条（模型平台 3 / 开源本地 4 / 教程流程 1 / 资讯对比 2）；交易分析 23 条（数字货币 12 / 美股 6 / A股 1 / 港股 2），港股子类首次有条目；另就地修正 1 条既有 MacroMicro 状态（v19 记为 403 软失败，本批复核 HTTP 200）。verified=true 仅限直读页面内容或官方 API/仓库核实过的 11 条，其余 23 条为 HTTP 200 可达性核实、未深读全文。Wan 2.5/2.6/2.7/3.0 均无官方开源权重（2026-11-02 核查），未作开源条目。"
+    "skippedOnMerge": [],
+    "total": 373,
+    "breakdown": {
+      "AI视频制作": {
+        "模型平台": 7,
+        "提示词案例": 1,
+        "开源本地": 3
+      },
+      "交易分析": {
+        "港股": 2,
+        "通用": 7,
+        "A股": 6,
+        "数字货币": 6,
+        "美股": 3
+      }
+    },
+    "note": "新增 35 条（去重前 35，合并跳过 0）：AI视频制作 11 条（开源本地 3 / 提示词案例 1 / 模型平台 7）；交易分析 24 条（A股 6 / 数字货币 6 / 港股 2 / 美股 3 / 通用 7）。verified=true 31 条，verified=false 4 条；其中 格隆汇、同花顺问财、掘金量化、mempool.space 因仅 title/meta 确认用途、前端壳未深读，保持 verified:false。"
   }
 }
